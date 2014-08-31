@@ -2,11 +2,11 @@
 title: Brandon Minor
 email: gallimatrix@gmail.com
 description: "On his computer most of the time"
-baseurl: ""
-url: "bminortx.github.io"
+url: "http://bminortx.github.io"
 twitter_username: bminortx
 github_username:  bminortx
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+paginate: 4

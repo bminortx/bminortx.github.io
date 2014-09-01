@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/cover.css" rel="stylesheet">
+  
+  {% include bootstrap_head.html %}
+
+    <body>
+
+    {% include bootstrap_header.html %}
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+	<div class="cover-container">
+
+	  <!-- The Main Menu -->
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Cover</h3>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">CV</a></li>
+		<li><a href="#">Code</a></li>
+		<li><a href="#">Research</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+	  <div class="wrap">
+
+	    <!-- The content for the blog -->
+	    
+	    {{ content }}
+
+	    <!-- ...end content -->
+	    
+	  </div>
+	</div>
+      </div>
+    </div>
+    
+    {% include bootstrap_footer.html %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    </body>
+</html>

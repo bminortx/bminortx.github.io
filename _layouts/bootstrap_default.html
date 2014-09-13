@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/cover.css" rel="stylesheet">
   
   {% include bootstrap_head.html %}
 
@@ -13,16 +10,30 @@
       <div class="site-wrapper-inner">
 	<div class="cover-container">
 
+	  
 	  <!-- The Main Menu -->
-          <div class="masthead clearfix">
+          <div class="masthead">
             <div class="inner">
               <h3 class="masthead-brand">bminortx</h3>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">CV</a></li>
-		<li><a href="#">Code</a></li>
-		<li><a href="#">Research</a></li>
-                <li><a href="#">Contact</a></ul>
+                <li class="active"><a href=".">Home</a></li>
+		<li class="dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+		    Posts<span class="caret"></span>
+		  </a>
+		  <ul class="dropdown-menu" role="menu">
+		    {% for post in site.posts limit:3 %}
+		    <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+		    {% endfor %}
+		    <li class="divider"></li>
+		    <li><a href="../Posts/index.html">All Posts</a></li>
+		  </ul>
+		</li>
+                <li><a href="../CV/index.html">CV</a></li>
+		<li><a href="../Code/index.html">Projects</a></li>
+		<li><a href="../Code/index.html">Replica Labs</a></li>
+
+                <li><a href="../About/index.html">About</a></ul>
               </li>
             </div>
           </div>
@@ -41,8 +52,6 @@
     </div>
     
     {% include bootstrap_footer.html %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
+
     </body>
 </html>

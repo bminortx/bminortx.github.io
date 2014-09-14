@@ -19,7 +19,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
@@ -27,7 +26,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #709FAA;
 }
 body {
   color: #fff;
@@ -104,6 +103,30 @@ body {
   }
 }
 
+.masthead-nav > li.dropdown.active.open > a, 
+.masthead-nav > li.dropdown.active.open > ul.dropdown-menu a:hover,
+.masthead-nav > li.dropdown.open > a, 
+.masthead-nav > li.dropdown.open > ul.dropdown-menu a:hover
+{
+  color: rgba(255,255,255, 1);
+  background-color: transparent;
+  border-color: #fff;
+}
+
+/*
+ * Vertical Offsets
+ */
+
+.voffset  { margin-top: 2px; }
+.voffset1 { margin-top: 5px; }
+.voffset2 { margin-top: 10px; }
+.voffset3 { margin-top: 15px; }
+.voffset4 { margin-top: 30px; }
+.voffset5 { margin-top: 40px; }
+.voffset6 { margin-top: 60px; }
+.voffset7 { margin-top: 80px; }
+.voffset8 { margin-top: 100px; }
+.voffset9 { margin-top: 150px; }
 
 /*
  * Cover

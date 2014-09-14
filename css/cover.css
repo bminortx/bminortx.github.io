@@ -144,8 +144,18 @@ body {
 .voffset8 { margin-top: 100px; }
 .voffset9 { margin-top: 150px; }
 
+.square {
+  padding-right: 60px;
+  padding-left: 60px;
+  margin: 0 0 10px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
 /*
- * Responsive menu section
+ * BAM: Responsive menu section
  */
 
 .about-section {

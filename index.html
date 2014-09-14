@@ -71,3 +71,22 @@ layout: bootstrap_default
     </div>
   </div>  
 </div>
+
+<!--  -->
+
+<div id="Posts" class="posts-section">
+  <div class="inner cover">
+    <div class="row-fluid voffset8">
+    <h1 class="cover-heading">Recent Posts</h1>
+	{% for post in site.posts %}
+    <div class="row-fluid voffset4">
+      <div class="span12">
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<h4>{{ post.date | date_to_long_string }}</h4>
+      </div>
+    </div>
+	{% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

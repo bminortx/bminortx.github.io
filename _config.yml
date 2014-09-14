@@ -10,3 +10,4 @@ github_username:  bminortx
 markdown: kramdown
 permalink: pretty
 paginate: 4
+excerpt_separator: <!--more-->

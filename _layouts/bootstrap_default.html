@@ -3,20 +3,26 @@
   
   {% include bootstrap_head.html %}
 
-    <body>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     {% include bootstrap_header.html %}
+    
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
 	<div class="cover-container">
 
 	  
+
 	  <!-- The Main Menu -->
-          <div class="masthead">
-            <div class="inner">
+	  <nav role="navigation" class="masthead navbar-static-top masthead-nav-default">
+          <!-- <div class="masthead navbar-static-top"> -->
+            <div class="inner container-fluid">
               <h3 class="masthead-brand"><a href=".">bminortx</a></h3>
               <ul class="nav masthead-nav">
-		<li><a href="../About/index.html">About</a></li>
+		<li><a href="#About" class="page-scroll">About</a></li>
+		<li><a href="#CV" class="page-scroll">CV</a></li>
+		<li><a href="#Projects" class="page-scroll">Projects</a></li>
+		<li class="divider-vertical"></li>
 		<li class="dropdown">
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
 		    Posts<span class="caret"></span>
@@ -30,20 +36,17 @@
 		  </ul>
 		</li>
                 <li><a href="https://github.com/bminortx" target="_blank">GitHub</a></li>
-		<li class="divider-vertical"></li>
-                <li><a href="../CV/index.html">CV</a></li>
-		<li><a href="../Code/index.html">Projects</a></li>
-		<li><a href="../Code/index.html">Replica Labs</a></li>
+		<li><a href="http://www.replicalabs.com" target="_blank">Replica Labs</a></li>
               </ul>
             </div>
-          </div>
+          <!-- </div> -->
+	  </nav>
           <!-- /Main Menu -->
 	  
-	  <div class="wrap">
-	    <!-- The content for the blog -->
-	    {{ content }}
-	    <!-- ...end content -->
-	  </div>
+	  <!-- The content for the blog -->
+	  {{ content }}
+	  <!-- ...end content -->
+	  
 	</div>
       </div>
     </div>

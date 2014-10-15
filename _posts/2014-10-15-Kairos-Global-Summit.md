@@ -17,6 +17,10 @@ And I remember thinking
 
 It was lucky I followed up. The [Kairos Society](http://kairossociety.org/) is an organization founded by young entrepreneurs meant to help... young entrepreneurs. 'Kairos' itself means 'the right moment' in Greek (so they say), and it's a suitable descriptor for the organization. It focuses on bringing young students with good ideas into the focus of international media, in hopes that these ideas will find a home with an investor or two in order to grow. It's been pretty successful so far: they report that, since 2013, Kairos companies have made a total of $43M combined, with 6 being acquired already.
 
+<div style="text-align: center; padding-top: 50px; padding-bottom: 50px">
+<img src="/images/kairos.jpg" title="They loom." class="img-thumbnail">
+</div>
+
 I found out early on that my application was strong enough to get into the finals, making me eligible to attend the [Kairos Global Summit](http://kairossociety.org/kgs/) in Laguna Niguel, CA. The schedule itself looks bonkers: pitch contests, business model brainstorms, workshops with top corporations in every field... it's going to be quite the event. Lots of coffee for me. Like, cups on cups. I'm not gonna sleep until my business cards are gone. And I have a lot of business cards.
 
 <div style="text-align: center; padding-top: 50px; padding-bottom: 50px">

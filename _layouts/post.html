@@ -45,8 +45,9 @@
 	  
 	  <!-- The content for the blog -->
 	  <div class="post-section">
-	    <h1 class="cover-heading">{{ page.title }}</h1>
-	    <p class="lead">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	    <h1 class="post-heading">{{ page.title }} </br>
+	      {{ page.date | date: "%b %-d, %Y" }}
+	    </h1>
 	    <div class="single-post-section">
 	      {{ content }}
 	    </div>

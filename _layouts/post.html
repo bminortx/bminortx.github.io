@@ -17,7 +17,7 @@
 	  <nav role="navigation" class="masthead navbar-static-top masthead-nav-default">
           <!-- <div class="masthead navbar-static-top"> -->
             <div class="inner container-fluid">
-              <h3 class="masthead-brand"><a href=".">bminortx</a></h3>
+              <h3 class="masthead-brand"><a href="{{url}}">bminortx</a></h3>
               <ul class="nav masthead-nav">
 		<li><a href="{{url}}/#About" class="page-scroll">About</a></li>
 		<li><a href="{{url}}/#CV" class="page-scroll">CV</a></li>
@@ -47,10 +47,8 @@
 	  <div class="post-section">
 	    <h1 class="cover-heading">{{ page.title }}</h1>
 	    <p class="lead">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-	    <div class="row voffset2">
-	      <div class="col-lg-12">
-		{{ content }}
-	      </div>
+	    <div class="single-post-section">
+	      {{ content }}
 	    </div>
 	  </div>
 	  <!-- ...end content -->

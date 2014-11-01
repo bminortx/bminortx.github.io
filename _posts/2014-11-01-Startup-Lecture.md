@@ -16,9 +16,11 @@ I jumped at the opportunity, and created a talk that I hoped did two things:
 
 My lovely girlfriend did a wonderful thing and recorded the whole lecture. The real take-home message: Startup life is your life until your startup finds a life of its own. No startup is the same, so it takes all your energy to get it right. Check out the whole 24-minute talk below; I think it has some good points, though I might have a slight bias...
 
-<iframe width="420" height="315" src="http://youtu.be/woFlU6TTjLg" frameborder="0" allowfullscreen></iframe>
-
-
+<div class="video">
+    <figure>
+        <iframe width="640" height="480" src="//www.youtube.com/embed/woFlU6TTjLg?rel=0" frameborder="0" allowfullscreen></iframe>
+    </figure>
+</div>
 
 
 

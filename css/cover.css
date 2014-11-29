@@ -4,8 +4,7 @@
 a,
 a:focus,
 a:hover {
-		color: #66CCFF;
-/* color: rgba(255,255,255,.5); */
+		color: #387761; 						/*teal-ish*/
 }
 
 /* Custom default button */
@@ -125,8 +124,8 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.4);
+  color: #5F9280; /* IE8 proofing */
+  /* color: rgba(255,255,255,.4); */
   border-bottom: 2px solid transparent;
 }
 .masthead-nav-inner > li > a:hover,
@@ -138,8 +137,7 @@ body {
 .masthead-nav-inner > .active > a,
 .masthead-nav-inner > .active > a:hover,
 .masthead-nav-inner > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #263A33;
 }
 
 @media (min-width: 768px) {
@@ -232,14 +230,6 @@ body {
     background: #FFFFFF;
 }
 
-.projects-section {
-    height: 100%;
-    padding-top: 60px;
-		padding-bottom: 60px;
-    text-align: center;
-    background: #303030;
-}
-
 .code-section {
     height: 100%;
     padding-top: 60px;
@@ -249,6 +239,15 @@ body {
 		background-size: cover;
 		background-repeat: no-repeat;
     background-position: 50% 50%;
+}
+
+.projects-section {
+    height: 100%;
+    padding-top: 60px;
+		color: #000000;
+		padding-bottom: 60px;
+    text-align: center;
+    background: #FFFFFF;
 }
 
 .posts-section {

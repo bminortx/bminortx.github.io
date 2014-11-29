@@ -15,23 +15,43 @@
 						<div class="collapse navbar-collapse navbar-ex1-collapse">
               <!-- <div class="masthead navbar-static-top"> -->
               <!-- <div class="inner container-fluid"> -->
-							<h3 class="masthead-brand"><a href=".">_bminortx_</a></h3>
+							<h3 class="masthead-brand"><a href="index.html#About">_bminortx_</a></h3>
 							<ul class="nav masthead-nav">
-								<li><a href="#About" class="page-scroll">About</a></li>
-								<li><a href="#CV" class="page-scroll">CV</a></li>
-								<li><a href="#Projects" class="page-scroll">Projects/Code</a></li>
+								
+								<li><a href="http://bminortx.github.io/index.html"
+											 class="page-scroll">Home</a></li>
+
 								<li class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 										Posts<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="#Posts" class="page-scroll">All Posts</a></li>
+										<li><a href="http://bminortx.github.io/index.html#Posts"
+													 class="page-scroll">All Posts</a></li>
 										<li class="divider"></li>
 										{% for post in site.posts limit:3 %}
-										<li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+										<li><a class="post-link"
+													 href="{{ post.url | prepend: site.baseurl }}">
+												{{ post.title }}</a></li>
 										{% endfor %}
 									</ul>
 								</li>
+								
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+										Myself<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="http://bminortx.github.io/about/index.html#CV"
+													 class="page-scroll">CV</a></li>
+										<li><a href="http://bminortx.github.io/about/index.html#Projects"
+													 class="page-scroll">Projects</a></li>
+									</ul>
+								</li>
+
+								<li><a href="http://bminortx.github.io/about/code.html"
+											 class="page-scroll">My Code</a></li>
+								
 								<li class="divider-vertical"></li>
                 <li><a href="https://github.com/bminortx" target="_blank">GitHub</a></li>
 								<li><a href="http://www.replicalabs.com" target="_blank">Replica Labs</a></li>

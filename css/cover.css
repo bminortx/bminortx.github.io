@@ -261,7 +261,6 @@ body {
 
 .post-section-two {
     height: 100%;
-    padding-top: 60px;
 		padding-bottom: 60px;
     text-align: center;
 		background: #FFFFFF;
@@ -286,7 +285,7 @@ body {
     background-repeat: no-repeat;
     padding-right: 60px;
     padding-left: 60px;
-    padding-top: 60px;
+    padding-top: 90px;
     padding-bottom: 60px;
     height: 100%;
 }

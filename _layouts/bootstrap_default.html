@@ -15,10 +15,10 @@
 						<div class="collapse navbar-collapse navbar-ex1-collapse">
               <!-- <div class="masthead navbar-static-top"> -->
               <!-- <div class="inner container-fluid"> -->
-							<h3 class="masthead-brand"><a href="index.html#About">_bminortx_</a></h3>
+							<h3 class="masthead-brand"><a href="{{url}}/index.html">_bminortx_</a></h3>
 							<ul class="nav masthead-nav">
 								
-								<li><a href="http://bminortx.github.io/index.html"
+								<li><a href="{{url}}/index.html"
 											 class="page-scroll">Home</a></li>
 
 								<li class="dropdown">
@@ -26,7 +26,7 @@
 										Posts<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="http://bminortx.github.io/index.html#Posts"
+										<li><a href="{{url}}/index.html#Posts"
 													 class="page-scroll">All Posts</a></li>
 										<li class="divider"></li>
 										{% for post in site.posts limit:3 %}
@@ -42,14 +42,14 @@
 										Myself<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="http://bminortx.github.io/about/index.html#CV"
+										<li><a href="{{url}}/about/index.html#CV"
 													 class="page-scroll">CV</a></li>
-										<li><a href="http://bminortx.github.io/about/index.html#Projects"
+										<li><a href="{{url}}/about/index.html#Projects"
 													 class="page-scroll">Projects</a></li>
 									</ul>
 								</li>
 
-								<li><a href="http://bminortx.github.io/about/code.html"
+								<li><a href="{{url}}/code/index.html"
 											 class="page-scroll">My Code</a></li>
 								
 								<li class="divider-vertical"></li>

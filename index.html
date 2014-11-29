@@ -39,8 +39,8 @@ layout: bootstrap_default
 				<a href="{{ post.url }}">
 					<h3 class= "list-group-item-heading">{{ post.title }}</h3>
 				</a>
-				<h4 class="list-group-item-text">{{ post.date | date_to_long_string }}</h4>
-				<h4 class="list-group-item-text">{{ post.excerpt }}...</h4>
+				<h4 class="square text-center">{{ post.date | date_to_long_string }}</h4>
+				<h4 class="square text-justify">{{ post.excerpt }}...</h4>
 				<div class="row voffset4"></div>
 				{% endfor %}
 			</div>

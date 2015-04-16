@@ -27,7 +27,7 @@ body {
     background-color: #303030;
 }
 body {
-    color: #fff;
+    color: #000;
     font-family: "Quicksand";
     text-align: center;
 }
@@ -68,20 +68,6 @@ body {
     padding: 15px;
 }
 
-/*
- * BAM: Modification of Dropdown menu
- */
-
-/* .masthead-nav > li.dropdown.active.open > a, */
-/* .masthead-nav > li.dropdown.active.open > ul.dropdown-menu a:hover, */
-/* .masthead-nav > li.dropdown.open > a, */
-/* .masthead-nav > li.dropdown.open > ul.dropdown-menu a:hover */
-/* { */
-/*     color: rgba(255,255,255, 1); */
-/*     background-color: transparent; */
-/*     border-color: #fff; */
-/* } */
-
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
     display: table;
@@ -94,15 +80,6 @@ body {
 .site-wrapper-inner {
     display: table-cell;
     vertical-align: top;
-}
-.cover-container {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-/* Padding for spacing */
-.inner {
-    padding: 30px;
 }
 
 /* These are what frame the blogposts */
@@ -156,7 +133,6 @@ body {
     font-size: 21px;
     font-weight: 300;
     line-height: 1.4;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 .square-small {
@@ -170,20 +146,38 @@ body {
 }
 
 /*
- * BAM: Responsive menu section
+ * BAM: Section
  */
 
 .about-section {
     margin: 0 auto;
-    height: 100%;
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 50px;
     text-align: center;
+    background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: center;
     background-image: url("../images/iceland.jpg");
 }
+
+.about-section .well {
+    background-color: rgba(255, 255, 255,.6);
+}
+
+.about-section h1 {
+    font-size: 80px;
+    padding-bottom: 10px;
+}
+
+.about-section h3 {
+    font-size: 30px;
+}
+
+.about-section p {
+    font-size: 20px;
+}
+
+/* ************ */
 
 .cv-section {
     height: 100%;

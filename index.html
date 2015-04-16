@@ -6,45 +6,52 @@ layout: bootstrap_default
 <!-- About -->
 <!--  ----------------------------------------------- --->
 
-<div id="About" class="about-section">
+<section id="About" class="about-section">
   <div class="inner cover">
-    <font size="100" class="cover-heading">Thinking Fast | Typing Slow</font>
-		<h5 class="cover-heading">or as it might also be known</h5>
-    <h3 class="cover-heading">Brandon Minor is on his computer most of the time.</h3>
-    <div class="row voffset5"></div>
-		<div class="row voffset5"></div>
-    <div class="row voffset5">
-			<div class="col-lg-2"></div>
-      <div class="col-lg-8">
-				<p class="square text-justify">I'm a student and entrepreneur trying my hardest to learn everything at once. So far, it's taking longer than expected.</p>
-				<p class="square text-justify">Researcher | Runner | Co-founder of <b><a href="http://www.replicalabs.com" target="_blank">Replica Labs</a></b></p>
+    <div class="well">
+      <h1>Thinking Fast | Typing Slow</h1>
+      <h5>[or as it might also be known]</h5>
+      <h3>
+        Brandon Minor is on his computer most of the time.
+      </h3>
+      <div class="row voffset5">
+        <div class="col-lg-8 col-lg-offset-2">
+          <p class=>I'm a student and entrepreneur
+            trying my hardest to learn everything at once.</p>
+          <p>So far, it's taking longer than expected.</p>
+          <p>Researcher | Runner | Co-founder of
+            <b><a href="http://www.replicalabs.com" target="_blank">Replica
+                Labs</a></b>
+          </p>
+        </div>
       </div>
-			<div class="col-lg-2"></div>
     </div>
   </div>
-</div>
+</section>
 
 
 <!--  ----------------------------------------------- --->
 <!-- Recent Posts -->
 <!--  ----------------------------------------------- --->
 
-<div id="Posts" class="posts-section">
-	<div class="inner cover">
+<section id="Posts" class="posts-section">
+  <div class="inner cover">
     <font size="100" class="cover-heading">Recent Posts</font>
-		<div class="row voffset5">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
-				{% for post in site.posts %}
-				<a href="{{ post.url }}">
-					<h3 class= "list-group-item-heading">{{ post.title }}</h3>
-				</a>
-				<h4 class="square text-center">{{ post.date | date_to_long_string }}</h4>
-				<h4 class="square-small text-justify">{{ post.excerpt }}...</h4>
-				<div class="row voffset4"></div>
-				{% endfor %}
-			</div>
-			<div class="col-lg-2"></div>
-		</div>
-	</div>
-</div>
+    <div class="row voffset5">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8">
+        {% for post in site.posts %}
+        <a href="{{ post.url }}">
+          <h3 class= "list-group-item-heading">{{ post.title }}</h3>
+        </a>
+        <h4 class="square text-center">
+          {{ post.date | date_to_long_string }}
+        </h4>
+        <h4 class="square-small text-justify">{{ post.excerpt }}...</h4>
+        <div class="row voffset4"></div>
+        {% endfor %}
+      </div>
+      <div class="col-lg-2"></div>
+    </div>
+  </div>
+</section>

@@ -189,6 +189,26 @@ body {
     background: #FFFFFF;
 }
 
+.cv-section .well {
+    background-color: rgba(255, 255, 255,.6);
+}
+
+.cv-section h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.cv-section h3 {
+    margin: 30px 30px 30px;
+    font-size: 30px;
+    text-align: right;
+}
+
+.cv-section p {
+    font-size: 16px;
+    text-align: left;
+}
+
 /* ******************** */
 
 .replica-section {
@@ -349,4 +369,8 @@ body {
 
 .verticalLine {
     border-left: 1px solid #070719;
+}
+
+.verticalLineRight {
+    border-right: 1px solid #070719;
 }

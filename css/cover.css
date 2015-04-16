@@ -186,7 +186,7 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
-    background: #efeeee;
+    background: #387761;
 }
 
 .cv-section .well {
@@ -224,6 +224,11 @@ body {
 
 .replica-section .well {
     background-color: rgba(255, 255, 255,.95);
+}
+
+.replica-section h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .replica-section p {

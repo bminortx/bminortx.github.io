@@ -248,22 +248,23 @@ body {
     background-attachment: fixed;
 }
 
-.cv-section .well {
+.code-section .well {
     background-color: rgba(255, 255, 255,.8);
 }
 
-.cv-section h1 {
+.code-section h1 {
     font-size: 40px;
     padding-bottom: 20px;
+    text-align: right;
 }
 
-.cv-section h3 {
+.code-section h3 {
     margin: 30px 30px 30px;
     font-size: 30px;
     text-align: right;
 }
 
-.cv-section p {
+.code-section p {
     font-size: 16px;
     text-align: left;
 }

@@ -249,35 +249,29 @@ body {
 }
 
 .code-section .well {
-    background-color: rgba(255, 255, 255,.8);
+    background-color: rgba(255, 255, 255,.03);
 }
 
 .code-section h1 {
     font-size: 40px;
     padding-bottom: 20px;
-    text-align: right;
 }
 
 .code-section h3 {
+    margin: 30px 30px 30px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.code-section h4 {
     margin: 30px 30px 30px;
     font-size: 30px;
     text-align: right;
 }
 
 .code-section p {
+    margin-left: 80px;
     font-size: 16px;
-    text-align: left;
-}
-
-/* ******************** */
-
-.projects-section {
-    height: 100%;
-    padding-top: 60px;
-    color: #000000;
-    padding-bottom: 60px;
-    text-align: center;
-    background: #FFFFFF;
 }
 
 /* ******************* */
@@ -393,6 +387,10 @@ body {
 
 .verticalLine {
     border-left: 1px solid #070719;
+}
+
+.verticalLineWhite {
+    border-left: 1px solid #ffffff;
 }
 
 .verticalLineRight {

@@ -196,6 +196,7 @@ body {
 .cv-section h1 {
     font-size: 40px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .cv-section h3 {
@@ -265,6 +266,7 @@ body {
 .code-section h1 {
     font-size: 40px;
     padding-bottom: 20px;
+    
 }
 
 .code-section h3 {

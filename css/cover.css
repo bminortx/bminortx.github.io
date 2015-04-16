@@ -183,10 +183,10 @@ body {
 
 .cv-section {
     color: #000000;
-    padding-top: 100px;
+    padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
-    background: #FFFFFF;
+    background: #ddeeff;
 }
 
 .cv-section .well {

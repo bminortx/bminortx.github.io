@@ -47,15 +47,15 @@ body {
 .navbar-default .nav li a:active {
 
     color: #070719;
-    /* background: rgba(0, 128, 128, 0.28); */
+/* background: rgba(0, 128, 128, 0.28); */
 }
 
 .navbar-default .navbar-nav>.open>a, 
 .navbar-default .navbar-nav>.open>a:hover, 
 .navbar-default .navbar-nav>.open>a:focus {
     /* color: #65cdf4; */
-        color: #070719;
-    /* background: rgba(102, 204, 255, 0.28); */
+    color: #070719;
+/* background: rgba(102, 204, 255, 0.28); */
 }
 
 .navbar-brand {
@@ -176,6 +176,13 @@ body {
     background-color: rgba(255, 255, 255,.95);
 }
 
+.posts-section h4 {
+    font-family: "Khula";
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 130%;
+}
 
 /* ******************** */
 
@@ -209,6 +216,7 @@ body {
 }
 
 .cv-section p {
+    font-family: "Khula";
     font-size: 16px;
     text-align: left;
 }
@@ -236,6 +244,7 @@ body {
 }
 
 .replica-section p {
+    font-family: "Khula";
     margin: 0 0 10px;
     margin-bottom: 20px;
     font-size: 18px;
@@ -279,6 +288,7 @@ body {
 }
 
 .code-section p {
+    font-family: "Khula";
     margin-left: 80px;
     font-size: 16px;
 }

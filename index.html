@@ -46,7 +46,7 @@ layout: bootstrap_default
             <h2 class="headline">{{ post.title }}</h2>
           </a>
           <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
-          <h4 class="square-small text-justify">{{ post.excerpt }}</h4>
+          <h4>{{ post.excerpt }}</h4>
           <p class="tagline">{{ post.tagline }}</p>
         </div>
         {% endfor %}
@@ -63,13 +63,13 @@ layout: bootstrap_default
           </tr>
           {% for post in site.posts offset:3 %}
           <tr>
-            <td class="headline">
-              {{ post.date | date: '%B %d, %Y' }}
+            <td>
+              <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
             </td>
-            <td class="headline">
-              <a href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-              </a>
+            <td>
+              <h3><a href="{{ post.url | prepend: site.baseurl }}">
+                  {{ post.title }}
+              </a></h3>
             </td>
           </tr>
           {% endfor %}

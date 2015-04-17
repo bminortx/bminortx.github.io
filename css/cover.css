@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Quicksand);
-
 /* Links */
 a,
 a:focus,
@@ -294,7 +292,9 @@ body {
 }
 
 .single-post-section {
+    font-family: "Khula";
     font-size: 20px;
+    font-weight: 300;
     color: #000000;
     padding-top: 50px;
     padding-bottom: 10px;

@@ -96,18 +96,25 @@
 
     <!-- The content for the blog -->
     <div class="post-section-two">
-      <h1 class="post-heading">{{ page.title }}</br>
-        {{ page.date | date: "%b %-d, %Y" }}
-      </h1>
+      <div class="post-heading">
+        <div class="well">
+          <h1>
+            {{ page.title }}
+          </h1>
+          <h3>
+            {{ page.date | date: "%b %-d, %Y" }}
+          </h3>
+        </div>
+      </div>
+
       <div class="row voffset5">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8">
+        <div class="col-lg-8 col-lg-offset-2">
           <div class="single-post-section">
             {{ content }}
           </div>
         </div>
-        <div class="col-lg-2"></div>
       </div>
+
     </div>
     <!-- ...end content -->
 

@@ -217,7 +217,8 @@ body {
 
 .cv-section p {
     font-family: "Khula";
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 18px;
     text-align: left;
 }
 
@@ -289,8 +290,9 @@ body {
 
 .code-section p {
     font-family: "Khula";
+    font-weight: 300;
+    font-size: 18px;
     margin-left: 80px;
-    font-size: 16px;
 }
 
 /* ******************* */

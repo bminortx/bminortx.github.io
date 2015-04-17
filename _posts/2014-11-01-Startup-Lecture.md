@@ -2,7 +2,6 @@
 layout: post
 title:  "How to Start a Startup"
 date:   2014-11-01 13:54:00
-categories: Replica Labs, Startup, Lecture, How-to
 ---
 
 I currently TA for an Intro to Computer Science class at CU Boulder. I dreaded it at first, but I've grown to enjoy the job; it's nice to see students painfully struggle through the things that tormented me in undergrad (though I still offer a helping hand). This Halloween, instead of helping them with their code, I was offered to give a lecture on my experiences in the startup community.

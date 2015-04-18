@@ -21,7 +21,7 @@ subject for a long time; I just never had something to call my way of
 thinking. Through the course of Replica's development, I've noticed
 several issues come up again and again:
 
-- As more people have joined the team, there's a certain point where
+- As more people have joined the team, there comes a certain point where
 communication becomes strained. People wonder who to approach in order to get things done, or plow ahead with a project that no one really needs. In the worst case, communication completely breaks down, and ties are cut.
 - Replica has brought on some of the smartest and capable individuals from around the world (in my humble opinion). This also has the unavoidable side effect of producing an extremely distributed team. How does one keep such a team motivated given this environment? Conflict resolution is next to impossible as well. 
 - What makes a good team member? Is it loyalty, or efficiency, or innovation, or just being bold? How does one recognize when someone new doesn't fit in with the company, or someone experienced is no longer productive?
@@ -44,7 +44,7 @@ This notion of trust is key to the whole concept. Laloux gives numerous examples
 
 Conflict resolution is similar. If you have an issue with someone, talk to them directly; don't make it into a spectacle of office politics. When a third party is necessary, they only serve to moderate the discussion. It's ultimately still up to the warring parties to solve their problems. Again, all of the power is given to the employee, not a higher-up that probably doesn't know the real problem anyway.
 
-This sort of structure obviously doesn't lend itself to hierarchies. CxOs do exist, to be sure, but their roles are radically different from that of the traditional manager. They're there for support, mostly; if a conflict has gone through several moderators without success, they might be the final word on the matter. They probably serve as the public face of the organization, taking the meetings and writing the memos. At the end of the day, though, their freedoms are no different than every other member's; in the best case, their mindset just lends itself to bigger ideas and changes, leading to a better company, and justifying the salary that they earn.
+This sort of structure obviously doesn't lend itself to hierarchies. CxOs do exist, to be sure, but their roles are radically different from that of the traditional manager. They're there for support, mostly; if a conflict has gone through several moderators without success, they might be the final word on the matter. They probably serve as the public face of the organization, taking the meetings and writing the memos. At the end of the day, though, their freedoms are no different than every other member's; in the best case, their mindset just lends itself to bigger ideas and changes, leading to a better company, and justifying the salary that they earn. This whole concept may sound like a bit of a pipe dream, but it seems that those who fit into this environment excel at whatever they take on (and that can vary a lot when one has full autonomy). Those that don't fit usually recognize that for themselves and leave of their own accord. No breakdowns. No blame.
 
 - - - - - - - - 
 

@@ -44,20 +44,20 @@ Stories and organizations like this used to baffle me. It's not that these aren'
 
 To me, these worries were as unrealistic as hopes for [cold](http://en.wikipedia.org/wiki/Cold_fusion) [fusion](http://bminortx.github.io/images/Physics_Thesis.pdf)[^2] were in the 90's: the future seemed clear to some, but it was impossible for the science to ever back it up.
 
-I've begun to rethink my stance as of late. To be clear, I stll highly doubt that robots will _ever_ be the end of humanity, but organizations like the Future of Life have got me wondering. The members above certainly aren't fear-mongers, but clearly there's something to be concerned about here if they're putting fortunes into the ethical research of AI.
+I've begun to rethink my stance as of late. To be clear, I still highly doubt that robots will _ever_ be the end of humanity, but organizations like the Future of Life have got me wondering. The members above certainly aren't fear-mongers, but clearly there's something to be concerned about here if they're putting fortunes into the ethical research of AI.
 
 - - - - - - - - 
 
 ## Next Up... ##
 
-To see things from this viewpoint, I think it's best to start with a snapshot of where AI is now. There has been incredible progress in the field, and research has started to come out of academia and into the marketplace, creating greater (financial) incentives for better processes. The state of current AI technology, along with what's hot/what's not, is crucial to understand.
+To see things from this viewpoint, I think it's best to start with a snapshot of where AI is now. There _has_ been incredible progress in the field, and the research has started to come out of academia and into the marketplace, creating greater (financial) incentives for better processes. The state of current AI technology, along with what's hot/what's not, is crucial to understand.
 
-With this knowledge under our belts, it will become easier to analyze the concerns of Elon, Steve, Alan Alda, etc, as well as form a realistic perspective of the future. It might be that they have it right; in this case, we should all brush up on our [paradoxes](https://www.youtube.com/watch?v=JR4H76SCCzY). In any other event, it would be interesting to analyze how they came to such drastic conclusions, or better yet, how drastic these conclusions actually are. The media does have a flair for the dramatic...[^3]
+With this knowledge under our belts, it will become easier to analyze the concerns of Elon, Steve, Alan Alda, et al., as well as form a realistic perspective of the future. It might be that the most extreme opinions are the right ones; in this case, we should all brush up on our [paradoxes](https://www.youtube.com/watch?v=JR4H76SCCzY). In any other event, it would be interesting to analyze how these researchers and innovators came to such drastic conclusions, or better yet, to uncover how drastic these conclusions actually are. The media does have a flair for the dramatic...[^3]
 
 _Next week - "The Rise of AI, Part II: The Current State of AI"_.
 
 -------------------------------------------------------------------------------
 
-[^1]: I love how this story is followed up with ["NOW WATCH: The US Naby just unvelied a robot that can walk through fire"](http://www.businessinsider.com/us-navy-saffir-firefighting-robot-2015-2#ooid=d3bWo2czrYqOAV4OSo5JQzNv3Vp6mFz1). Thanks, Business Insider. Definitely not freaking out.
+[^1]: I love how this story is followed up with ["NOW WATCH: The US Navy just unveiled a robot that can walk through fire"](http://www.businessinsider.com/us-navy-saffir-firefighting-robot-2015-2#ooid=d3bWo2czrYqOAV4OSo5JQzNv3Vp6mFz1). Thanks, Business Insider. Definitely not freaking out.
 [^2]: I dabbled.
 [^3]: See [1].

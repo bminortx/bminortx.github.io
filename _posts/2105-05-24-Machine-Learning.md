@@ -4,9 +4,7 @@ title:  "The Rise of AI, Part I"
 date:   2015-05-22 18:22:26
 ---
 
-AI is set to dramatically change our world.
-
-OK, now that we got that out of the way, what the hell does that statement really mean? 
+AI is set to dramatically change our world. The real question is: how?
 
 <!--more-->
 
@@ -14,7 +12,7 @@ OK, now that we got that out of the way, what the hell does that statement reall
 
 ## The (Potentially Scary) Future of AI ##
 
-If any of you have seen the new movie Ex Machina, you probably have a bad feeling about the whole AI thing right now. The premise is that a brilliant researcher has developed what they believe to be the most intelligent robot ever made, and brings someone in to confirm this notion, mainly through the Turing Test.
+If any of you have seen the new movie _Ex Machina_, you probably have a bad feeling about the whole AI thing right now. The premise is that a brilliant researcher has developed what they believe to be the most intelligent robot ever made, and brings someone in to confirm this notion, mainly through the Turing Test.
 
 <div style="text-align: center; padding-top: 20px; padding-bottom: 20px">
 <img src="/images/augmentation/ex_machina.jpg" title="Twist: Actually not about the Turing Test." class="img-thumbnail">
@@ -22,7 +20,7 @@ If any of you have seen the new movie Ex Machina, you probably have a bad feelin
 
 No spoilers here (go see it _now_), but the film's version of AI leaves the viewer with many more questions than answers. What defines intelligence? What does it mean to be human? Is our sense of self unique from that of an AI's? What happens when AI intelligence surpasses that of humans? Classic science fiction stuff: an entertaining, but unrealistic, thought exercise.
 
-Or is it? Elon Musk [doesn't think so](http://www.washingtonpost.com/blogs/innovations/wp/2014/10/24/elon-musk-with-artificial-intelligence-we-are-summoning-the-demon/). Neither does [Steve Wozniak](http://www.businessinsider.com/steve-wozniak-artificial-intelligence-interview-humans-family-pets-2015-3)[^1]. In fact, a whole field has emerged, populated by experts in robotics and beyond, dealing with the best approaches to AI creation and development. [The Future of Life Institute](http://futureoflife.org/) is one of the more well-known organizations in this realm, and was created as a sort of moral compass for AI researchers, asking them to think before they act. Here's a snapshot of their board:
+Or is it? Elon Musk [doesn't think so](http://www.washingtonpost.com/blogs/innovations/wp/2014/10/24/elon-musk-with-artificial-intelligence-we-are-summoning-the-demon/). Neither does [Steve Wozniak](http://www.businessinsider.com/steve-wozniak-artificial-intelligence-interview-humans-family-pets-2015-3)[^1]. Their reactions seem to be driven by fear of a complete and total takeover by machines. In fact, a whole field has emerged, populated by experts in robotics and beyond, dealing with the best approaches to AI creation and development in order to prevent this kind of thing from happening. [The Future of Life Institute](http://futureoflife.org/) is one of the more well-known organizations in this realm, and was created as a sort of moral compass for AI researchers, asking them to think before they act. Here's a snapshot of their board:
 
 <div style="text-align: center; padding-top: 20px; padding-bottom: 20px">
 <img src="/images/augmentation/future_of_life_board.png" title="Alan Alda!" class="img-thumbnail">

@@ -315,7 +315,6 @@ body {
  */
 .video figure {
     position: relative;
-    nowhitespace: afterproperty;
     padding-top: 60px;
     padding-bottom: 30px;
     height: 100%;
@@ -323,19 +322,12 @@ body {
 }
 
 .video iframe, .video object, .video embed {
-    /* position: absolute; */
     top: 0;
     left: 0;
     text-align: center;
     display: block;
     margin: 0 auto;
-/* width: 100%; */
-/* height: 100%; */
 }
-
-/*
- * Cover
- */
 
 .cover {
     padding: 0 20px;

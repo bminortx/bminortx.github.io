@@ -107,7 +107,29 @@
         </div>
       </div>
       <div class="container">
-        <div class="row voffset5">
+        <div class="row">
+          <div class="col-sm-4 col-sm-offset-4">
+            <div class="single-post-section-two">
+              {% if page.previous %}
+              <a rel="prev" href="{{ page.previous.url }}">&larr; Older</a>
+              {% else %}
+              &larr; Older
+              {% endif %}
+              |
+              <a href="{{url}}/index.html#Posts"
+                 class="page-scroll">All Posts</a>
+              |
+              {% if page.next %} 
+              <a rel="next" href="{{ page.next.url }}">Newer &rarr;</a>
+              {% else %}
+              Newer &rarr;
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row voffset2">
           <div class="col-sm-10 col-sm-offset-1">
             <div class="single-post-section">
               {{ content }}

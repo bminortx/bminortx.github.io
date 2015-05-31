@@ -2,6 +2,7 @@
 layout: post
 title:  "Productivity"
 date:   2015-05-22 18:22:26
+image: "images/efficiency_bar_chart.png"
 ---
 
 

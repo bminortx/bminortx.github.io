@@ -2,6 +2,7 @@
 layout: post
 title: "Management, or Lack Thereof"
 date: 2015-04-16 18:45:05
+image: "images/blurdesktop.png"
 ---
 
 tl;dr: Read [Reinventing Organizations](http://www.reinventingorganizations.com/). It's the bomb.com.

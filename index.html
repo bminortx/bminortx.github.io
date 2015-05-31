@@ -29,52 +29,51 @@ layout: bootstrap_default
   </div>
 </section>
 
-
 <!--  ----------------------------------------------- --->
 <!-- Recent Posts -->
 <!--  ----------------------------------------------- --->
 
 <section id="Posts" class="posts-section">
   <div class="inner cover">
-    <div class="well">
-      <!-- Our blog posts -->
-      <div class="row">
-        <h2>Recent Posts</h2>
-        {% for post in site.posts limit:3 %}
-        <div class="col-sm-4">
+    <!-- Our blog posts -->
+    <h2>Recent Posts</h2>
+    <br>
+    <div class="row voffset4">
+      {% for post in site.posts limit:4 %}
+      <div class="col-sm-6">
+        <div class="image">
           <a href="{{ post.url | prepend: site.baseurl }}">
-            <h2 class="headline">{{ post.title }}</h2>
+            <img src="{{ post.image }}" class="img-thumbnail"/>
+            <h5 class="headline"><span class="spacer">
+                {{ post.title }}<br><br>
+                {{ post.date | date: '%B %d, %Y' }}
+            </span></h5>
           </a>
-          <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
-          <h4>{{ post.excerpt }}</h4>
-          <p class="tagline">{{ post.tagline }}</p>
         </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="row voffset6">
+      <h2>Past Posts</h2>
+      <table class="table table-responsive">
+        <tr>
+          <td><h3>Date</h3></td>
+          <td><h3>Name</h3></td>
+        </tr>
+        {% for post in site.posts offset:4 %}
+        <tr>
+          <td>
+            <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
+          </td>
+          <td>
+            <h3><a href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+            </a></h3>
+          </td>
+        </tr>
         {% endfor %}
-      </div>
-
-      <div class="row">
-        <h2>Past Posts</h2>
-
-        <!-- Past blog posts -->
-        <table class="table table-responsive">
-          <tr>
-            <td><h3>Date</h3></td>
-            <td><h3>Name</h3></td>
-          </tr>
-          {% for post in site.posts offset:3 %}
-          <tr>
-            <td>
-              <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
-            </td>
-            <td>
-              <h3><a href="{{ post.url | prepend: site.baseurl }}">
-                  {{ post.title }}
-              </a></h3>
-            </td>
-          </tr>
-          {% endfor %}
-        </table>
-      </div>
+      </table>
     </div>
   </div>
 </section>

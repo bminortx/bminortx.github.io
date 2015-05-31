@@ -2,6 +2,7 @@
 layout: post
 title:  "Replica Labs heads to the Kairos Global Summit"
 date:   2014-10-15 9:39:00
+image: "images/kairos.jpg"
 ---
 
 About two months ago, I got an email from a member of the Kairos Society saying something to the effect of

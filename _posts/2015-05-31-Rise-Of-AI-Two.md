@@ -18,13 +18,13 @@ However, research and the real world often tend to be two very different things.
 
 - - - - - - - - 
 
-## The Current State of AI ##
+## Machine Learning ##
 
-AI is not just one subject, but rather a large category for several different systems, each of which can (and often do) interact with each other to complete a task, but are all important on their own. I've restricted my search to the most rapidly-evolving fields of research, since those are the areas that are probably causing all of the fuss. 
+In my mind, the development of advanced machine learning is one of the most transformative achievements of our time. Put simply: machine learning is magic. It makes sense of vast amounts of data for use in more abstract processes. In other words, machine learning can use all of those cat videos on YouTube to figure out for itself what a 'cat' is, and then use that info to identify cats in the future. I hope this doesn't sound too simplistic, because the process of teaching a computer 'cat'-ness is difficult, to say the least (though [Google did exactly that](http://research.google.com/archive/unsupervised_icml2012.html)).
 
-#### -- Machine Learning -- ####
+The State-Of-The-Art here lies in a paper by Alex Krizhevsky called ["ImageNet Classification with Deep Convolutional Neural Nets"](http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf), who was a student of . 
 
-Machine Learning is magic. 
+Mar I/O: https://www.youtube.com/watch?v=qv6UVOQ0F44&feature=youtu.be
 
 
 

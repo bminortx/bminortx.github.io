@@ -158,12 +158,13 @@ body {
 
 .posts-section .headline-header {
     position: relative;
+    top: -10px;
     font-size: 25px;
     color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
     background-color: #000;
     text-align: right;
 }
@@ -176,7 +177,7 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
     background-color: #000;
     text-align: right;
 }

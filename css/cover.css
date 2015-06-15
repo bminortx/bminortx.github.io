@@ -137,37 +137,48 @@ body {
 
 .posts-section {
     height: 100%;
-    padding-top: 60px;
+    padding-top: 30px;
     text-align: center;
     padding-bottom: 40px;
     background: #fff;
 }
 
+.posts-section .image-header {
+   position: relative;
+   opacity: 0.9;
+   border-top: 7px solid #070719;
+   border-bottom: 7px solid #070719;
+}
+
 .posts-section .image {
    position: relative;
-   opacity: 0.7;
+   opacity: 0.8;
    padding: 10px;
 }
 
-.posts-section h5 {
-   position: absolute;
-   top: 9%;
-   right: 5%;
-   width: 90%;
-   text-align: right;
-   font-size: 30px;
+.posts-section .headline-header {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000;
+    text-align: right;
 }
 
-.posts-section h5 span {
-   color: white;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.9);
-   padding: 10px;
-}
-
-.posts-section h5 span.spacer {
-   padding: 10px 0;
+.posts-section .headline {
+    position: relative;
+    top: -5px;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000;
+    text-align: right;
 }
 
 .posts-section h4 {

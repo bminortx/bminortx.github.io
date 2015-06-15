@@ -3,11 +3,10 @@ layout: post
 title:  "The Rise of AI, Part I"
 date:   2015-05-26 18:22:26
 image: "images/augmentation/ex_machina.jpg"
+preview: "People are worried, which worries me."
 ---
 
 AI is set to dramatically change our world. The real question is: how?
-
-<!--more-->
 
 - - - - - - - - -
 

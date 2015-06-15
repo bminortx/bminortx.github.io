@@ -10,7 +10,7 @@ When I started my PhD, I had a big misconception about what the phrase 'state-of
 
 I have since learned that this is not correct.
 
-Not entirely, at least. For me, The Future was complete. Things worked. Technologies were flawless. Since I have begun to devote myself to the study of robotics and AI[^1][^2], I know now that State-of-the-Art, especially in these fields, is often far from achieving this lofty goal. Things break. Solutions are hacky.
+Not entirely, at least. For me, The Future was complete. Things worked. Technologies were flawless. Since I've become involved in robotics, I know now that State-of-the-Art, especially in these fields, is often far from achieving this lofty goal. Things break. Solutions are hacky.
 
 This is in no way a criticism of the robotics community; the science that has been produced in the past couple of years is _amazing_, and often a strong prediction of what The Future will hold. Yet the fact of the matter is, creating robotic systems is hard. Design is hard. Perception is hard. Path planning is hard. These are all active fields of research, and there is no perfect solution to any of them. 
 
@@ -47,6 +47,3 @@ http://www.wired.com/2014/10/future-of-artificial-intelligence
 * Talk about what you find is interesting to research
 
 - - - - - - -
-
-[^1]: Not sure that one can say that when they're only 23. Whatever, YOLO.
-[^2]: i'm so sorry.

@@ -145,14 +145,12 @@ body {
 
 .posts-section .image-header {
    position: relative;
-   opacity: 0.9;
    border-top: 7px solid #070719;
    border-bottom: 7px solid #070719;
 }
 
 .posts-section .image {
    position: relative;
-   opacity: 0.8;
    padding: 10px;
 }
 

@@ -119,21 +119,32 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-sm-offset-4">
+          <div class="col-sm-2 col-sm-offset-3">
             <div class="single-post-section-two">
               {% if page.previous %}
-              <a rel="prev" href="{{ page.previous.url }}">&larr; Older</a>
+              <a rel="{{ page.previous.title }}"
+                 href="{{ page.previous.url }}">
+                &larr; <br> {{ page.previous.title}} </a>
               {% else %}
-              &larr; Older
+              &larr; <br> Older
               {% endif %}
-              |
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="single-post-section-two">
               <a href="{{url}}/index.html#Posts"
                  class="page-scroll">All Posts</a>
-              |
-              {% if page.next %} 
-              <a rel="next" href="{{ page.next.url }}">Newer &rarr;</a>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="single-post-section-two">
+              {% if page.next %}
+              <a rel="{{ page.next.title }}"
+                 href="{{ page.next.url }}">
+                &rarr; <br>
+                {{ page.next.title}}</a>
               {% else %}
-              Newer &rarr;
+              &rarr; <br> Newer
               {% endif %}
             </div>
           </div>
@@ -143,6 +154,7 @@
         <div class="row voffset2">
           <div class="col-sm-10 col-sm-offset-1">
             <div class="single-post-section">
+              <hr>
               {{ content }}
             </div>
           </div>

@@ -6,11 +6,40 @@ layout: bootstrap_default
 <!-- Replica Labs  --> 
 <!--  ----------------------------------------------- --->
 
+<section id="About" class="about-section">
+  <div class="inner cover">
+    <div class="row voffset5">
+      <div class="col-sm-2 col-sm-offset-5">
+        <img class="img-responsive img-circle" src="/images/brandon.jpg">
+      </div>
+    </div>
+    <div class="row voffset2">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h3>Brandon Minor</h3>
+        <h5>is on his computer most of the time.</h5>
+        <p class=>I'm an entrepreneur and life-long student
+          trying my hardest to learn everything at once.
+          So far, it's taking longer than expected.</p>
+        <p>Researcher | Runner | Co-founder of
+          <b><a href="http://www.replicalabs.com" target="_blank">Replica
+              Labs</a></b>
+          gallimatrix~at~gmail.com
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="Replica" class="replica-section">
   <div class="inner cover">
     <div class="well">
-      <h1><a href="http://www.replicalabs.com">Replica Labs</a></h1>
-      <div class="row voffset5">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <img class="img-responsive" src="/images/replabs-logo.png">
+        </div>
+      </div>
+      <div class="row voffset2">
         <div class="col-lg-8 col-lg-offset-2">
           <p class="text-justify">Once upon a time,
             I received 1<sup>st</sup> place for Graduate teams in the
@@ -42,6 +71,207 @@ layout: bootstrap_default
     </div>
   </div>
 </section>
+
+<!--  ----------------------------------------------- --->
+<!-- Projectsq -->
+<!--  ----------------------------------------------- --->
+
+<div id="Projects" class="code-section">
+  <div class="inner cover">
+    <h1>Projects, Code and the Like</h1>
+    <div class="well">
+      <div class="row">
+
+
+        <div class="col-sm-9">
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="replica">
+              <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                  <h4>Replica Labs and Rendor</h4>
+                  <p class="text-justify">
+                    I have devoted the last year of my life to creating a
+                    software-only solution to 3D scanning. If this seems like
+                    a simple task... it is not. Mainly because software is not
+                    the only thing one does when building a software company.
+                    I've:
+                    <br><br>
+                    constructed the company websites | set the pipeline for
+                    Rendor through Django database systems, various Android
+                    programs | constructed core algorithms to work our science |
+                    orchestrated a beta rollout for Rendor testing |
+                    kept interested users and investors updated through the
+                    company blog | recruited and trained team members from
+                    management to dev | pitched and demoed every which where.
+                    <br><br>
+                    There's more there, I guarantee it. I'm just exhausted
+                    looking at that list. This is not to say that I didn't have
+                    plenty of help; I credit the Replica team to all of the
+                    success that we've exerienced. It's just shocking to see how
+                    much actually goes into starting a company, even when one
+                    has such amazing support.
+                    <br><br>
+                    This sort of thinking has brought to life my new interest:
+                    management and company structure. I realize that it sounds
+                    like the dryest subject in time and space, but company
+                    culture in practice and theory is so much more important
+                    than one might initially expect, and its especially true
+                    when one finds themselves in a position to shape that, as
+                    I find myself now. Still a long way to go now, I think...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="arpg">
+              <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                  <h4>ARPG</h4>
+                  <p class="text-justify">My robotics research
+                    primarily focused on path planning using autonomous
+                    vehicles; though I didn't publish anything, I performed intensive
+                    research on planning using deep learning techniques and RRT
+                    modifications. I steeped myself in both planning and
+                    computer vision literature; most of this experience has been
+                    applied to developing the Rendor infrastructure.</p>
+                  <p class="text-justify">The ARPG (now at CU
+                    Boulder) designed their codebase from the ground up; I was
+                    privileged enough to work on this system in its relative
+                    infancy. I contributed
+                    to <a href="https://github.com/arpg/SceneGraph"
+                          target="_blank">SceneGraph</a>,
+                    <a href="https://github.com/arpg/Node"
+                       target="_blank">Node</a>,
+                    and <a href="https://github.com/arpg/HAL"
+                           target="_blank">HAL</a>, and completely took apart Nima
+                    Keivan's <a href="https://github.com/arpg/CarPlanner"
+                                target="_blank">CarPlanner</a> to complete my research. I
+                    designed <a href="https://github.com/arpg/simba"
+                                target="_blank">SimBA</a>,
+                    a robotics physics simulator, from
+                    the ground up using the Bullet Physics Engine to enable the
+                    lab to simulate common robotic conditions using real-time
+                    physics. SimBA is the cumulation of almost all of the
+                    available libraries in ARPG, so maintaining it became a
+                    full-time job. That being said, it worked wonders for
+                    autonomous vehicle testing. But who am I to say.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="simlab">
+              <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                  <h4>
+                    <a href="http://bminortx.github.io/SimLAB/"
+                       target="_blank">
+                      SimLAB</a>
+                  </h4>
+                  <p class="square-small text-justify">SimLAB was the precursor
+                    to SimBA, while I was trying my skills at both Bullet Physics
+                    and MATLAB. It was a wrapper of the Bullet Physics Engine
+                    using MATLAB, for faster iterations in research. It lingered
+                    in my directory, all alone, for quite some time; since I was
+                    proud of the work I did, I decided to put it up on GitHub and
+                    open it up to community development. Since then, I'm happy to
+                    say that it's come in handy for a good number of people. I would
+                    love to see it become a full-fledged scientific tool, but things
+                    are a bit hectic for me to work on it right now. Volunteers are
+                    always welcome...</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="past">
+              <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                  <h4>Naval Research Laboratory</h4>
+                  <p class="square-small text-justify">I became involved in
+                    robotics research in the Fall of 2012; before that, I had
+                    been intensely focused on materials science and
+                    nanotechnology. This interest brought me to the NRL, working
+                    under Dr. Alberto Pique. Through application of Laser
+                    Direct-Write manufacturing, a technique developed through
+                    the NRL, I performed and became educated in both battery and
+                    electronics manufacturing. I also used and calibrated laser
+                    optic systems, profilometers, microscopes, UV lamps,
+                    spectrometers, and other vital pieces of research equipment
+                    for application in various projects.  </p>
+                  <h4>George Washington University</h4>
+                  <p class="square-small text-justify"><em>Analyses of
+                      Laser-Induced Periodic Surface Structures in Palladium Metal
+                      (<a href="images/Physics_Thesis.pdf"
+                          target="_blank">Thesis</a><em>, B.S. Physics,
+                        GWU)</em></em>. Project Advisors: Prof. Gerald Feldman
+                    (GWU), Prof. David Nagel (GWU), Prof. Scott Mathews
+                    (Catholic University). We used a femtosecond laser to create
+                    laser-induced periodic surface structures, i.e. LIPSS, on
+                    samples of palladium for potential materials
+                    applications. LIPSS have been the subject of several
+                    interesting case studies involving the micro-structuring and
+                    modification of materials. When shot with a short-pulse
+                    laser beam, a metal will bend and shape its surface
+                    according to the beams parameters, creating a periodic
+                    surface structure. We analyzed the results of femtosecond
+                    interaction with Palladium using a scanning electron
+                    microscope and MATLAB. The experimental parameters were the
+                    fluence of the laser and number of shots on a particular
+                    spot. LIPSS were not produced with our chosen parameters,
+                    but other structures were created that could still be of use
+                    in experiments influenced by surface modification, such as
+                    deuterium loading.</p>
+                  <p class="square-small text-justify"><em>The Coffee and
+                      Cream Problem</em>: Physicists love coffee. Hot coffee, to
+                    be exact. Looking at our too-often lukewarm mugs, GWU's
+                    Prof. Gerald Feldman and I wondered: what's the best way to
+                    mix cream in one's coffee to achieve the hottest temperature
+                    for the longest time? This was an elegant experiment
+                    demonstrating Newton's Law of Cooling at a basic level. I
+                    used Logger Pro to demonstrate this effect on a cup of hot
+                    coffee (hot water) mixed with cool cream (cold water).  This
+                    project was presented at SESAPS 2011, as “The Coffee and
+                    Cream Dilemma”. I obtained a student award from the APS to
+                    travel to the conference in Roanoke, VA to present the
+                    poster.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Headers -->
+        <div class="col-sm-3 verticalLineWhite" role="tablist">
+          <!-- Nav tabs -->
+          <a href="#replica" role="tab"
+             data-toggle="tab">
+            <h3>
+              Replica Labs and Rendor
+            </h3>
+          </a>
+          <br>
+          <a href="#arpg" role="tab" data-toggle="tab">
+            <h3>
+              ARPG
+            </h3>
+          </a>
+          <br>
+          <a href="#simlab" role="tab" data-toggle="tab">
+            <h3>
+              SimLAB
+            </h3>
+          </a>
+          <br>
+          <a href="#past" role="tab" data-toggle="tab">
+            <h3>
+              Past Projects
+            </h3>
+          </a>
+          <br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!--  ----------------------------------------------- --->
 <!-- CV  --> 
@@ -305,207 +535,6 @@ layout: bootstrap_default
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!--  ----------------------------------------------- --->
-<!-- Projectsq -->
-<!--  ----------------------------------------------- --->
-
-<div id="Projects" class="code-section">
-  <div class="inner cover">
-    <h1>Projects, Code and the Like</h1>
-    <div class="well">
-      <div class="row">
-
-
-        <div class="col-sm-9">
-          <!-- Tab panes -->
-          <div class="tab-content">
-            <div class="tab-pane active" id="replica">
-              <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                  <h4>Replica Labs and Rendor</h4>
-                  <p class="text-justify">
-                    I have devoted the last year of my life to creating a
-                    software-only solution to 3D scanning. If this seems like
-                    a simple task... it is not. Mainly because software is not
-                    the only thing one does when building a software company.
-                    I've:
-                    <br><br>
-                    constructed the company websites | set the pipeline for
-                    Rendor through Django database systems, various Android
-                    programs | constructed core algorithms to work our science |
-                    orchestrated a beta rollout for Rendor testing |
-                    kept interested users and investors updated through the
-                    company blog | recruited and trained team members from
-                    management to dev | pitched and demoed every which where.
-                    <br><br>
-                    There's more there, I guarantee it. I'm just exhausted
-                    looking at that list. This is not to say that I didn't have
-                    plenty of help; I credit the Replica team to all of the
-                    success that we've exerienced. It's just shocking to see how
-                    much actually goes into starting a company, even when one
-                    has such amazing support.
-                    <br><br>
-                    This sort of thinking has brought to life my new interest:
-                    management and company structure. I realize that it sounds
-                    like the dryest subject in time and space, but company
-                    culture in practice and theory is so much more important
-                    than one might initially expect, and its especially true
-                    when one finds themselves in a position to shape that, as
-                    I find myself now. Still a long way to go now, I think...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane" id="arpg">
-              <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                  <h4>ARPG</h4>
-                  <p class="text-justify">My robotics research
-                    primarily focused on path planning using autonomous
-                    vehicles; though I didn't publish anything, I performed intensive
-                    research on planning using deep learning techniques and RRT
-                    modifications. I steeped myself in both planning and
-                    computer vision literature; most of this experience has been
-                    applied to developing the Rendor infrastructure.</p>
-                  <p class="text-justify">The ARPG (now at CU
-                    Boulder) designed their codebase from the ground up; I was
-                    privileged enough to work on this system in its relative
-                    infancy. I contributed
-                    to <a href="https://github.com/arpg/SceneGraph"
-                          target="_blank">SceneGraph</a>,
-                    <a href="https://github.com/arpg/Node"
-                       target="_blank">Node</a>,
-                    and <a href="https://github.com/arpg/HAL"
-                           target="_blank">HAL</a>, and completely took apart Nima
-                    Keivan's <a href="https://github.com/arpg/CarPlanner"
-                                target="_blank">CarPlanner</a> to complete my research. I
-                    designed <a href="https://github.com/arpg/simba"
-                                target="_blank">SimBA</a>,
-                    a robotics physics simulator, from
-                    the ground up using the Bullet Physics Engine to enable the
-                    lab to simulate common robotic conditions using real-time
-                    physics. SimBA is the cumulation of almost all of the
-                    available libraries in ARPG, so maintaining it became a
-                    full-time job. That being said, it worked wonders for
-                    autonomous vehicle testing. But who am I to say.</p>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane" id="simlab">
-              <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                  <h4>
-                    <a href="http://bminortx.github.io/SimLAB/"
-                       target="_blank">
-                      SimLAB</a>
-                  </h4>
-                  <p class="square-small text-justify">SimLAB was the precursor
-                    to SimBA, while I was trying my skills at both Bullet Physics
-                    and MATLAB. It was a wrapper of the Bullet Physics Engine
-                    using MATLAB, for faster iterations in research. It lingered
-                    in my directory, all alone, for quite some time; since I was
-                    proud of the work I did, I decided to put it up on GitHub and
-                    open it up to community development. Since then, I'm happy to
-                    say that it's come in handy for a good number of people. I would
-                    love to see it become a full-fledged scientific tool, but things
-                    are a bit hectic for me to work on it right now. Volunteers are
-                    always welcome...</p>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane" id="past">
-              <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                  <h4>Naval Research Laboratory</h4>
-                  <p class="square-small text-justify">I became involved in
-                    robotics research in the Fall of 2012; before that, I had
-                    been intensely focused on materials science and
-                    nanotechnology. This interest brought me to the NRL, working
-                    under Dr. Alberto Pique. Through application of Laser
-                    Direct-Write manufacturing, a technique developed through
-                    the NRL, I performed and became educated in both battery and
-                    electronics manufacturing. I also used and calibrated laser
-                    optic systems, profilometers, microscopes, UV lamps,
-                    spectrometers, and other vital pieces of research equipment
-                    for application in various projects.  </p>
-                  <h4>George Washington University</h4>
-                  <p class="square-small text-justify"><em>Analyses of
-                      Laser-Induced Periodic Surface Structures in Palladium Metal
-                      (<a href="images/Physics_Thesis.pdf"
-                          target="_blank">Thesis</a><em>, B.S. Physics,
-                        GWU)</em></em>. Project Advisors: Prof. Gerald Feldman
-                    (GWU), Prof. David Nagel (GWU), Prof. Scott Mathews
-                    (Catholic University). We used a femtosecond laser to create
-                    laser-induced periodic surface structures, i.e. LIPSS, on
-                    samples of palladium for potential materials
-                    applications. LIPSS have been the subject of several
-                    interesting case studies involving the micro-structuring and
-                    modification of materials. When shot with a short-pulse
-                    laser beam, a metal will bend and shape its surface
-                    according to the beams parameters, creating a periodic
-                    surface structure. We analyzed the results of femtosecond
-                    interaction with Palladium using a scanning electron
-                    microscope and MATLAB. The experimental parameters were the
-                    fluence of the laser and number of shots on a particular
-                    spot. LIPSS were not produced with our chosen parameters,
-                    but other structures were created that could still be of use
-                    in experiments influenced by surface modification, such as
-                    deuterium loading.</p>
-                  <p class="square-small text-justify"><em>The Coffee and
-                      Cream Problem</em>: Physicists love coffee. Hot coffee, to
-                    be exact. Looking at our too-often lukewarm mugs, GWU's
-                    Prof. Gerald Feldman and I wondered: what's the best way to
-                    mix cream in one's coffee to achieve the hottest temperature
-                    for the longest time? This was an elegant experiment
-                    demonstrating Newton's Law of Cooling at a basic level. I
-                    used Logger Pro to demonstrate this effect on a cup of hot
-                    coffee (hot water) mixed with cool cream (cold water).  This
-                    project was presented at SESAPS 2011, as “The Coffee and
-                    Cream Dilemma”. I obtained a student award from the APS to
-                    travel to the conference in Roanoke, VA to present the
-                    poster.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Headers -->
-        <div class="col-sm-3 verticalLineWhite" role="tablist">
-          <!-- Nav tabs -->
-          <a href="#replica" role="tab"
-             data-toggle="tab">
-            <h3>
-              Replica Labs and Rendor
-            </h3>
-          </a>
-          <br>
-          <a href="#arpg" role="tab" data-toggle="tab">
-            <h3>
-              ARPG
-            </h3>
-          </a>
-          <br>
-          <a href="#simlab" role="tab" data-toggle="tab">
-            <h3>
-              SimLAB
-            </h3>
-          </a>
-          <br>
-          <a href="#past" role="tab" data-toggle="tab">
-            <h3>
-              Past Projects
-            </h3>
-          </a>
-          <br>
-
         </div>
       </div>
     </div>

@@ -10,21 +10,7 @@ layout: bootstrap_default
   <div class="inner cover">
     <div class="well">
       <h1>Thinking Fast | Typing Slow</h1>
-      <h5>[or as it might also be known]</h5>
-      <h3>
-        Brandon Minor is on his computer most of the time.
-      </h3>
-      <div class="row voffset5">
-        <div class="col-lg-8 col-lg-offset-2">
-          <p class=>I'm an entrepreneur and life-long student
-            trying my hardest to learn everything at once.</p>
-          <p>So far, it's taking longer than expected.</p>
-          <p>Researcher | Runner | Co-founder of
-            <b><a href="http://www.replicalabs.com" target="_blank">Replica
-                Labs</a></b>
-          </p>
-        </div>
-      </div>
+      A Tech Blog, with Feelings. Robot Feelings.
     </div>
   </div>
 </section>
@@ -38,12 +24,9 @@ layout: bootstrap_default
     <!-- Our blog posts -->
     <h2>Recent Posts</h2>
     <br>
-    {% for post in site.posts limit:4 %}
-    {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-    {% if modulo == '0' %}
     <div class="row voffset2">
-      {% endif %}
-      <div class="col-sm-4">
+      {% for post in site.posts limit:4 %}
+      <div class="col-sm-8">
         <div class="image">
           <a href="{{ post.url | prepend: site.baseurl }}">
             <img src="{{ post.image }}" class="img-thumbnail"/>
@@ -54,10 +37,14 @@ layout: bootstrap_default
           </a>
         </div>
       </div>
-      {% if modulo == '2' %}
+      {% endfor %}
+      <div class="col-sm-3">
+        <a class="twitter-timeline" href="https://twitter.com/bminortx"
+           data-widget-id="610493176554491905"
+             data-tweet-limit="3">Tweets by @bminortx</a>
+      </div>
     </div>
-    {% endif %}
-    {% endfor %}
+
 
     <div class="row voffset6">
       <h2>Past Posts</h2>

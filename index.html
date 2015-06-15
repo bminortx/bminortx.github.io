@@ -69,19 +69,20 @@ layout: bootstrap_default
     <div class="row voffset6">
       <h2>Past Posts</h2>
       <table class="table table-responsive">
-        <tr>
-          <td><h3>Date</h3></td>
-          <td><h3>Name</h3></td>
-        </tr>
         {% for post in site.posts offset:4 %}
         <tr>
           <td>
-            <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
           </td>
           <td>
-            <h3><a href="{{ post.url | prepend: site.baseurl }}">
+            <h4><a href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
-            </a></h3>
+            </a></h4>
+          </td>
+          <td>
+            <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+          </td>
+          <td>
+            <h4>{{ post.preview }}</h4>
           </td>
         </tr>
         {% endfor %}

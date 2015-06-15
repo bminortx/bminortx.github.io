@@ -6,10 +6,6 @@ image: "images/augmentation/ex_machina.jpg"
 preview: "People are worried, which worries me."
 ---
 
-AI is set to dramatically change our world. The real question is: how?
-
-- - - - - - - - -
-
 ## The (Potentially Scary) Future of AI ##
 
 If any of you have seen the new movie _Ex Machina_, you probably have a bad feeling about the whole AI thing right now. The premise is that a brilliant researcher has developed what they believe to be the most intelligent robot ever made, and brings someone in to confirm this notion, mainly through the Turing Test.

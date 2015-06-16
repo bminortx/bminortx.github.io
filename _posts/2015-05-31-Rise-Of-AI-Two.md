@@ -18,22 +18,34 @@ However, research and the real world often tend to be two very different things.
 
 - - - - - - - -
 
-## The Buildup ##
+## The Buildup: Parallel Processing and the Algorithms They Love ##
 
-Parallel procesing
-Better algorithms
+Imperative to this conversation is what powers this AI takeover: parallel processing through Graphics Processing Units, or GPUs[^1]. GPUs are parallel programming to the extreme; while CPUs - Central Processing Units - commonly have 4-16 cores, allowing for 4-16 simultaneous calculations, beefy GPUs can have [over 3000 cores](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x/specifications), allowing for unheard-of computation speed. This kind of capability has been especially useful in computer graphics, where each pixel in an image can be changed at the same time, but researchers have begun to design their science around this massively-parallelizeable structure. Calculations used to take so long on CPUs that entire branches of math have been developed to compensate, usually sacrificing mathematical accuracy to gain cut down on computation time. Now, algorithms are built with parallelizability in mind, and boy has it been worth it. GPUs have gone beyond 'graphics processing', and now allow researchers to perform real-time physics simulation, real-time control, real-time speech processing. Calculations that took days are whittled down to a single afternoon. Mythbusters explain it best:
 
-## The Here and Now ##
+<div class="video">
+    <figure>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/-P28LKWTzrI" frameborder="0" allowfullscreen></iframe>
+    </figure>
+</div>
+
+...but you get the idea. GPU programming has hit the mainstream, but more importantly, programmers have finally learned to harness that power effectively. 
+
+
+
+## The Here and Now: Prediction and Control ##
 
 Self-driving cars and the Act loop
 
-## The Scary (Awesome) Part: Machine Learning and Big Data ##
+## The Scary Part: Machine Learning and Big Data ##
 
-In my mind, the development of advanced machine learning is one of the most transformative achievements of our time. Put simply: machine learning is magic. It makes sense of vast amounts of data for use in more abstract processes. In other words, machine learning can use all of those cat videos on YouTube to figure out for itself what a 'cat' is, and then use that info to identify cats in the future. I hope this doesn't sound too simplistic, because the process of teaching a computer 'cat'-ness is difficult, to say the least (though [Google did exactly that](http://research.google.com/archive/unsupervised_icml2012.html)).
+In my mind, the development of advanced machine learning is one of the most transformative achievements of our time. Put simply: machine learning makes sense of vast amounts of data for use in more abstract processes. In other words, machine learning can use all of those cat videos on YouTube to figure out for itself what a 'cat' is, and then use that info to identify cats in the future. I hope this doesn't sound too simplistic, because the process of teaching a computer 'cat'-ness is difficult, to say the least (though [Google did exactly that](http://research.google.com/archive/unsupervised_icml2012.html)).
 
-The State-Of-The-Art here lies in a paper by Alex Krizhevsky called ["ImageNet Classification with Deep Convolutional Neural Nets"](http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf). Neural nets are a statistical method of shaking out patterns from large swaths of data, the design of which was originally inspired by the way your optic nerves communicate images to the brain. In it's most basic form, it's using a non-linear equation of some sort to fit an input to an output:
+Machine Learning as a field has been around for a while - papers date back to the '50s - but ML in its current form has existed for only a couple of decades, with the maturation of _neural networks_. Neural nets are just a statistical method of finding patterns (outputs) from large swaths of data (inputs), the design of which was originally inspired by the way your optic nerves communicate images to the brain. In it's most basic form, it's using a non-linear equation of some sort going from data to function:
 
 PICTURE OF SIMPLE NET
+
+he State-Of-The-Art here lies in a paper by Alex Krizhevsky called ["ImageNet Classification with Deep Convolutional Neural Nets"](http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf).
+ The "deep" part comes from the mathematical design behind it. 
 
 PICTURE OF VISUALIZATION OF FEATURES
 
@@ -62,3 +74,5 @@ http://www.wired.com/2014/10/future-of-artificial-intelligence
 Further reading:
 http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
 https://en.wikipedia.org/wiki/Artificial_neural_network#History
+
+[^1]: Sorry if I dumb this down too much; GPUs are incredibly popular, but I realize that might just be with a niche group. All of robotics is a niche, TBH.

@@ -7,6 +7,15 @@
   {% include bootstrap_head.html %}
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Facebook comments -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
     {% include bootstrap_header.html %}
 
@@ -52,12 +61,14 @@
                 Bio [bminortx]<span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
+                <li><a href="{{url}}/about/index.html#About"
+                       class="page-scroll">About</a></li>
                 <li><a href="{{url}}/about/index.html#Replica"
                        class="page-scroll">Replica Labs</a></li>
-                <li><a href="{{url}}/about/index.html#CV"
-                       class="page-scroll">CV</a></li>
                 <li><a href="{{url}}/about/index.html#Projects"
                        class="page-scroll">Projects</a></li>
+                <li><a href="{{url}}/about/index.html#CV"
+                       class="page-scroll">CV</a></li>
               </ul>
             </li>
             <li class="verticalLine">
@@ -108,21 +119,32 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-sm-offset-4">
+          <div class="col-sm-2 col-sm-offset-3">
             <div class="single-post-section-two">
               {% if page.previous %}
-              <a rel="prev" href="{{ page.previous.url }}">&larr; Older</a>
+              <a rel="{{ page.previous.title }}"
+                 href="{{ page.previous.url }}">
+                &larr; <br> {{ page.previous.title}} </a>
               {% else %}
-              &larr; Older
+              &larr; <br> Older
               {% endif %}
-              |
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="single-post-section-two">
               <a href="{{url}}/index.html#Posts"
                  class="page-scroll">All Posts</a>
-              |
-              {% if page.next %} 
-              <a rel="next" href="{{ page.next.url }}">Newer &rarr;</a>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="single-post-section-two">
+              {% if page.next %}
+              <a rel="{{ page.next.title }}"
+                 href="{{ page.next.url }}">
+                &rarr; <br>
+                {{ page.next.title}}</a>
               {% else %}
-              Newer &rarr;
+              &rarr; <br> Newer
               {% endif %}
             </div>
           </div>
@@ -132,8 +154,17 @@
         <div class="row voffset2">
           <div class="col-sm-10 col-sm-offset-1">
             <div class="single-post-section">
+              <hr>
               {{ content }}
             </div>
+          </div>
+        </div>
+        <div class="row voffset2">
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="fb-comments"
+                 data-href="http://bminortx.github.io"
+                 data-numposts="5"
+                 data-width="100%"></div>
           </div>
         </div>
       </div>

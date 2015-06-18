@@ -8,73 +8,85 @@ layout: bootstrap_default
 
 <section id="About" class="about-section">
   <div class="inner cover">
-    <div class="well">
-      <h1>Thinking Fast | Typing Slow</h1>
-      <h5>[or as it might also be known]</h5>
-      <h3>
-        Brandon Minor is on his computer most of the time.
-      </h3>
-      <div class="row voffset5">
-        <div class="col-lg-8 col-lg-offset-2">
-          <p class=>I'm an entrepreneur and life-long student
-            trying my hardest to learn everything at once.</p>
-          <p>So far, it's taking longer than expected.</p>
-          <p>Researcher | Runner | Co-founder of
-            <b><a href="http://www.replicalabs.com" target="_blank">Replica
-                Labs</a></b>
-          </p>
-        </div>
-      </div>
-    </div>
+    <h1>Thinking Fast | Typing Slow</h1>
+    <h3>A tech blog, with feelings. Robot feelings.</h3>
   </div>
 </section>
-
 
 <!--  ----------------------------------------------- --->
 <!-- Recent Posts -->
 <!--  ----------------------------------------------- --->
 
 <section id="Posts" class="posts-section">
-  <div class="inner cover">
-    <div class="well">
-      <!-- Our blog posts -->
-      <div class="row">
-        <h2>Recent Posts</h2>
-        {% for post in site.posts limit:3 %}
-        <div class="col-sm-4">
+      <div class="row voffset2">
+      {% for post in site.posts limit:1 %}
+      <div class="col-sm-12">
+        <div class="image-header" id="image-header">
           <a href="{{ post.url | prepend: site.baseurl }}">
-            <h2 class="headline">{{ post.title }}</h2>
+            <div class="row voffset9">
+            </div>
+            <div class="row voffset9">
+              <div class="headline-header">
+                <b>Newest Post: </b>
+                {{ post.title }}<br>
+              </div>
+            </div>
           </a>
-          <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
-          <h4>{{ post.excerpt }}</h4>
-          <p class="tagline">{{ post.tagline }}</p>
+          <div class="headline">
+            {{ post.preview }}
+          </div>
         </div>
+      </div>
+      <script>
+        document.getElementById("image-header").style.backgroundImage = "url({{post.image}})";
+        document.getElementById("image-header").style.backgroundSize = "cover";
+        document.getElementById("image-header").style.backgroundPosition = "center";
+      </script>
+      {% endfor %}
+    </div>
+  <div class="inner cover">
+    <!-- Our blog posts -->
+
+    <div class="row voffset7">
+      {% for post in site.posts offset:1 limit:3 %}
+      <div class="col-sm-4">
+        <div class="image">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <img src="{{ post.image }}" class="img-thumbnail"/>
+            <div class="headline-header">
+              {{ post.title }}
+            </div>
+            <div class="headline">
+              {{ post.preview }}
+            </div>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+
+    <div class="row voffset6">
+      <h2>Past Posts</h2>
+      <table class="table table-responsive">
+        {% for post in site.posts offset:4 %}
+        <tr>
+          <td>
+          </td>
+          <td>
+            <h4><a href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+            </a></h4>
+          </td>
+          <td>
+            <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+          </td>
+          <td>
+            <h4>{{ post.preview }}</h4>
+          </td>
+        </tr>
         {% endfor %}
-      </div>
-
-      <div class="row">
-        <h2>Past Posts</h2>
-
-        <!-- Past blog posts -->
-        <table class="table table-responsive">
-          <tr>
-            <td><h3>Date</h3></td>
-            <td><h3>Name</h3></td>
-          </tr>
-          {% for post in site.posts offset:3 %}
-          <tr>
-            <td>
-              <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
-            </td>
-            <td>
-              <h3><a href="{{ post.url | prepend: site.baseurl }}">
-                  {{ post.title }}
-              </a></h3>
-            </td>
-          </tr>
-          {% endfor %}
-        </table>
-      </div>
+      </table>
     </div>
   </div>
 </section>

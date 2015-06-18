@@ -2,9 +2,9 @@
 layout: post
 title:  "Productivity"
 date:   2015-05-22 18:22:26
+image: "images/efficiency_bar_chart.png"
+preview: "And Mother Nature was like 'Slooooooow Dooooown' and so I kicked her in the face with my ENERGY LEGS."
 ---
-
-
 
 For the last year, I've been looking for methods to spend my time more productively. It's been incredibly enlightening, and I have in fact become a more productive person, but I'm not interested in creating a list of [tips](http://www.inc.com/kevin-daum/8-things-really-efficient-people-do.html) and [tricks](http://realtytimes.com/agentnews/agentadvice1/item/26563-20131108-ten-time-efficiency-habits) letting anyone complete their todo list in a day (at least not here). Instead, with this year behind me, I find myself asking if striving for ever-more-productive means of doing things is worth it.
 

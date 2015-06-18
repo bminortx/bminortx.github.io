@@ -2,13 +2,13 @@
 layout: post
 title:  "Replica Labs heads to the Kairos Global Summit"
 date:   2014-10-15 9:39:00
+image: "images/kairos.jpg"
+preview: "In which I am a Kairos Fellow."
 ---
 
 About two months ago, I got an email from a member of the Kairos Society saying something to the effect of
 
 "Hey, you're the student entrepreneur who co-founded Replica Labs! That's a cool company doing cool things. You should apply to be part of the Kairos 50!"
-
-<!--more-->
 
 And I remember thinking
 

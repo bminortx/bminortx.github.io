@@ -93,7 +93,7 @@ And yet, when asked for the strongest 'cat'-like classifier when given a cat-lik
 
 That is a damn creepy cat... but it's definitely a cat, and that's even more unnerving. The Google researchers that helped train this network were looking for what they called a "Grandmother Neuron", or a classifier from a neural net that captured the essence of what an object was. Given the thousands (millions?) of cat videos this deep neural net was subjected to, this is the Grandmother Neuron that best described whatever was in all of these videos. Again, it was never told what a cat was; it just found a lot of different examples of the same thing, and used this to relate all the things together. That thing just happened to be a cat.
 
-This ability to make sense of the world without human interference makes Machine Learning processes so powerful, and at the same time, so frightening. It's easy to take the results of these experiments and extrapolate the horrible things that computers could do once they really start getting into the data. 
+This ability to make sense of the world without human interference makes Machine Learning processes so powerful, and at the same time, so frightening. It's easy to take the results of these experiments and extrapolate the horrible things that computers could do once they start interpreting beyond what's presented at face value[^4].
 
 * Talk about NVIDIA and their obsession on ML
 NVIDIA highlighted ML processes
@@ -123,4 +123,5 @@ http://www.slideshare.net/yuhuang/deep-learning-for-image-denoising-superresolut
 [^1]: Sorry if I dumb this down too much; GPUs are incredibly popular, but I realize that might just be with a niche group. All of robotics is a niche, to be perfectly honest.
 [^2]: Does anyone else think he sounds like Nicolas Cage? No? He makes his appearance about halfway in, for reference; you be the judge.
 [^3]: Mathematically speaking.
+[^4]: Insert creepy cat face pun here. 
 

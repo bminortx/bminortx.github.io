@@ -29,15 +29,15 @@ Imperative to this conversation is what powers this AI takeover: parallel proces
     </figure>
 </div>
 
-Done right, GPUs can whittle down calculations that took days into a single afternoon. GPUs have gone beyond 'graphics processing', and now allow researchers to perform real-time physics simulation, real-time control, real-time speech processing. GPU programming has hit the mainstream, but more importantly, programmers have finally learned to harness that power effectively.
+Done right, GPUs can whittle down calculations that took days into a single afternoon. GPUs have gone beyond 'graphics processing', and now allow researchers to perform real-time physics simulation, real-time control, real-time speech analysis. GPU programming has hit the mainstream, but more importantly, programmers have finally learned to harness that power effectively.
 
 - - - - - - - -
 
 ## The Here and Now: Prediction and Control ##
 
-This newfound computation speed is allowing for things that weren't quite possible a decade ago. One of the most striking examples here is the advent of the self-driving car. Cars that know not only where they need to go but also how to get there without user input might seem like an amazing magic trick (or a one-way ticket to the ICU, depending on your technological stance), yet the speed of GPU processing, along with a lot of smart code, make it possible. Tesla recently announced a future OTA update that adds [fully autonomous driving](http://bit.ly/1ECvrBw) to their Model S. This feat was powered by a whole lot of smart planning code and, what else, the high-performance GPUs Tesla has in every car, compliments of a partnership with NVIDIA. Given that the Tesla is virtually a computer on wheels, this kind of hardware is not only convenient, but also vital for the safety of the passengers inside. Other self-driving cars share a similar story; GPUs and smart code make it possible for an autonomous machine to both perceive and act upon their environment.
+This newfound computation speed is allowing for things that weren't quite possible a decade ago. One of the most striking examples here is the advent of the self-driving car. Cars that know not only where they need to go but also how to get there might seem like an amazing magic trick (or a one-way ticket to the ICU, depending on your technological stance), yet the speed of GPU processing, along with a lot of smart code, make it possible. Tesla even announced a future over-the-air update that adds [fully autonomous driving](http://bit.ly/1ECvrBw) to their Model S. This feat was powered by a whole lot of smart planning code and, what else, the high-performance GPUs Tesla has in every car, compliments of a partnership with NVIDIA. Given that the Tesla is virtually a computer on wheels, this kind of hardware is not only convenient, but also vital for the safety of the passengers inside. Other self-driving cars share a similar story; GPUs and smart code make it possible for an autonomous machine to both perceive and act upon their environment.
 
-That example aside, cars have a long way to go before they're turned into hyper-intelligent rolling doom machines. Case in point: here's NVIDIA CEO Jen-Hsun Huang[^2] showing off their new vehicle-embedded street object identification system. 
+That example aside, cars have a long way to go before they're turned into hyper-intelligent rolling doom machines. Here's NVIDIA CEO Jen-Hsun Huang[^2] showing off their new vehicle-embedded street object identification system. 
 
 <div class="video">
     <figure>
@@ -53,7 +53,7 @@ It knows cars. Not a lot, just cars, which is actually damn impressive, but stil
 
 If you actually played the video above, you probably heard phrases like 'deep learning' and 'neural nets'. These are all different parts of one big concept: Machine Learning. In my mind, the development of advanced machine learning is one of the most transformative achievements of our time. Put simply, machine learning makes sense of vast amounts of data for use in more abstract processes. For example, a good ML process can use all of those cat videos on YouTube to figure out for itself what a 'cat' is, and then use that info to identify cats in the future. I hope this doesn't sound too simplistic, because the process of teaching a computer 'cat'-ness is difficult, to say the least (though [Google has done exactly that](http://research.google.com/archive/unsupervised_icml2012.html)).
 
-Machine learning as a field has been around for a while - papers date back to the '50s - but ML in its current form has existed for only a couple of decades, with the maturation of _neural networks_. Neural nets are just a statistical method of finding patterns (outputs) from large swaths of data (inputs), the design of which was originally inspired by the way your optic nerves communicate images to the brain. In its most basic form, neural networks use a non-linear equation of some sort to map a function from data to result:
+Machine learning as a field has been around for a while - papers date back to the '50s - but ML in its current form has existed for only a couple of decades, with the maturation of _neural networks_. Neural nets are just a statistical method of finding patterns in large swaths of data, the design of which was originally inspired by the way your optic nerves communicate images to the brain. In its most basic form, neural networks use a non-linear equation of some sort to map a function from data (input) to result (output):
 
 <div class="row">
 <div class="col-sm-6 col-sm-offset-3" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
@@ -65,13 +65,33 @@ The State-Of-The-Art here lies in a paper by Alex Krizhevsky called ["ImageNet C
 
 <div class="row">
 <div class="col-sm-8 col-sm-offset-2" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
-<img src="/images/rise_of_ai_two/alexnet.png" title="Circle :: Function, btw." class="img-thumbnail">
+<img src="/images/rise_of_ai_two/alexnet.png" title="Statistics is all just lines and boxes." class="img-thumbnail">
 </div>
 </div>
 
-The picture does not do it justice, but suffice to say, this system took days to process, or _train_, even when designed with GPUs in mind. It makes sense now why this type of network is 'deep'; it's layers upon layers, and the connections are too numerous to count. 
+The picture does not do it justice, but suffice to say, this system took days to process, or _train_, even when designed with GPUs in mind. It makes sense now why this type of network is 'deep'; it's layers upon layers, and the connections are too numerous to count. AlexNet, as it's coloquially named, was one of the most successful image identification systems made, and many systems since have been based on this work. Looking at his initial results below, even the missed classifications are pretty honest errors. 
 
-PICTURE OF VISUALIZATION OF FEATURES
+<div class="row">
+<div class="col-sm-6 col-sm-offset-3" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
+<img src="/images/rise_of_ai_two/alexnet_success.png" title="Who labeled that picture 'Cherry'? I would have got that wrong, too." class="img-thumbnail">
+</div>
+</div>
+
+- - - - - - - -
+
+This kind of statistics is impressive in itself, but it's gets even crazier when you realize that deep neural nets _don't even need to know what they're learning_. When I mentioned Google's cat identification project using YouTube videos, it's important to realize that _they never told their system what a cat was_.
+
+Never mentioned it.
+
+And yet, when asked for the strongest 'cat'-like classifier when given a cat-like image, here's what it came up with:
+
+<div class="row">
+<div class="col-sm-6 col-sm-offset-3" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
+<img src="/images/rise_of_ai_two/catness.png" title="The essence of cat... is frightening." class="img-thumbnail">
+</div>
+</div>
+
+Grandmother neuron.
 
 EXPLANATION OF AWESOMENESS OF ML
 

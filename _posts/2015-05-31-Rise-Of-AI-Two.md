@@ -106,9 +106,7 @@ BUT LET'S BE REAL. AI is _still_ nowhere near human intelligence. And I say this
 1. Find an item and
 2. Take it off a shelf
 
-
-
-http://amazonpickingchallenge.org/details.shtml
+From a robotics standpoint, that shit is _hard_ to figure out. And yet, it's so simplistic compared to what you or I might be able to do. There are upsides and downsides to humans and robots (one gets tired, the other breaks), but the cognitive difference is hopefully (for now) clear[^6]. 
 
 <div class="row">
 <div class="col-sm-10 col-sm-offset-1" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
@@ -142,4 +140,4 @@ http://www.ustream.tv/recorded/60025825
 [^3]: Mathematically speaking.
 [^4]: Insert creepy cat face pun here.
 [^5]: GPS, Radar, nuclear energy, social media, furbys, etc.
-
+[^6]: It actually was a [pretty cool contest](http://amazonpickingchallenge.org/details.shtml).

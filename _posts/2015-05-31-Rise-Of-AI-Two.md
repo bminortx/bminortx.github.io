@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Rise of AI, Part II: The State of the Art"
-date:   2015-05-31 18:30:50
+date:   2015-06-19 18:30:50
 category: Robotics
 image: "images/rise_of_ai_two/alexnet.png"
 preview: "It's not what you think."
@@ -69,10 +69,10 @@ A perfect example of the State-Of-The-Art here lies in a paper by Alex Krizhevsk
 </div>
 </div>
 
-The picture does not do it justice, but suffice to say, this system took days to process, or _train_, even when designed with GPUs in mind. It makes sense now why this type of network is 'deep'; it's layers upon layers, and the connections are too numerous to count. AlexNet, as it's coloquially named, was one of the most successful image identification systems made, and many systems since have been based on this work. Looking at his system's initial labeling results below, even the missed classifications are pretty honest errors. 
+The picture does not do it justice, but suffice to say, this system took days to process, or _train_, even when designed with GPUs in mind. It makes sense now why this type of network is 'deep'; it's layers upon layers, and the connections are too numerous to count. AlexNet, as it's coloquially named, was one of the most successful image identification systems made, and many systems since have been based on this work. Looking at AlexNet's initial labeling results below, even the missed classifications are pretty honest errors. 
 
 <div class="row">
-<div class="col-sm-6 col-sm-offset-3" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
+<div class="col-sm-10 col-sm-offset-1" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
 <img src="/images/rise_of_ai_two/alexnet_success.png" title="Who labeled that picture 'Cherry'?" class="img-thumbnail">
 </div>
 </div>
@@ -93,7 +93,7 @@ And yet, when asked for the strongest 'cat'-like classifier when given a cat-lik
 
 That is a damn creepy cat... but it's definitely a cat, and that's even more unnerving. The Google researchers that helped train this network were looking for what they called a "Grandmother Neuron", or a classifier from a neural net that captured the essence of what an object was. Given the thousands (millions?) of cat videos this deep neural net was subjected to, this is the Grandmother Neuron that best described whatever was in all of these videos. Again, it was never told what a cat was; it just found a lot of different examples of the same thing, and used this to relate all the things together. That thing just happened to be a cat.
 
-This ability to make sense of the world without human interference makes Machine Learning processes so powerful, and at the same time, so frightening. It's easy to take the results of these experiments and extrapolate the horrible things that computers could do once they start interpreting beyond what's presented at face value[^4], and I don't blame anyone who thinks that way. However, I personally have a hard time seeing this progress as a harbinger of robotic doom. ML is, at its core, just a tool to aid in other tasks, whether those tasks are benevolent or malevolent; revolutionary technologies of the same magnitude often don't posess a morality embedded in their design[^5]. Yet the self-teaching aspect of this brand of AI, perhaps, makes the stakes a little higher.
+This ability to make sense of the world without human interference makes Machine Learning processes so powerful, and at the same time, so frightening. It's easy to take the results of these experiments and extrapolate the horrible things that computers could do once they start interpreting beyond what's presented at face value[^4], and I don't blame anyone who thinks that way. However, I personally have a hard time seeing this progress as a harbinger of robotic doom. ML is, at its core, just a tool to aid in other tasks, whether those tasks are benevolent or malevolent; revolutionary technologies of the same magnitude often don't posess a morality component embedded in their design[^5]. Yet the self-teaching aspect of this brand of AI, perhaps, makes the stakes a little higher.
 
 This is the core of the argument against the unchecked development of artificial intelligence. Technology in this field will soon become so advanced - even in our lifetimes - that to ignore its morality would do much more harm than good. If one's goal is to make a life-like machine, one has to think about what happens when that goal is realized, and it can seemingly 'live' on its own, decide on its own, make mistakes while self-correcting all the while. What will it see as the right choice, when faced with a new 'training' task, if morality might come into play? In this light, the fears of Elon Musk, Bill Gates, and Stephen Hawking make a bit more sense. There has to be some system of checks and balances during this phase of AI research, or else the wrong move might be made so easily. 
 
@@ -103,20 +103,23 @@ This is the core of the argument against the unchecked development of artificial
 
 BUT LET'S BE REAL. AI is _still_ nowhere near human intelligence. And I say this with all due respect, as an avid robotics researcher and enthusiast. For proof of this, look no further than Amazon's Picking Contest, which challenged participants (i.e. entire robotics labs) to find the most efficient way to
 
-1. Find an item and
-2. Take it off a shelf
+1. Find an item
+2. Take it off a shelf, and 
+3. Put it in a box
 
-From a robotics standpoint, that shit is _hard_ to figure out. And yet, it's so simplistic compared to what you or I might be able to do. There are upsides and downsides to humans and robots (one gets tired, the other breaks), but the cognitive difference is hopefully (for now) clear[^6]. 
+From a robotics standpoint, this workflow is _hard_ to figure out. And yet, it's so simplistic compared to what you or I might be able to do. There are upsides and downsides to humans and robots (one gets tired, the other breaks), but the cognitive difference is hopefully (for now) clear[^6]. 
 
 <div class="row">
 <div class="col-sm-10 col-sm-offset-1" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
-<img src="/images/rise_of_ai_two/amazon_pick_banner_robot.png" title="The essence of cat... is frightening." class="img-thumbnail">
+<img src="/images/rise_of_ai_two/amazon_pick_banner_robot.png" title="Pickin' things up, and puttin' them back down." class="img-thumbnail">
 </div>
 </div>
+
+I believe that In a way, AI and humans are redefining one another as developments continue.
 
 FUN EXAMPLE: Mar I/O https://www.youtube.com/watch?v=qv6UVOQ0F44&feature=youtu.be
 
-In a way, AI and humans are redefining one another as developments continue.
+
 
 SUMMARY: Worry about dumb AI, not smart AI. Overreaching leads to downfall.
 

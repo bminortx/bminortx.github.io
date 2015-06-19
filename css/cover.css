@@ -328,12 +328,7 @@ body {
     background: #FFFFFF;
 }
 
-.post-heading {
-    background-image: url('/images/iceland.jpg');
-    background-position: 25% center;
-    background-color: #cccccc;
-    background-size: 120%;
-    background-repeat: no-repeat;
+ .post-heading {
     padding-right: 60px;
     padding-left: 60px;
     padding-top: 90px;
@@ -349,7 +344,7 @@ body {
 }
 
 .post-heading .well {
-    background-color: rgba(255, 255, 255,.5);
+    background-color: rgba(255, 255, 255,.9);
 }
 
 /*

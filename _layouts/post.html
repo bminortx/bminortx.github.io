@@ -106,17 +106,17 @@
     <!-- /Main Menu -->
 
     <!-- The content for the blog -->
-    <div class="post-section-two">
-      <div class="post-heading">
-        <div class="well">
-          <h1>
-            {{ page.title }}
-          </h1>
-          <h3>
-            {{ page.date | date: "%b %-d, %Y" }}
-          </h3>
-        </div>
+    <div class="post-heading" id="post-heading">
+      <div class="well">
+        <h1>
+          {{ page.title }}
+        </h1>
+        <h3>
+          {{ page.date | date: "%b %-d, %Y" }}
+        </h3>
       </div>
+    </div>
+    <div class="post-section-two">
       <div class="container">
         <div class="row">
           <div class="col-sm-2 col-sm-offset-3">
@@ -169,6 +169,12 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document.getElementById("post-heading").style.backgroundImage = "url(/{{page.image}})";
+      document.getElementById("post-heading").style.backgroundSize = "cover";
+      document.getElementById("post-heading").style.backgroundPosition = "center";
+    </script>
     <!-- ...end content -->
 
     {% include bootstrap_footer.html %}

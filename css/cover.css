@@ -387,12 +387,12 @@ body {
 }
 
 /* the reference tooltips style starts here */
- 
+
 .ref {
     position: relative;
     vertical-align: baseline;
    }
- 
+
 .refnum {
     position: relative;
     left: 2px;
@@ -404,7 +404,7 @@ body {
     text-decoration: underline;
     cursor: pointer;
 }
- 
+
 .refbody {
     font-family: Verdana, sans-serif;
     font-size: .7em;

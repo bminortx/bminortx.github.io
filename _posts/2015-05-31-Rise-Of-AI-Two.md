@@ -22,7 +22,7 @@ However, research and the real world often tend to be two very different things.
 
 ## The Buildup: Parallel Processing and the Algorithms They Love ##
 
-Imperative to this conversation is what powers this AI takeover: parallel processing through Graphics Processing Units, or GPUs<span class="ref"><span class="refnum">[1]</span><span class="refbody">Sorry if I dumb this down too much; GPUs are incredibly popular, but I realize that might just be with a niche group. All of robotics is a niche, to be perfectly honest.</span></span>. GPUs are parallel programming to the extreme; while CPUs - Central Processing Units - commonly have 4-16 cores, allowing for 4-16 simultaneous calculations, beefy GPUs can have [over 3000 cores](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x/specifications), allowing for unheard-of computation speed. This kind of capability has been especially useful in computer graphics, where each pixel in an image can be changed at the same time, but researchers have begun to design their science around this massively-parallelizeable structure. Calculations used to take so long on CPUs that entire branches of math have been developed to compensate, usually sacrificing mathematical accuracy to gain cut down on computation time. Now, algorithms are built with parallelizability in mind, and boy has it been worth it. Mythbusters explain it best:
+Imperative to this conversation is what powers this AI takeover: parallel processing through Graphics Processing Units, or GPUs<span class="ref"><span class="refnum">[1]</span><span class="refbody">Sorry if I dumb this down too much; GPUs are incredibly popular, but I realize that might just be with a niche group. All of robotics is a niche, to be perfectly honest.</span></span>. GPUs are parallel programming to the extreme; while CPUs - Central Processing Units - commonly have 4-16 cores, allowing for 4-16 simultaneous calculations, beefy GPUs can have [over 3000 cores](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x/specifications), allowing for unheard-of computation speed. This kind of capability has been especially useful in computer graphics, where each pixel in an image can be changed at the same time, but researchers have begun to design their science around this massively-parallelizeable structure. Calculations used to take so long on CPUs that entire branches of math were developed to compensate, usually sacrificing mathematical accuracy to cut down on computation time. Now, algorithms are designed with GPUs in mind, and boy has it been worth it. Mythbusters explain it best:
 
 <div class="video">
     <figure>
@@ -36,7 +36,7 @@ Done right, GPUs can whittle down calculations that took days into a single afte
 
 ## The Here and Now: Prediction and Control ##
 
-This newfound computation speed is allowing for things that weren't quite possible a decade ago. One of the most striking examples here is the advent of the self-driving car. Cars that know not only where they need to go but also how to get there might seem like an amazing magic trick (or a one-way ticket to the ICU, depending on your technological stance), yet the speed of GPU processing, along with a lot of smart code, make it possible. Tesla even announced a future over-the-air update that adds [fully autonomous driving](http://bit.ly/1ECvrBw) to their Model S. This feat was powered by a whole lot of parallel algorithms and, what else, the high-performance GPUs Tesla has in every car, compliments of a partnership with NVIDIA. Given that the Tesla is virtually a computer on wheels, this kind of hardware is not only convenient, but also vital for the safety of the passengers inside. Other self-driving cars share a similar story; GPUs and parallel algorithms allow an autonomous machine to both perceive and act upon their environment.
+This newfound computation speed is allowing for things that weren't quite possible a decade ago. One of the most striking examples here is the advent of the self-driving car. Cars that know not only where they need to go but also how to get there might seem like an amazing trick (or a one-way ticket to the ICU, depending on your technological stance), yet the speed of GPU processing, along with a lot of smart code, is making it happen. Tesla even announced a future over-the-air update that adds [fully autonomous driving](http://bit.ly/1ECvrBw) to their Model S. This feat was powered by a whole lot of parallel algorithms and, what else, the high-performance GPUs Tesla has in every car, compliments of a partnership with NVIDIA. Given that the Tesla is virtually a computer on wheels, this kind of hardware is not only convenient, but also vital for the safety of the passengers inside. Other self-driving cars share a similar story; GPUs and parallel algorithms allow an autonomous machine to both perceive and act upon their environment.
 
 That example aside, cars have a long way to go before they're turned into hyper-intelligent rolling doom machines. Here's NVIDIA CEO Jen-Hsun Huang<span class="ref"><span class="refnum">[2]</span><span class="refbody">Does anyone else think he sounds like Nicolas Cage? He makes his appearance about halfway in, for reference; you be the judge.</span></span> showing off their new vehicle-embedded street object identification system. 
 
@@ -88,7 +88,7 @@ And yet, when asked for the strongest 'cat'-like classifier when given a cat-lik
 
 <div class="row">
 <div class="col-sm-2 col-sm-offset-5" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
-<img src="/images/rise_of_ai_two/catness.png" title="The essence of cat... is frightening." class="img-thumbnail">
+<img src="/images/rise_of_ai_two/catness.png" title="It peers into the soul." class="img-thumbnail">
 </div>
 </div>
 
@@ -108,7 +108,7 @@ BUT LET'S BE REAL. AI is _still_ nowhere near human intelligence. And I say this
 2. Take it off a shelf, and 
 3. Put it in a box
 
-From a robotics standpoint, this workflow is _hard_ to get right. And yet, it's so simple compared to what a human might be able to do. There are upsides and downsides to both people and robots (one gets tired, the other breaks), but the cognitive difference is hopefully (for now) clear<span class="ref"><span class="refnum">[6]</span><span class="refbody">It actually was a [pretty cool contest](http://amazonpickingchallenge.org/details.shtml).</span></span>. 
+From a robotics standpoint, this process is _hard_ to get right, yet it's so simple compared to what a human might be able to do. There are upsides and downsides to both people and robots (one gets tired, the other breaks), but the cognitive difference is hopefully clear<span class="ref"><span class="refnum">[6]</span><span class="refbody">It actually was a [pretty cool contest](http://amazonpickingchallenge.org/details.shtml).</span></span>. 
 
 By the way, this challenge is one of the market incentives that push this field of research to progress as fast as possible, directly contradicting the "Let's think about this" attitude that many now advocate. Tons of money is funneled into machine learning and robotics by big corporations hoping that the next big thing will be _their_ next big thing<span class="ref"><span class="refnum">[7]</span><span class="refbody">Crazy Cat Generator! powered by Under Armour.</span></span> which, to be fair, is something I would do if I was a big corporation. But I also think that the research community can still very much afford to push the State Of The Art, because a self-driving car does not a human mind make. I would fear dumb AI; I don't want a stupid hunk of bolts driving me around, if you get my drift<span class="ref"><span class="refnum">[8]</span><span class="refbody">My _tokyo_ drift! I'm so sorry.</span></span>.
 
@@ -119,13 +119,15 @@ I have no doubt that the ethics of AI will become crucial in the near future. We
 - - - - - - - - -
 - - - - - - - - -
 
-I found/rediscovered some pretty cool sources while researching this blog post. If you're interested in learning more about this kind of stuff before it learns too much about you, check these out:
+I found/rediscovered some pretty cool sources while researching this article. If you're interested in learning more about this kind of stuff before it learns too much about you, check these out:
 
 - [The History of Artificial Neural Nets](https://en.wikipedia.org/wiki/Artificial_neural_network#History) - as opposed to Biological Neural Nets. It's Wikipedia, yeah, but informative.
 - [Stanford's Machine Learning Course](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) - Taught by Andrew Ng, a powerhouse in his field. 
-- [Stanford's Unsupervised Feature Learning and Deep Learning tutorial](http://ufldl.stanford.edu/wiki/index.php/Neural_Networks) - Builds up the concepts and the mathematics for much premium understand. 
-- [Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) - An interesting  graphical interpretation into a deep neural net.
+- [Stanford's Unsupervised Feature Learning and Deep Learning tutorial](http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial) - Builds up the concepts and the mathematics for much premium understand. 
+- [Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) - An interesting  graphical interpretation of deep neural nets.
 - [BONUS! MarI/O - Machine Learning for Video Games](https://www.youtube.com/watch?v=qv6UVOQ0F44&feature=youtu.be) - You made it all the way through this article! Have a self-learning Mario-bot.
+- [BONUS 2! Learnfun and Playfun](https://www.youtube.com/watch?v=YGJHR9Ovszs) - More excellent video game learning.
+
 
 
 

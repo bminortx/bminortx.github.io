@@ -168,6 +168,39 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="single-post-section-left">
+              {% if page.previous %}
+              <a rel="{{ page.previous.title }}"
+                 href="{{ page.previous.url }}">
+                &larr; {{ page.previous.title}} </a>
+              {% else %}
+              &larr;  Older
+              {% endif %}
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="single-post-section-center">
+              <a href="{{url}}/index.html#Posts"
+                 class="page-scroll">| All Posts |</a>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="single-post-section-right">
+              {% if page.next %}
+              <a rel="{{ page.next.title }}"
+                 href="{{ page.next.url }}">
+                {{ page.next.title}} &rarr; </a>
+              {% else %}
+              Newer &rarr;
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
     </div>
 
     <script>

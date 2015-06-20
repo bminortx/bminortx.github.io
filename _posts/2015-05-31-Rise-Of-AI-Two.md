@@ -56,7 +56,7 @@ If you actually played the video above, you probably heard phrases like 'deep le
 Machine learning as a field has been around for a while - papers date back to the '50s - but ML in its current form has existed for only a couple of decades, with the maturation of _neural networks_. Neural nets are just a statistical method of finding patterns in large swaths of data, the design of which was originally inspired by the way your optic nerves communicate images to the brain. In its most basic form, neural networks use a non-linear equation of some sort to map a function from data (input) to result (output):
 
 <div class="row">
-<div class="col-sm-6 col-sm-offset-3" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
+<div class="col-sm-4 col-sm-offset-4" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
 <img src="/images/rise_of_ai_two/single_neuron.png" title="Circle :: Function, btw." class="img-thumbnail">
 </div>
 </div>
@@ -72,7 +72,7 @@ A perfect example of the State-Of-The-Art here lies in a paper by Alex Krizhevsk
 The picture does not do it justice, but suffice to say, this system took days to process, or _train_, even when designed with GPUs in mind. It makes sense now why this type of network is 'deep'; it's layers upon layers, and the connections are too numerous to count. AlexNet, as it's coloquially named, was one of the most successful image identification systems made, and many systems since have been based on this work. Looking at AlexNet's initial labeling results below, even the missed classifications are pretty honest errors. 
 
 <div class="row">
-<div class="col-sm-10 col-sm-offset-1" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
+<div class="col-sm-8 col-sm-offset-2" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
 <img src="/images/rise_of_ai_two/alexnet_success.png" title="Who labeled that picture 'Cherry'?" class="img-thumbnail">
 </div>
 </div>
@@ -86,7 +86,7 @@ Never mentioned it.
 And yet, when asked for the strongest 'cat'-like classifier when given a cat-like image, here's what it came up with:
 
 <div class="row">
-<div class="col-sm-6 col-sm-offset-3" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
+<div class="col-sm-2 col-sm-offset-5" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
 <img src="/images/rise_of_ai_two/catness.png" title="The essence of cat... is frightening." class="img-thumbnail">
 </div>
 </div>
@@ -95,7 +95,7 @@ That is a damn creepy cat... but it's definitely a cat, and that's even more unn
 
 This ability to make sense of the world without human interference makes Machine Learning processes so powerful, and at the same time, so frightening. It's easy to take the results of these experiments and extrapolate the horrible things that computers could do once they start interpreting beyond what's presented at face value[^4], and I don't blame anyone who thinks that way. However, I personally have a hard time seeing this progress as a harbinger of robotic doom. ML is, at its core, just a tool to aid in other tasks, whether those tasks are benevolent or malevolent; revolutionary technologies of the same magnitude often don't posess a morality component embedded in their design[^5]. Yet the self-teaching aspect of this brand of AI, perhaps, makes the stakes a little higher.
 
-This is the core of the argument against the unchecked development of artificial intelligence. Technology in this field will soon become so advanced - even in our lifetimes - that to ignore its morality would do much more harm than good. If one's goal is to make a life-like machine, one has to think about what happens when that goal is realized, and it can seemingly 'live' on its own, decide on its own, make mistakes while self-correcting all the while. What will it see as the right choice, when faced with a new 'training' task, if morality might come into play? In this light, the fears of Elon Musk, Bill Gates, and Stephen Hawking make a bit more sense. There has to be some system of checks and balances during this phase of AI research, or else the wrong move might be made so easily. 
+This is the core of the argument against the unchecked development of artificial intelligence. Advocates argue that technology will soon become so advanced - even in our lifetimes - that to ignore its morality would do much more harm than good. If one's goal is to make a life-like machine, one has to think about what happens when that goal is realized, and it can seemingly 'live' on its own, decide on its own, make mistakes while self-correcting all the while. What will it see as the right choice, when faced with a new 'training' task, if morality might come into play? In this light, the fears of Elon Musk, Bill Gates, and Stephen Hawking make a bit more sense. There has to be some system of checks and balances during this phase of AI research, or else the wrong move might be made so easily. 
 
 - - - - - - -
 
@@ -107,36 +107,24 @@ BUT LET'S BE REAL. AI is _still_ nowhere near human intelligence. And I say this
 2. Take it off a shelf, and 
 3. Put it in a box
 
-From a robotics standpoint, this workflow is _hard_ to figure out. And yet, it's so simplistic compared to what you or I might be able to do. There are upsides and downsides to humans and robots (one gets tired, the other breaks), but the cognitive difference is hopefully (for now) clear[^6]. 
+From a robotics standpoint, this workflow is _hard_ to get right. And yet, it's so simple compared to what a human might be able to do. There are upsides and downsides to both people and robots (one gets tired, the other breaks), but the cognitive difference is hopefully (for now) clear[^6]. 
 
-<div class="row">
-<div class="col-sm-10 col-sm-offset-1" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
-<img src="/images/rise_of_ai_two/amazon_pick_banner_robot.png" title="Pickin' things up, and puttin' them back down." class="img-thumbnail">
-</div>
-</div>
+By the way, this challenge is one of the market incentives that push this field of research to progress as fast as possible, directly contradicting the "Let's think about this" attitude that many now advocate. Tons of money is funneled into machine learning and robotics by big corporations hoping that the next big thing will be _their_ next big thing[^7] which, to be fair, is something I would do if I was a big corporation. But I also think that the research community can still very much afford to push the State Of The Art, because a self-driving car does not a human mind make. I would fear dumb AI; don't want that lug of bolts driving you around, if you get my drift[^8].
 
-I believe that In a way, AI and humans are redefining one another as developments continue.
+- - - - - - - - -
 
-FUN EXAMPLE: Mar I/O https://www.youtube.com/watch?v=qv6UVOQ0F44&feature=youtu.be
+I have no doubt that the ethics of AI will become devastatingly important in the near future. We just might be jumping the gun a bit. As AI evolves, we will evolve as well, learning how to handle that which can define itself. Whether you like it or not, though, robotics research will only accelerate from this point on; it can't be stopped. To paraphrase the great Dr. Ian Malcolm: AI, uhh, finds a way.
 
-
-
-SUMMARY: Worry about dumb AI, not smart AI. Overreaching leads to downfall.
-
-REFERENCE JURRASIC WORLD? 
-
-http://www.wired.com/2014/10/future-of-artificial-intelligence
-
-- - - - - - -
+- - - - - - - - -
+- - - - - - - - -
 
 Further reading, and some sources:
 http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
 https://en.wikipedia.org/wiki/Artificial_neural_network#History
 http://ufldl.stanford.edu/wiki/index.php/Neural_Networks
 http://www.slideshare.net/yuhuang/deep-learning-for-image-denoising-superresolution-27435126
-* Talk about NVIDIA and their obsession on ML
-NVIDIA highlighted ML processes
-http://www.ustream.tv/recorded/60025825
+https://www.youtube.com/watch?v=qv6UVOQ0F44&feature=youtu.be
+
 
 [^1]: Sorry if I dumb this down too much; GPUs are incredibly popular, but I realize that might just be with a niche group. All of robotics is a niche, to be perfectly honest.
 [^2]: Does anyone else think he sounds like Nicolas Cage? No? He makes his appearance about halfway in, for reference; you be the judge.
@@ -144,3 +132,5 @@ http://www.ustream.tv/recorded/60025825
 [^4]: Insert creepy cat face pun here.
 [^5]: GPS, Radar, nuclear energy, social media, furbys, etc.
 [^6]: It actually was a [pretty cool contest](http://amazonpickingchallenge.org/details.shtml).
+[^7]: Crazy Cat Generator! powered by Under Armour.
+[^8]: My _tokyo_ drift! I'm so sorry.

@@ -21,7 +21,7 @@ However, research and the real world often tend to be two very different things.
 
 ## The Buildup: Parallel Processing and the Algorithms They Love ##
 
-Imperative to this conversation is what powers this AI takeover: parallel processing through Graphics Processing Units, or GPUs[^1]. GPUs are parallel programming to the extreme; while CPUs - Central Processing Units - commonly have 4-16 cores, allowing for 4-16 simultaneous calculations, beefy GPUs can have [over 3000 cores](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x/specifications), allowing for unheard-of computation speed. This kind of capability has been especially useful in computer graphics, where each pixel in an image can be changed at the same time, but researchers have begun to design their science around this massively-parallelizeable structure. Calculations used to take so long on CPUs that entire branches of math have been developed to compensate, usually sacrificing mathematical accuracy to gain cut down on computation time. Now, algorithms are built with parallelizability in mind, and boy has it been worth it. Mythbusters explain it best:
+Imperative to this conversation is what powers this AI takeover: parallel processing through Graphics Processing Units, or GPUs{{ footnotes.rise-of-ai-two.1 }}. GPUs are parallel programming to the extreme; while CPUs - Central Processing Units - commonly have 4-16 cores, allowing for 4-16 simultaneous calculations, beefy GPUs can have [over 3000 cores](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x/specifications), allowing for unheard-of computation speed. This kind of capability has been especially useful in computer graphics, where each pixel in an image can be changed at the same time, but researchers have begun to design their science around this massively-parallelizeable structure. Calculations used to take so long on CPUs that entire branches of math have been developed to compensate, usually sacrificing mathematical accuracy to gain cut down on computation time. Now, algorithms are built with parallelizability in mind, and boy has it been worth it. Mythbusters explain it best:
 
 <div class="video">
     <figure>
@@ -115,15 +115,20 @@ By the way, this challenge is one of the market incentives that push this field 
 
 I have no doubt that the ethics of AI will become devastatingly important in the near future. We just might be jumping the gun a bit. As AI evolves, we will evolve as well, learning how to handle that which can define itself. Whether you like it or not, though, robotics research will only accelerate from this point on; it can't be stopped. To paraphrase the great Dr. Ian Malcolm: AI, uhh, finds a way.
 
+
 - - - - - - - - -
 - - - - - - - - -
 
-Further reading, and some sources:
-http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
-https://en.wikipedia.org/wiki/Artificial_neural_network#History
-http://ufldl.stanford.edu/wiki/index.php/Neural_Networks
-http://www.slideshare.net/yuhuang/deep-learning-for-image-denoising-superresolution-27435126
-https://www.youtube.com/watch?v=qv6UVOQ0F44&feature=youtu.be
+I found/rediscovered some pretty cool sources while researching this blog post. If you're interested in learning more about this kind of stuff before it learns too much about you, check these out:
+
+- [The History of Artificial Neural Nets](https://en.wikipedia.org/wiki/Artificial_neural_network#History) - as opposed to Biological Neural Nets. It's Wikipedia, yeah, but informative.
+- [Stanford's Machine Learning Course](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) - Taught by Andrew Ng, a powerhouse in his field. 
+- [Stanford's Unsupervised Feature Learning and Deep Learning tutorial](http://ufldl.stanford.edu/wiki/index.php/Neural_Networks) - Builds up the concepts and the mathematics for much premium understand. 
+- [Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) - An interesting  graphical interpretation into a deep neural net.
+- [BONUS! MarI/O - Machine Learning for Video Games](https://www.youtube.com/watch?v=qv6UVOQ0F44&feature=youtu.be) - You made it all the way through this article! Have a self-learning Mario-bot.
+
+
+
 
 
 [^1]: Sorry if I dumb this down too much; GPUs are incredibly popular, but I realize that might just be with a niche group. All of robotics is a niche, to be perfectly honest.

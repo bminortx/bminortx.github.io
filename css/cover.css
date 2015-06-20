@@ -316,7 +316,31 @@ body {
     background: #FFFFFF;
 }
 
-.single-post-section-two {
+.single-post-section-left {
+    font-family: "Khula";
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    height: 100%;
+    text-align: left;
+    background: #FFFFFF;
+}
+
+.single-post-section-right {
+    font-family: "Khula";
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    height: 100%;
+    text-align: right;
+    background: #FFFFFF;
+}
+
+.single-post-section-center {
     font-family: "Khula";
     font-size: 20px;
     font-weight: 300;
@@ -327,6 +351,8 @@ body {
     text-align: center;
     background: #FFFFFF;
 }
+
+
 
  .post-heading {
     padding-right: 60px;

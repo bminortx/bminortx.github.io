@@ -116,7 +116,6 @@ By the way, this challenge is one of the market incentives that push this field 
 
 I have no doubt that the ethics of AI will become crucial in the near future. We just might be jumping the gun a bit. As AI evolves, we will evolve as well, learning how to handle that which can define itself. Whether you like it or not, though, robotics research will only accelerate from this point on; it can't be stopped. To paraphrase the great Dr. Ian Malcolm: AI, uhh, finds a way<span class="ref"><span class="refnum">[8]</span><span class="refbody">"Clever Perl..."</span></span>.
 
-
 - - - - - - - - -
 - - - - - - - - -
 

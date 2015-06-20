@@ -119,32 +119,31 @@
     <div class="post-section-two">
       <div class="container">
         <div class="row">
-          <div class="col-sm-2 col-sm-offset-3">
-            <div class="single-post-section-two">
+          <div class="col-sm-5">
+            <div class="single-post-section-left">
               {% if page.previous %}
               <a rel="{{ page.previous.title }}"
                  href="{{ page.previous.url }}">
-                &larr; <br> {{ page.previous.title}} </a>
+                &larr; {{ page.previous.title}} </a>
               {% else %}
-              &larr; <br> Older
+              &larr;  Older
               {% endif %}
             </div>
           </div>
           <div class="col-sm-2">
-            <div class="single-post-section-two">
+            <div class="single-post-section-center">
               <a href="{{url}}/index.html#Posts"
-                 class="page-scroll">All Posts</a>
+                 class="page-scroll">| All Posts |</a>
             </div>
           </div>
-          <div class="col-sm-2">
-            <div class="single-post-section-two">
+          <div class="col-sm-5">
+            <div class="single-post-section-right">
               {% if page.next %}
               <a rel="{{ page.next.title }}"
                  href="{{ page.next.url }}">
-                &rarr; <br>
-                {{ page.next.title}}</a>
+                {{ page.next.title}} &rarr; </a>
               {% else %}
-              &rarr; <br> Newer
+              Newer &rarr;
               {% endif %}
             </div>
           </div>

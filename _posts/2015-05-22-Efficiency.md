@@ -10,7 +10,7 @@ For the last year, I've been looking for methods to spend my time more productiv
 
 <!--more-->
 
-This question seems obvious, but I've found two very different answers for myself, and reconciling them has not been easy. To give you a better idea of why I even started this quest for productivity in the first place: it was borne out of necessity. A year ago, I was still part of both a PhD program and a company that I helped found. As you might imagine, this was not the easiest thing for me to do, especially given how inexperienced I actually was at both (something I didn't dare admit to myself at the time), so I looked for ways to do more with the limited amount of time I had. Now that I've dropped one and devoted myself to the other for a while, I have a clearer head about the whole thing, which is why I'm allowing myself this little bit of introspection.[^1]
+This question seems obvious, but I've found two very different answers for myself, and reconciling them has not been easy. To give you a better idea of why I even started this quest for productivity in the first place: it was borne out of necessity. A year ago, I was still part of both a PhD program and a company that I helped found. As you might imagine, this was not the easiest thing for me to do, especially given how inexperienced I actually was at both (something I didn't dare admit to myself at the time), so I looked for ways to do more with the limited amount of time I had. Now that I've dropped one and devoted myself to the other for a while, I have a clearer head about the whole thing, which is why I'm allowing myself this little bit of introspection<span class="ref"><span class="refnum">[1]</span><span class="refbody">Do a Google image search on 'success', and apparently it just means people with their fists in the air.</span></span>.
 
 <div style="text-align: center; padding-top: 20px; padding-bottom: 20px">
 <img src="/images/success1.jpg" title="WOO" class="img-thumbnail">
@@ -26,7 +26,8 @@ This line of reasoning appeals to my nature in so many ways; I can't tell whethe
 
 The last one is sort of a cop-out, but you get the idea.
 
-So, according to the engineer in me, this process has fulfilled my every dream. There's always a better way to do things, I understand, but one of my biggest accomplishments this year is that I can now identify and implement these better methods of productivity, efficiently. I don't just feel like I read faster, type faster, learn faster: I _know_ I do. The best part is that I still have room to grow.[^2]
+So, according to the engineer in me, this process has fulfilled my every dream. There's always a better way to do things, I understand, but one of my biggest accomplishments this year is that I can now identify and implement these better methods of productivity, efficiently. I don't just feel like I read faster, type faster, learn faster: I _know_ I do. The best part is that I still have room to grow<span class="ref"><span class="refnum">[2]</span><span class="refbody">No, seriously, go try it now. You'll get a couple of things, but most of stock photos look like this.</span></span>.
+
 
 <div style="text-align: center; padding-top: 20px; padding-bottom: 20px">
 <img src="/images/success2.jpg" title="WOO MORE" class="img-thumbnail">
@@ -56,7 +57,7 @@ The graph above actually represents a much longer week than 55 hours. This is on
 
 Looking back, it was totally overkill and probably not worth it, but at the time I considered this week one of my best! I felt like I got a lot done, and left my computer every day satisfied.
 
-However, work and life are two very different things. These sorts of weeks continued on; tasks got checked off at a good clip, but I found myself getting more and more exhausted. Exhaustion led to anxiety. Anxiety led to depression. I experienced emotions that I hadn't felt since I was an angsty teenager[^3]. The fact that I _was_ experiencing these things angered me even more, since I associated such feelings with immaturity. This led me to bury myself farther into my work, which led to more inner conflict, and on, and on.
+However, work and life are two very different things. These sorts of weeks continued on; tasks got checked off at a good clip, but I found myself getting more and more exhausted. Exhaustion led to anxiety. Anxiety led to depression. I experienced emotions that I hadn't felt since I was an angsty teenager<span class="ref"><span class="refnum">[3]</span><span class="refbody">System of a Down. Braces. Manga. It was quite a time.</span></span>. The fact that I _was_ experiencing these things angered me even more, since I associated such feelings with immaturity. This led me to bury myself farther into my work, which led to more inner conflict, and on, and on.
 
 Eventually, I completely burned out. The whole overwork-and-crash thing is a tale as old as time, but it's the first time I can remember it truly happening to me, and in a way, it was my search for productivity that took me to the brink. If anything, it made me realize that my well-being does not rest upon the work that I do, and in fact could be hindered by the motivations that make work so important to me. More does not mean better. My attitude towards work needed to change.
 
@@ -66,15 +67,9 @@ Eventually, I completely burned out. The whole overwork-and-crash thing is a tal
 
 All of that being said, this year's experiments in productivity have absolutely been worth it, and I'm glad I built up the habits that I did. My problem was that I believed implementing these more productive habits would only require a mental shift: switch from this program to that, stick to a strict schedule. In reality, the shift that I needed was emotional. My natural mental state craves productivity, but it's much more of a stretch for me to maintain this mental state while also balancing my strongly-held beliefs in perseverance and completion. I don't have to sacrifice one for the other; I just have to redefine what success means for me. These new productive habits, paired with my own introspection, have allowed me to structure my life in a way that's now both good for my health and my work.
 
-Here's hoping that I can keep it together until my next birthday.[^4]
+
+Here's hoping that I can keep it together until my next birthday<span class="ref"><span class="refnum">[4]</span><span class="refbody">Another successful person shaking his fists at the only thing that can outshine him: the Sun. It will rue the day.</span></span>.
 
 <div style="text-align: center; padding-top: 20px; padding-bottom: 20px">
 <img src="/images/success3.jpg" title="WOO THE MOST!" class="img-thumbnail">
 </div>
-
-- - - - - - - - -
-
-[^1]: Do a Google image search on 'success', and apparently it just means people with their fists in the air.
-[^2]: No, seriously, go try it now. You'll get a couple of things, but most of stock photos look like this.
-[^3]: System of a Down. Braces. Manga. It was quite a time.
-[^4]: Another successful person shaking his fists at the only thing that can outshine him: the Sun. It will rue the day.

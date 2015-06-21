@@ -106,45 +106,44 @@
     <!-- /Main Menu -->
 
     <!-- The content for the blog -->
-    <div class="post-section-two">
-      <div class="post-heading">
-        <div class="well">
-          <h1>
-            {{ page.title }}
-          </h1>
-          <h3>
-            {{ page.date | date: "%b %-d, %Y" }}
-          </h3>
-        </div>
+    <div class="post-heading" id="post-heading">
+      <div class="well">
+        <h1>
+          {{ page.title }}
+        </h1>
+        <h3>
+          {{ page.date | date: "%b %-d, %Y" }}
+        </h3>
       </div>
+    </div>
+    <div class="post-section-two">
       <div class="container">
         <div class="row">
-          <div class="col-sm-2 col-sm-offset-3">
-            <div class="single-post-section-two">
+          <div class="col-sm-5">
+            <div class="single-post-section-left">
               {% if page.previous %}
               <a rel="{{ page.previous.title }}"
                  href="{{ page.previous.url }}">
-                &larr; <br> {{ page.previous.title}} </a>
+                &larr; {{ page.previous.title}} </a>
               {% else %}
-              &larr; <br> Older
+              &larr;  Older
               {% endif %}
             </div>
           </div>
           <div class="col-sm-2">
-            <div class="single-post-section-two">
+            <div class="single-post-section-center">
               <a href="{{url}}/index.html#Posts"
-                 class="page-scroll">All Posts</a>
+                 class="page-scroll">| All Posts |</a>
             </div>
           </div>
-          <div class="col-sm-2">
-            <div class="single-post-section-two">
+          <div class="col-sm-5">
+            <div class="single-post-section-right">
               {% if page.next %}
               <a rel="{{ page.next.title }}"
                  href="{{ page.next.url }}">
-                &rarr; <br>
-                {{ page.next.title}}</a>
+                {{ page.next.title}} &rarr; </a>
               {% else %}
-              &rarr; <br> Newer
+              Newer &rarr;
               {% endif %}
             </div>
           </div>
@@ -152,8 +151,9 @@
       </div>
       <div class="container">
         <div class="row voffset2">
-          <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-sm-8 col-sm-offset-2">
             <div class="single-post-section">
+              <hr>
               <hr>
               {{ content }}
             </div>
@@ -168,10 +168,65 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="single-post-section-left">
+              {% if page.previous %}
+              <a rel="{{ page.previous.title }}"
+                 href="{{ page.previous.url }}">
+                &larr; {{ page.previous.title}} </a>
+              {% else %}
+              &larr;  Older
+              {% endif %}
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="single-post-section-center">
+              <a href="{{url}}/index.html#Posts"
+                 class="page-scroll">| All Posts |</a>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="single-post-section-right">
+              {% if page.next %}
+              <a rel="{{ page.next.title }}"
+                 href="{{ page.next.url }}">
+                {{ page.next.title}} &rarr; </a>
+              {% else %}
+              Newer &rarr;
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
     </div>
+
+    <script>
+      document.getElementById("post-heading").style.backgroundImage = "url(/{{page.image}})";
+      document.getElementById("post-heading").style.backgroundSize = "cover";
+      document.getElementById("post-heading").style.backgroundPosition = "center";
+    </script>
     <!-- ...end content -->
 
     {% include bootstrap_footer.html %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+    </script>
+    <script>
+      jQuery.noConflict();
+      jQuery(function() {
+      jQuery(".refbody").hide();
+      jQuery(".refnum").click(function(event) {
+      jQuery(this.nextSibling).toggle();
+      event.stopPropagation();
+      });
+      jQuery("body").click(function(event) {
+      jQuery(".refbody").hide();
+      });
+      });
+    </script>
 
   </body>
 </html>

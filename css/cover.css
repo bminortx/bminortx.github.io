@@ -1,161 +1,125 @@
 /* Links */
-a,
-a:focus,
-a:hover {
-    color: #387761;             /*teal-ish*/
-}
+a {
+  /*teal */
+  color: #387761; }
+  a:focus, a:hover {
+    /*teal */
+    color: #387761; }
 
 /* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
+.btn-default {
+  color: #0099CC;
+  text-shadow: none;
+  background-color: #fff;
+  border: 1px solid #fff; }
+  .btn-default:hover, .btn-default:focus {
     color: #0099CC;
-    text-shadow: none; /* Prevent inheritence from `body` */
+    text-shadow: none;
     background-color: #fff;
-    border: 1px solid #fff;
-}
+    border: 1px solid #fff; }
 
-/*
- * BAM: Base structure
- */
-
+/* BAM: Base structure */
 body {
-    color: #000;
-    font-family: "Quicksand";
-    text-align: center;
-    background-color: #fff;
-}
+  color: #000;
+  font-family: "Quicksand";
+  text-align: center;
+  background-color: #fff; }
 
 /* Navbar */
-
 .navbar-default {
-    background: #ffffff;
-    color: #000;
-    padding: 10px 0 10px;
-    border-bottom: 3px solid #070719;
-    border-top: 3px solid #070719;
-}
-
-.navbar-default .nav li a {
+  background: #ffffff;
+  color: #000;
+  padding: 10px 0 10px;
+  border-bottom: 3px solid #070719;
+  border-top: 3px solid #070719; }
+  .navbar-default .nav li a {
     color: #000;
     font-size: 13px;
-    letter-spacing: 1px;
-}
-
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus,
-.navbar-default .nav li a:active {
-    color: #070719;
-}
-
-.navbar-default .navbar-nav>.open>a, 
-.navbar-default .navbar-nav>.open>a:hover, 
-.navbar-default .navbar-nav>.open>a:focus {
-    color: #070719;
-}
+    letter-spacing: 1px; }
+    .navbar-default .nav li a:hover, .navbar-default .nav li a:focus, .navbar-default .nav li a:active {
+      color: #070719; }
+  .navbar-default .navbar-nav > .open > a {
+    color: #070719; }
+    .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+      color: #070719; }
 
 .navbar-brand {
-    padding: 15px;
-}
+  padding: 15px; }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-    display: table;
-    width: 100%;
-    height: 100%; /* For at least Firefox */
-    min-height: 100%;
-}
-.site-wrapper-inner {
-    display: table-cell;
-    vertical-align: top;
-}
-
+/* Used in scrolling-nav.js */
 .top-nav-collapse {
-    padding: 0;
-}
+  padding: 0; }
 
+/* Vertical Offsets */
+.voffset1 {
+  margin-top: 5px; }
 
-/*
- * BAM: Vertical Offsets
- */
+.voffset2 {
+  margin-top: 10px; }
 
-.voffset  { margin-top: 2px; }
-.voffset1 { margin-top: 5px; }
-.voffset2 { margin-top: 10px; }
-.voffset3 { margin-top: 15px; }
-.voffset4 { margin-top: 30px; }
-.voffset5 { margin-top: 40px; }
-.voffset6 { margin-top: 60px; }
-.voffset7 { margin-top: 80px; }
-.voffset8 { margin-top: 100px; }
-.voffset9 { margin-top: 150px; }
+.voffset3 {
+  margin-top: 15px; }
+
+.voffset4 {
+  margin-top: 30px; }
+
+.voffset5 {
+  margin-top: 40px; }
+
+.voffset6 {
+  margin-top: 60px; }
+
+.voffset7 {
+  margin-top: 80px; }
+
+.voffset8 {
+  margin-top: 100px; }
+
+.voffset9 {
+  margin-top: 150px; }
+
+/* Section Breakdown */
+.about-section {
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+  .about-section .well {
+    background-color: rgba(255, 255, 255, 0.6); }
+  .about-section h1 {
+    font-size: 60px;
+    padding-bottom: 10px; }
+  .about-section h3 {
+    font-size: 30px; }
+  .about-section p {
+    font-size: 20px; }
 
 .square {
-    padding-right: 60px;
-    padding-left: 60px;
-    margin: 0 0 10px;
-    margin-bottom: 20px;
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 1.4;
-}
+  padding-right: 60px;
+  padding-left: 60px;
+  margin: 0 0 10px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4; }
 
-
-/*
- * BAM: Section
- */
-
-.about-section {
-    margin: 0 auto;
-    padding-top: 80px;
-    padding-bottom: 0px;
-    text-align: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    /* background-image: url("../images/iceland.jpg"); */
-}
-
-.about-section .well {
-    background-color: rgba(255, 255, 255,.6);
-}
-
-.about-section h1 {
-    font-size: 80px;
-    padding-bottom: 10px;
-}
-
-.about-section h3 {
-    font-size: 30px;
-}
-
-.about-section p {
-    font-size: 20px;
-}
-
-/* ************ */
-
+/* Post listing section */
 .posts-section {
-    height: 100%;
-    padding-top: 30px;
-    text-align: center;
-    padding-bottom: 40px;
-    background: #fff;
-}
-
-.posts-section .image-header {
-   position: relative;
-   border-top: 7px solid #070719;
-   border-bottom: 7px solid #070719;
-}
-
-.posts-section .image {
-   position: relative;
-   padding: 10px;
-}
-
-.posts-section .headline-header {
-    position: relative;
+  height: 100%;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 40px;
+  background: #fff;
+  position: relative; }
+  .posts-section .image-header {
+    border-top: 7px solid #070719;
+    border-bottom: 7px solid #070719; }
+  .posts-section .image {
+    padding: 10px; }
+  .posts-section .headline-header {
     top: -10px;
     font-size: 25px;
     color: #fff;
@@ -164,11 +128,8 @@ body {
     padding-left: 20px;
     padding-right: 30px;
     background-color: #000;
-    text-align: right;
-}
-
-.posts-section .headline {
-    position: relative;
+    text-align: right; }
+  .posts-section .headline {
     top: -10px;
     font-size: 18px;
     color: #fff;
@@ -177,216 +138,204 @@ body {
     padding-left: 20px;
     padding-right: 30px;
     background-color: #000;
-    text-align: right;
-}
-
-.posts-section h4 {
+    text-align: right; }
+  .posts-section h4 {
     font-family: "Khula";
     font-weight: 300;
     margin-top: 20px;
     text-align: left;
-    line-height: 130%;
-}
+    line-height: 130%; }
 
-/* ******************** */
-
+/* CV Section of About page */
 .cv-section {
-    color: #000000;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    text-align: left;
-}
-
-.cv-section .well {
-    background-color: rgba(255, 255, 255,.8);
-}
-
-.cv-section h1 {
+  color: #000000;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: left; }
+  .cv-section .well {
+    background-color: rgba(255, 255, 255, 0.8); }
+  .cv-section h1 {
     font-size: 40px;
     padding-bottom: 20px;
-    text-align: center;
-}
-
-.cv-section h3 {
+    text-align: center; }
+  .cv-section h3 {
     margin: 30px 30px 30px;
     font-size: 30px;
-    text-align: right;
-}
-
-.cv-section h4 {
+    text-align: right; }
+  .cv-section h4 {
     margin-top: 30px;
-    font-size: 25px;
-}
-
-.cv-section p {
+    font-size: 25px; }
+  .cv-section p {
     font-family: "Khula";
     font-weight: 300;
-    font-size: 18px;
-    text-align: left;
-}
+    font-size: 16px;
+    text-align: left; }
 
-/* ******************** */
-
+/* Replica section of About page */
 .replica-section {
-    background-color: #ffffff;
-    background-attachment: fixed;
-    background-position: 50% 20%;
-    background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 60px;
-    text-align: center;
-}
-
-.replica-section .well {
-    background-color: rgba(255, 255, 255,.95);
-}
-
-.replica-section h1 {
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center; }
+  .replica-section .well {
+    background-color: rgba(255, 255, 255, 0.95); }
+  .replica-section h1 {
     font-size: 40px;
-    padding-bottom: 20px;
-}
-
-.replica-section p {
+    padding-bottom: 20px; }
+  .replica-section p {
     font-family: "Khula";
     margin: 0 0 10px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 1.4;
-}
+    line-height: 1.4; }
 
-/* ******************** */
-
+/* Code and Projects section of About page */
 .code-section {
-    height: 100%;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: #fff;
-    background-image: url("../images/blurdesktop.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.code-section .well {
-    background-color: rgba(255, 255, 255,.03);
-}
-
-.code-section h1 {
+  height: 100%;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../images/blurdesktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .code-section .well {
+    background-color: rgba(255, 255, 255, 0.03); }
+  .code-section h1 {
     font-size: 40px;
-    padding-bottom: 20px;
-}
-
-.code-section h3 {
+    padding-bottom: 20px; }
+  .code-section h3 {
     margin: 30px 30px 30px;
     font-size: 30px;
-    text-align: left;
-}
-
-.code-section h4 {
+    text-align: left; }
+  .code-section h4 {
     margin-top: 30px;
     font-size: 25px;
-    text-align: right;
-}
-
-.code-section p {
+    text-align: right; }
+  .code-section p {
     font-family: "Khula";
     font-weight: 300;
-    font-size: 18px;
-    margin-left: 80px;
-}
+    font-size: 16px;
+    margin-left: 80px; }
 
-/* ******************* */
-
+/* Post formatting */
 .post-section-two {
-    padding-bottom: 10px;
-    text-align: center;
-    background: #FFFFFF;
-}
+  padding-bottom: 10px;
+  text-align: center;
+  background: #FFFFFF; }
 
 .single-post-section {
-    font-family: "Khula";
-    font-size: 18px;
-    font-weight: 300;
-    color: #000000;
-    padding-bottom: 10px;
-    height: 100%;
-    text-align: left;
-    background: #FFFFFF;
-}
+  font-family: "Khula";
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+  padding-bottom: 10px;
+  height: 100%;
+  text-align: left;
+  background: #FFFFFF; }
 
-.single-post-section-two {
-    font-family: "Khula";
-    font-size: 20px;
-    font-weight: 300;
-    color: #000000;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    height: 100%;
-    text-align: center;
-    background: #FFFFFF;
-}
+.single-post-section-left {
+  font-family: "Khula";
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  height: 100%;
+  text-align: left;
+  background: #FFFFFF; }
+
+.single-post-section-right {
+  font-family: "Khula";
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  height: 100%;
+  text-align: right;
+  background: #FFFFFF; }
+
+.single-post-section-center {
+  font-family: "Khula";
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  height: 100%;
+  text-align: center;
+  background: #FFFFFF; }
 
 .post-heading {
-    background-image: url('/images/iceland.jpg');
-    background-position: 25% center;
-    background-color: #cccccc;
-    background-size: 120%;
-    background-repeat: no-repeat;
-    padding-right: 60px;
-    padding-left: 60px;
-    padding-top: 90px;
-    height: 100%;
-}
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 90px;
+  height: 100%; }
+  .post-heading h1 {
+    font-size: 40px; }
+  .post-heading h3 {
+    font-size: 30px; }
+  .post-heading .well {
+    background-color: rgba(255, 255, 255, 0.9); }
 
-.post-heading h1 {
-    font-size: 40px;
-}
+/* Footnote tooltip styling */
+.ref {
+  position: relative;
+  vertical-align: baseline; }
 
-.post-heading h3 {
-    font-size: 30px;
-}
+.refnum {
+  position: relative;
+  left: 2px;
+  bottom: 1ex;
+  color: #387761;
+  font-size: 0.7em;
+  cursor: pointer; }
 
-.post-heading .well {
-    background-color: rgba(255, 255, 255,.5);
-}
+.refbody {
+  font-size: 0.75em;
+  line-height: 1.5;
+  display: block;
+  min-width: 20em;
+  position: absolute;
+  left: 25px;
+  bottom: 5px;
+  border: 1px solid #387761;
+  padding: 5px;
+  background-color: #fff;
+  z-index: 9999;
+  overflow: auto; }
 
-/*
- * responsive videos
- */
+/* responsive videos */
 .video figure {
-    position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    height: 100%;
-    overflow: hidden;
-}
-
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100%;
+  overflow: hidden; }
 .video iframe, .video object, .video embed {
-    top: 0;
-    left: 0;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: block;
+  margin: 0 auto; }
 
 .cover {
-    padding: 0 20px;
-}
-.cover .btn-lg {
+  padding: 0 20px; }
+  .cover .btn-lg {
     padding: 10px 20px;
-    font-weight: bold;
-}
+    font-weight: bold; }
 
 .verticalLine {
-    border-left: 1px solid #070719;
-}
+  border-left: 1px solid #070719; }
 
 .verticalLineWhite {
-    border-left: 1px solid #ffffff;
-}
+  border-left: 1px solid #ffffff; }
 
 .verticalLineRight {
-    border-right: 1px solid #070719;
-}
+  border-right: 1px solid #070719; }

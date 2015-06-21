@@ -2,7 +2,7 @@
 layout: post
 title:  "The Rise of AI, Part II: The State of the Art"
 nickname: rise-of-ai-two
-date:   2015-06-19 18:30:50
+date:   2015-06-21 11:40:10
 category: Robotics
 image: "images/rise_of_ai_two/alexnet.png"
 preview: "It's not what you think."

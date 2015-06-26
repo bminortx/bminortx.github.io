@@ -9,6 +9,6 @@ github_username:  bminortx
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title
 paginate: 4
 excerpt_separator: <!--more-->

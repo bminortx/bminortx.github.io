@@ -22,21 +22,32 @@ layout: bootstrap_default
       {% for post in site.posts limit:1 %}
       <div class="col-sm-12">
         <div class="image-header" id="image-header">
+          <div id="headline-cat" class="headline-cat">
+            <!-- Color-code our categories -->
+            {% if post.category == "robotics" %}
+            <div class="robotics"><i class="fa fa-cogs"></i> {{ post.category }}</div>
+            {% else if post.category == "startup" %}
+            <div class="startup"><i class="fa fa-pied-piper"></i> {{ post.category }}</div>
+            {% endif %}
+          </div>
           <a href="{{ post.url | prepend: site.baseurl }}">
             <div class="row voffset8">
             </div>
             <div class="row voffset8">
-              <div class="headline-header">
-                <b>Newest Post: </b>
-                {{ post.title }}<br>
-              </div>
+            <div id="headline-header" class="headline-header">
+              <b>Newest Post: </b>
+              {{ post.title }}<br>
+            </div>
+            </div>
+            <div id="headline" class="headline">
+
+              <!-- Preview -->
+              {{ post.preview }}
             </div>
           </a>
-          <div class="headline">
-            {{ post.preview }}
-          </div>
         </div>
       </div>
+      <!-- Picture from the blog as background -->
       <script>
         document.getElementById("image-header").style.backgroundImage = "url({{post.image}})";
         document.getElementById("image-header").style.backgroundSize = "cover";
@@ -90,3 +101,5 @@ layout: bootstrap_default
     </div>
   </div>
 </section>
+
+

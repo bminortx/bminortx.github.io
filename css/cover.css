@@ -115,7 +115,6 @@ body {
   background: #fff;
   position: relative; }
   .posts-section .image-header {
-    border-top: 7px solid #070719;
     border-bottom: 7px solid #070719; }
   .posts-section .image {
     padding: 10px; }
@@ -139,6 +138,28 @@ body {
     padding-right: 30px;
     background-color: #000;
     text-align: right; }
+  .posts-section .headline-cat {
+    font-size: 18px;
+    color: #fff;
+    text-align: right; }
+    .posts-section .headline-cat .robotics {
+      border-top: 2px solid #070719;
+      border-bottom: 2px solid #070719;
+      top: -10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 20px;
+      padding-right: 30px;
+      background-color: #66cccc; }
+    .posts-section .headline-cat .startup {
+      border-top: 2px solid #070719;
+      border-bottom: 2px solid #070719;
+      top: -10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 20px;
+      padding-right: 30px;
+      background-color: #888; }
   .posts-section h4 {
     font-family: "Khula";
     font-weight: 300;

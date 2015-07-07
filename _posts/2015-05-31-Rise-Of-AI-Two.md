@@ -2,7 +2,7 @@
 layout: post
 title:  "The Rise of AI, Part II: The State of the Art"
 date:   2015-06-21 11:40:10
-category: robotics
+category: "robotics"
 image: "images/rise_of_ai_two/alexnet.png"
 permalink: /robotics/2015/06/21/Rise-Of-AI-Two/
 preview: "It's not what you think."

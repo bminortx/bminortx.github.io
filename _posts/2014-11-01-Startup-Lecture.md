@@ -3,6 +3,7 @@ layout: post
 title:  "How to Start a Startup"
 date:   2014-11-01 13:54:00
 image: "images/iceland.jpg"
+category: "startup"
 permalink: /2014/11/01/Startup-Lecture/
 preview: "My lecture on why (and how) I started a company, given at CU Boulder on Halloween 2014."
 ---

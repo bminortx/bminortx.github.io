@@ -3,6 +3,7 @@ layout: post
 title:  "Replica Labs heads to the Kairos Global Summit"
 date:   2014-10-15 9:39:00
 image: "images/kairos.jpg"
+category: "startup"
 permalink: /2014/10/15/Kairos-Global-Summit/
 preview: "In which I am a Kairos Fellow."
 ---

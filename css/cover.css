@@ -159,7 +159,25 @@ body {
       padding-bottom: 5px;
       padding-left: 20px;
       padding-right: 30px;
-      background-color: #888; }
+      background-color: #009900; }
+    .posts-section .headline-cat .code {
+      border-top: 2px solid #070719;
+      border-bottom: 2px solid #070719;
+      top: -10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 20px;
+      padding-right: 30px;
+      background-color: #f9e4ac; }
+    .posts-section .headline-cat .misc {
+      border-top: 2px solid #070719;
+      border-bottom: 2px solid #070719;
+      top: -10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 20px;
+      padding-right: 30px;
+      background-color: #FF4D4D; }
   .posts-section h4 {
     font-family: "Khula";
     font-weight: 300;

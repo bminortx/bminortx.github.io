@@ -18,7 +18,9 @@ So, we went about the delicate task of database migration, and I'm happy to say 
 Unless they tried to download that one video.
 </span></span>.
 
-Except we didn't really have to do any of that. We realized later that one of the core aspects of Django, a mechanic called 'migrations', actually does this whole thing for you if you write it correctly. Just program the files to save to this database and not that database, and you're good to go. Even though we put so much thought into the process, our way still seemed hacky and unsafe when compared to something that our chosen framework already offered.
+Except.
+
+We didn't really have to do any of that. We realized later that one of the core aspects of Django, a mechanic called 'migrations', actually does this whole thing for you if you write it correctly. Just program the files to save to this database and not that database, and you're good to go. Even though we put so much thought into the process, our way still seemed hacky and unsafe when compared to something that our chosen framework already offered.
 
 In my opinion, this kind of situation is what makes software engineering so hard. You could be incredibly good at database design, user flow, or scientific computation, but there's always going to be a new or better way to do it. The worst part is that it seems so obvious in hindsight, and you wonder why you ever did anything else. Odds are, most of what an engineer just learned about a new API or interesting system is going to be outdated in a couple of years<span class="ref"><span class="refnum">[2]</span><span class="refbody">
 Though if you program for the government, you're probably OK for at least 10.
@@ -28,4 +30,4 @@ I dunno, I'm not great at hardware.
 
 So, the lesson here? Never stop learning, I guess. In software, multiple solutions can often be found for the same problem, but that doesn't mean that they're all equally good. This applies for other professions just as well<span class="ref"><span class="refnum">[4]</span><span class="refbody">
 The phrase "Fitting a round peg in a square hole" comes to mind. Looking at you, peg makers.
-</span></span>. Make it your goal to always be learning something new, something deeper, so you develop the intuition for finding what could be a better way.
+</span></span>. Make it your goal to always be learning something new, something deeper, so you develop the intuition for finding what could be a better way. I definitely have a ways to go here, but I like to think I'm getting a bit better every time something like this happens. 

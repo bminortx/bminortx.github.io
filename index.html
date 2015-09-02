@@ -34,9 +34,11 @@ layout: bootstrap_default
           <div class="code"><i class="fa fa-code"></i> {{ post.category }}
           </div>
           {% else %}
+          <div class="misc">
           <i class="fa fa-quote-left"></i>
           Random Thoughts
           <i class="fa fa-quote-right"></i>
+          </div>
           {% endif %}
         </div>
         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -74,18 +76,19 @@ layout: bootstrap_default
           <div id="headline-cat" class="headline-cat">
             <!-- Color-code our categories -->
             {% if post.category == "robotics" %}
-            <div class="robotics"><i class="fa fa-cogs"></i> {{ post.category }}
+            <div class="robotics-thin"><i class="fa fa-cogs"></i>
             </div>
             {% elsif post.category == "startup" %}
-            <div class="startup"><i class="fa fa-pied-piper"></i> {{ post.category }}
+            <div class="startup-thin"><i class="fa fa-pied-piper"></i>
             </div>
             {% elsif post.category == "code" %}
-            <div class="code"><i class="fa fa-code"></i> {{ post.category }}
+            <div class="code-thin"><i class="fa fa-code"></i>
             </div>
             {% else %}
+            <div class="misc-thin">
             <i class="fa fa-quote-left"></i>
-            Random Thoughts
             <i class="fa fa-quote-right"></i>
+            </div>
             {% endif %}
           </div>
           <a href="{{ post.url | prepend: site.baseurl }}">

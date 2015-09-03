@@ -3,6 +3,7 @@ layout: post
 title: "Management, or Lack Thereof"
 date: 2015-04-16 18:45:05
 image: "images/blurdesktop.png"
+category: "startup"
 permalink: /2015/04/16/Hard-At-Work/
 preview: "tl;dr: Read 'Reinventing Organizations'. It's the bomb.com."
 ---

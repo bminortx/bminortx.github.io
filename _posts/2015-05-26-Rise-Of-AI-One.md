@@ -3,6 +3,7 @@ layout: post
 title:  "The Rise of AI, Part I"
 date:   2015-05-26 18:22:26
 image: "images/augmentation/ex_machina.jpg"
+category: "robotics"
 permalink: /2015/05/26/Rise-Of-AI-One/
 preview: "People are worried, which worries me."
 ---

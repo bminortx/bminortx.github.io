@@ -233,7 +233,7 @@ body {
     padding-bottom: 20px;
     text-align: center; }
   .cv-section h3 {
-    margin: 30px 30px 30px;
+    margin: 10px 10px 10px;
     font-size: 30px;
     text-align: right; }
   .cv-section h4 {
@@ -284,7 +284,7 @@ body {
     font-size: 40px;
     padding-bottom: 20px; }
   .code-section h3 {
-    margin: 30px 30px 30px;
+    margin: 10px 10px 10px;
     font-size: 30px;
     text-align: left; }
   .code-section h4 {

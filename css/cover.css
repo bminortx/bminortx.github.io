@@ -81,9 +81,11 @@ body {
 /* Section Breakdown */
 .about-section {
   margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 0px;
+  padding-top: 90px;
+  padding-bottom: 10px;
   text-align: center;
+  color: #fff;
+  background: #111;
   background-attachment: fixed;
   background-size: cover;
   background-position: center; }
@@ -109,25 +111,26 @@ body {
 /* Post listing section */
 .posts-section {
   height: 100%;
-  padding-top: 30px;
+  padding-top: 0px;
   text-align: center;
-  padding-bottom: 40px;
-  background: #fff;
+  padding-bottom: 30px;
+  background: #111;
   position: relative; }
-  .posts-section .image-header {
-    border-bottom: 7px solid #070719; }
   .posts-section .image {
     padding: 10px; }
+    .posts-section .image img {
+      min-height: 200px;
+      overflow: hidden; }
   .posts-section .headline-header {
     top: -10px;
     font-size: 25px;
     color: #fff;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 30px;
-    background-color: #000;
-    text-align: right; }
+    background-color: #111;
+    text-align: center; }
   .posts-section .headline {
     top: -10px;
     font-size: 18px;
@@ -136,79 +139,81 @@ body {
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 30px;
-    background-color: #000;
-    text-align: right; }
+    background-color: #111;
+    text-align: center; }
   .posts-section .headline-cat {
     font-size: 18px;
     color: #fff;
     text-align: right; }
     .posts-section .headline-cat .robotics {
       top: -10px;
-      border-top: 2px solid #070719;
-      border-bottom: 2px solid #070719;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 20px;
       padding-right: 30px;
-      background-color: #66cccc; }
+      background-color: #111; }
     .posts-section .headline-cat .startup {
       top: -10px;
-      border-top: 2px solid #070719;
-      border-bottom: 2px solid #070719;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 20px;
       padding-right: 30px;
-      background-color: #009900; }
+      background-color: #111; }
     .posts-section .headline-cat .code {
       top: -10px;
-      border-top: 2px solid #070719;
-      border-bottom: 2px solid #070719;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 20px;
       padding-right: 30px;
-      background-color: #f9e4ac; }
+      background-color: #111; }
     .posts-section .headline-cat .misc {
       top: -10px;
-      border-top: 2px solid #070719;
-      border-bottom: 2px solid #070719;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 20px;
       padding-right: 30px;
-      background-color: #FF4D4D; }
+      background-color: #111; }
     .posts-section .headline-cat .robotics-thin {
       top: -10px;
-      max-width: 20px;
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px;
       padding-left: 20px;
-      padding-right: 30px;
-      background-color: #66cccc; }
+      background-color: #111; }
     .posts-section .headline-cat .startup-thin {
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px;
       padding-left: 20px;
-      padding-right: 30px;
-      background-color: #009900; }
+      background-color: #111; }
     .posts-section .headline-cat .code-thin {
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px;
       padding-left: 20px;
-      padding-right: 30px;
-      background-color: #f9e4ac; }
+      background-color: #111; }
     .posts-section .headline-cat .misc-thin {
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px;
       padding-left: 20px;
-      padding-right: 30px;
-      background-color: #FF4D4D; }
+      background-color: #111; }
   .posts-section h4 {
+    font-family: "Khula";
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 130%; }
+
+/* Past Posts section */
+.past-posts-section {
+  height: 100%;
+  padding-top: 0px;
+  text-align: center;
+  padding-bottom: 30px;
+  background: #fff;
+  position: relative; }
+  .past-posts-section h4 {
     font-family: "Khula";
     font-weight: 300;
     margin-top: 20px;
@@ -408,3 +413,5 @@ body {
 
 .verticalLineRight {
   border-right: 1px solid #070719; }
+
+/*# sourceMappingURL=cover.css.map */

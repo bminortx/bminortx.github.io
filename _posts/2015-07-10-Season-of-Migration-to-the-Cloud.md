@@ -2,7 +2,7 @@
 layout: post
 title:  "Season of Migration to the Cloud"
 date:   2015-07-10-08:14:52
-category: "code"
+category: ""
 image: "images/season_of_migration/storm.jpg"
 preview: "Software engineering is hard."
 ---

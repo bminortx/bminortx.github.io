@@ -7,7 +7,7 @@ image: "images/season_of_migration/storm.jpg"
 preview: "Software engineering is hard."
 ---
 
-I used to hate working with databases and servers, but [Django](https://www.djangoproject.com/) changed my attitude. Django claims to be "the web framework for perfectionists with deadlines", and it definitely makes good on that promise. Its perfectionist outlook became particularly imperative when the Replica tech team decided to move all of our media files from our AWS EC2 instance to a Amazon Simple Storage Service (S3). There were two main reasons for this switch:
+I used to hate working with databases and servers, but [Django](https://www.djangoproject.com/) changed my attitude. Django claims to be "the web framework for perfectionists with deadlines", and it definitely makes good on that promise. Its perfectionist outlook became particularly imperative when the Replica tech team decided to move all of our media files from our AWS EC2 instance to an Amazon Simple Storage Service (S3). There were two reasons for this switch:
 
 1. Having most processes localized on one machine would make it much harder to scale later down the line.
 2. It was cheaper.
@@ -20,7 +20,7 @@ Unless they tried to download that one video.
 
 Except.
 
-We didn't really have to do any of that. We realized later that one of the core aspects of Django, a mechanic called 'migrations', actually does this whole thing for you if you write it correctly. Just program the files to save to this database and not that database, and you're good to go. Even though we put so much thought into the process, our way still seemed hacky and unsafe when compared to something that our chosen framework already offered.
+We actally did more work than we needed to. We realized later that one of the core aspects of Django, a mechanic called 'migrations', actually does this whole thing for you if you write it correctly. Just program the files to save to this database and not that database, and you're good to go. Even though we put so much thought into the process, our way still seemed hacky and unsafe when compared to something that our chosen framework already offered.
 
 In my opinion, this kind of situation is what makes software engineering so hard. You could be incredibly good at database design, user flow, or scientific computation, but there's always going to be a new or better way to do it. The worst part is that it seems so obvious in hindsight, and you wonder why you ever did anything else. Odds are, most of what an engineer just learned about a new API or interesting system is going to be outdated in a couple of years<span class="ref"><span class="refnum">[2]</span><span class="refbody">
 Though if you program for the government, you're probably OK for at least 10.

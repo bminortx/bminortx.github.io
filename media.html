@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Media"
+---
+
+<section class="past-posts-section">
+  <div class="row voffset3">
+    <h2>2016</h2>
+    <br>
+    <h3>Books</h3>
+    <table class="table table-responsive">
+      <tr>
+        <td>
+          <b>Author</b>
+        </td>
+        <td>
+          <b>Title</b>
+        </td>
+      </tr>
+      {% for book in site.data.media.books %}
+      <tr>
+        <td>
+          {{ book.author }} 
+        </td>
+        <td>
+          {{ book.title }}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</section>
+
+
+

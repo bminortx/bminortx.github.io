@@ -6,6 +6,7 @@ description: "or, Brandon Minor is on his computer most of the time."
 url: "http://bminortx.github.io"
 twitter_username: bminortx
 github_username:  bminortx
+gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown

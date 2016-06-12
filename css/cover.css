@@ -1,10 +1,10 @@
 /* Links */
 a {
   /*teal */
-  color: #387761; }
+  color: #07144b; }
   a:focus, a:hover {
     /*teal */
-    color: #387761; }
+    color: #07144b; }
 
 /* Custom default button */
 .btn-default {
@@ -20,28 +20,34 @@ a {
 
 /* BAM: Base structure */
 body {
-  color: #000;
+  color: #07144b;
   font-family: "Quicksand";
   text-align: center;
   background-color: #fff; }
 
 /* Navbar */
 .navbar-default {
-  background: #ffffff;
-  color: #000;
+  background: #fbf8ee;
+  color: #07144b;
   padding: 10px 0 10px;
   border-bottom: 3px solid #070719;
   border-top: 3px solid #070719; }
   .navbar-default .nav li a {
-    color: #000;
+    color: #07144b;
     font-size: 13px;
     letter-spacing: 1px; }
     .navbar-default .nav li a:hover, .navbar-default .nav li a:focus, .navbar-default .nav li a:active {
       color: #070719; }
-  .navbar-default .navbar-nav > .open > a {
-    color: #070719; }
-    .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-      color: #070719; }
+  .navbar-default .navbar-nav .open .a {
+    background-color: #fbf8ee; }
+    .navbar-default .navbar-nav .open .a:hover, .navbar-default .navbar-nav .open .a:focus {
+      background-color: #fbf8ee; }
+    .navbar-default .navbar-nav .open .a .dropdown-toggle {
+      background-color: #fbf8ee;
+      color: #07144b; }
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #fbf8ee;
+    color: #07144b; }
 
 .navbar-brand {
   padding: 15px; }
@@ -84,8 +90,8 @@ body {
   padding-top: 90px;
   padding-bottom: 10px;
   text-align: center;
-  color: #fff;
-  background: #111;
+  color: #07144b;
+  background: #fbf8ee;
   background-attachment: fixed;
   background-size: cover;
   background-position: center; }
@@ -113,25 +119,21 @@ body {
   height: 100%;
   padding-top: 0px;
   text-align: center;
-  padding-bottom: 30px;
-  background: #111;
+  background: #fbf8ee;
   position: relative; }
-  .posts-section .image {
-    padding: 10px; }
-    .posts-section .image img {
-      min-height: 200px;
-      overflow: hidden; }
-  .posts-section .headline-header {
+  .posts-section .image-header {
+    padding: 100px;
+    img-min-height: 300px;
+    img-overflow: hidden; }
+  .posts-section .top-headline-header {
     top: -10px;
     font-size: 25px;
     color: #fff;
     padding-top: 5px;
-    padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 30px;
-    background-color: #111;
-    text-align: center; }
-  .posts-section .headline {
+    text-align: left; }
+  .posts-section .top-headline {
     top: -10px;
     font-size: 18px;
     color: #fff;
@@ -139,65 +141,78 @@ body {
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 30px;
-    background-color: #111;
-    text-align: center; }
-  .posts-section .headline-cat {
+    text-align: left; }
+  .posts-section .headline-header {
+    top: -10px;
+    font-size: 25px;
+    color: #07144b;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-align: left; }
+  .posts-section .headline {
+    top: -10px;
+    font-size: 18px;
+    color: #07144b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-align: left; }
+  .posts-section .top-headline-cat {
     font-size: 18px;
     color: #fff;
     text-align: right; }
-    .posts-section .headline-cat .robotics {
+    .posts-section .top-headline-cat .robotics {
       top: -10px;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 20px;
-      padding-right: 30px;
-      background-color: #111; }
-    .posts-section .headline-cat .startup {
+      padding-right: 30px; }
+    .posts-section .top-headline-cat .startup {
       top: -10px;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 20px;
-      padding-right: 30px;
-      background-color: #111; }
-    .posts-section .headline-cat .code {
+      padding-right: 30px; }
+    .posts-section .top-headline-cat .code {
       top: -10px;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 20px;
-      padding-right: 30px;
-      background-color: #111; }
-    .posts-section .headline-cat .misc {
+      padding-right: 30px; }
+    .posts-section .top-headline-cat .misc {
       top: -10px;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 20px;
-      padding-right: 30px;
-      background-color: #111; }
+      padding-right: 30px; }
+  .posts-section .headline-cat {
+    font-size: 18px;
+    color: #07144b;
+    text-align: left; }
     .posts-section .headline-cat .robotics-thin {
       top: -10px;
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px;
-      padding-left: 20px;
-      background-color: #111; }
+      padding-left: 20px; }
     .posts-section .headline-cat .startup-thin {
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px;
-      padding-left: 20px;
-      background-color: #111; }
+      padding-left: 20px; }
     .posts-section .headline-cat .code-thin {
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px;
-      padding-left: 20px;
-      background-color: #111; }
+      padding-left: 20px; }
     .posts-section .headline-cat .misc-thin {
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px;
-      padding-left: 20px;
-      background-color: #111; }
+      padding-left: 20px; }
   .posts-section h4 {
     font-family: "Khula";
     font-weight: 300;
@@ -208,10 +223,10 @@ body {
 /* Past Posts section */
 .past-posts-section {
   height: 100%;
-  padding-top: 0px;
+  padding-top: 30px;
   text-align: center;
   padding-bottom: 30px;
-  background: #fff;
+  background: #fbf8ee;
   position: relative; }
   .past-posts-section h4 {
     font-family: "Khula";
@@ -301,7 +316,7 @@ body {
 .post-section-two {
   padding-bottom: 10px;
   text-align: center;
-  background: #FFFFFF; }
+  background: #fbf8ee; }
 
 .single-post-section {
   font-family: "Khula";
@@ -311,7 +326,7 @@ body {
   padding-bottom: 10px;
   height: 100%;
   text-align: left;
-  background: #FFFFFF; }
+  background: #fbf8ee; }
 
 .single-post-section-left {
   font-family: "Khula";
@@ -322,7 +337,7 @@ body {
   padding-bottom: 10px;
   height: 100%;
   text-align: left;
-  background: #FFFFFF; }
+  background: #fbf8ee; }
 
 .single-post-section-right {
   font-family: "Khula";
@@ -333,7 +348,7 @@ body {
   padding-bottom: 10px;
   height: 100%;
   text-align: right;
-  background: #FFFFFF; }
+  background: #fbf8ee; }
 
 .single-post-section-center {
   font-family: "Khula";
@@ -344,7 +359,7 @@ body {
   padding-bottom: 10px;
   height: 100%;
   text-align: center;
-  background: #FFFFFF; }
+  background: #fbf8ee; }
 
 .post-heading {
   padding-right: 60px;

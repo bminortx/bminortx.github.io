@@ -1,11 +1,14 @@
 /* Links
 
+$color-background: #fbf8ee
+$color-background-font: #07144b
+
 a
   /*teal
-  color: #387761
+  color: $color-background-font
   &:focus, &:hover
     /*teal
-    color: #387761
+    color: $color-background-font
 
 /* Custom default button
 
@@ -24,7 +27,7 @@ a
  * BAM: Base structure
 
 body
-  color: #000
+  color: $color-background-font
   font-family: "Quicksand"
   text-align: center
   background-color: #fff
@@ -32,21 +35,30 @@ body
 /* Navbar
 
 .navbar-default
-  background: #ffffff
-  color: #000
+  background: $color-background
+  color: $color-background-font
   padding: 10px 0 10px
   border-bottom: 3px solid #070719
   border-top: 3px solid #070719
   .nav li a
-    color: #000
+    color: $color-background-font
     font-size: 13px
     letter-spacing: 1px
     &:hover, &:focus, &:active
       color: #070719
-  .navbar-nav > .open > a
-    color: #070719
-    &:hover, &:focus
-      color: #070719
+  .navbar-nav
+    .open 
+      .a
+        background-color: $color-background
+        &:hover, &:focus
+          background-color: $color-background
+        .dropdown-toggle
+          background-color: $color-background
+          color: $color-background-font
+      .dropdown-menu
+        background-color: $color-background
+        color: $color-background-font
+
 
 .navbar-brand
   padding: 15px
@@ -94,8 +106,8 @@ body
   padding-top: 90px
   padding-bottom: 10px
   text-align: center
-  color: #fff
-  background: #111
+  color: $color-background-font
+  background: $color-background
   background-attachment: fixed
   background-size: cover
   background-position: center
@@ -123,26 +135,22 @@ body
   height: 100%
   padding-top: 0px
   text-align: center
-  padding-bottom: 30px
-  background: #111
+  background: $color-background
   position: relative
   .image-header
-  .image
-    padding: 10px
-    img
-      min-height: 200px
+    padding: 100px
+    img:
+      min-height: 300px
       overflow: hidden
-  .headline-header
+  .top-headline-header
     top: -10px
     font-size: 25px
     color: #fff
     padding-top: 5px
-    padding-bottom: 0px
     padding-left: 20px
     padding-right: 30px
-    background-color: #111
-    text-align: center
-  .headline
+    text-align: left
+  .top-headline
     top: -10px
     font-size: 18px
     color: #fff
@@ -150,9 +158,26 @@ body
     padding-bottom: 5px
     padding-left: 20px
     padding-right: 30px
-    background-color: #111
-    text-align: center
-  .headline-cat
+    text-align: left
+  .headline-header
+    top: -10px
+    font-size: 25px
+    color: $color-background-font
+    padding-top: 5px
+    padding-bottom: 0px
+    padding-left: 20px
+    padding-right: 30px
+    text-align: left
+  .headline
+    top: -10px
+    font-size: 18px
+    color: $color-background-font
+    padding-top: 5px
+    padding-bottom: 5px
+    padding-left: 20px
+    padding-right: 30px
+    text-align: left
+  .top-headline-cat
     font-size: 18px
     color: #fff
     text-align: right
@@ -162,53 +187,49 @@ body
       padding-bottom: 5px
       padding-left: 20px
       padding-right: 30px
-      background-color: #111
     .startup
       top: -10px
       padding-top: 5px
       padding-bottom: 5px
       padding-left: 20px
       padding-right: 30px
-      background-color: #111
     .code
       top: -10px
       padding-top: 5px
       padding-bottom: 5px
       padding-left: 20px
       padding-right: 30px
-      background-color: #111
     .misc
       top: -10px
       padding-top: 5px
       padding-bottom: 5px
       padding-left: 20px
       padding-right: 30px
-      background-color: #111
+  .headline-cat
+    font-size: 18px
+    color: $color-background-font
+    text-align: left
     .robotics-thin
       top: -10px
       font-size: 14px
       padding-top: 2px
       padding-bottom: 2px
       padding-left: 20px
-      background-color: #111
     .startup-thin
       font-size: 14px
       padding-top: 2px
       padding-bottom: 2px
       padding-left: 20px
-      background-color: #111
     .code-thin
       font-size: 14px
       padding-top: 2px
       padding-bottom: 2px
       padding-left: 20px
-      background-color: #111
     .misc-thin
       font-size: 14px
       padding-top: 2px
       padding-bottom: 2px
       padding-left: 20px
-      background-color: #111
   h4
     font-family: "Khula"
     font-weight: 300
@@ -219,10 +240,10 @@ body
 /* Past Posts section
 .past-posts-section
   height: 100%
-  padding-top: 0px
+  padding-top: 30px
   text-align: center
   padding-bottom: 30px
-  background: #fff
+  background: $color-background
   position: relative
   h4
     font-family: "Khula"
@@ -315,7 +336,7 @@ body
 .post-section-two
   padding-bottom: 10px
   text-align: center
-  background: #FFFFFF
+  background: $color-background
 
 .single-post-section
   font-family: "Khula"
@@ -325,7 +346,7 @@ body
   padding-bottom: 10px
   height: 100%
   text-align: left
-  background: #FFFFFF
+  background: $color-background
 
 .single-post-section-left
   font-family: "Khula"
@@ -336,7 +357,7 @@ body
   padding-bottom: 10px
   height: 100%
   text-align: left
-  background: #FFFFFF
+  background: $color-background
 
 .single-post-section-right
   font-family: "Khula"
@@ -347,7 +368,7 @@ body
   padding-bottom: 10px
   height: 100%
   text-align: right
-  background: #FFFFFF
+  background: $color-background
 
 .single-post-section-center
   font-family: "Khula"
@@ -358,7 +379,7 @@ body
   padding-bottom: 10px
   height: 100%
   text-align: center
-  background: #FFFFFF
+  background: $color-background
 
 .post-heading
   padding-right: 60px

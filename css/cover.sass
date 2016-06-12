@@ -2,13 +2,14 @@
 
 $color-background: #fbf8ee
 $color-background-font: #07144b
+$color-background-link: #3173b4
 
 a
   /*teal
-  color: $color-background-font
+  color: $color-background-link
   &:focus, &:hover
     /*teal
-    color: $color-background-font
+    color: $color-background-link
 
 /* Custom default button
 
@@ -258,8 +259,9 @@ body
   padding-top: 60px
   padding-bottom: 20px
   text-align: left
+  background-color: $color-background
   .well
-    background-color: rgba(255, 255, 255, 0.8)
+    background-color: rgba(255, 255, 255, 0.6)
   h1
     font-size: 40px
     padding-bottom: 20px
@@ -280,7 +282,7 @@ body
 /* Replica section of About page
 
 .replica-section
-  background-color: #ffffff
+  background-color: $color-background
   background-attachment: fixed
   background-position: 50% 20%
   background-repeat: no-repeat
@@ -288,7 +290,7 @@ body
   padding-bottom: 30px
   text-align: center
   .well
-    background-color: rgba(255, 255, 255, 0.95)
+    background-color: rgba(255, 255, 255, 0.6)
   h1
     font-size: 40px
     padding-bottom: 20px

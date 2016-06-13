@@ -13,17 +13,23 @@ layout: bootstrap_default
         <h3>Brandon Minor</h3>
         <h5>is on his computer most of the time.</h5>
         <div class="row voffset4">
-          <div class="col-sm-2 col-sm-offset-5">
+          <div class="col-xs-4 col-xs-offset-4
+                      col-sm-4 col-sm-offset-4
+                      col-md-2 col-md-offset-5
+                      col-lg-2 col-lg-offset-5">
             <img class="img-responsive img-circle" src="/images/brandon.jpg">
           </div>
         </div>
         <br>
         <p>I'm an entrepreneur and life-long student
-          trying my hardest to learn everything at once.<br>
+          trying my hardest to learn everything I can.<br>
           So far, it's taking longer than expected.</p>
-        <p>Researcher | Roboticist | Runner | Co-founder of
-          <b><a href="http://www.replicalabs.com" target="_blank">Replica
-              Labs</a></b>
+        <p>Computer Vision Researcher
+        @ <a href="http://www.occipital.com/">Occipital</a>
+          <br>
+          Roboticist | Runner | Co-founder of
+          <b><a href="http://www.replicalabs.com"
+              target="_blank">Replica Labs</a></b>
         </p>
         <p>
           gallimatrix~at~gmail.com
@@ -79,7 +85,7 @@ layout: bootstrap_default
 </section>
 
 <!--  ----------------------------------------------- --->
-<!-- Projectsq -->
+<!-- Projects -->
 <!--  ----------------------------------------------- --->
 
 <div id="Projects" class="code-section">
@@ -87,49 +93,35 @@ layout: bootstrap_default
     <h1>Projects, Code and the Like</h1>
     <div class="well">
       <div class="row">
+        <!-- Headers -->
+        <div class="col-sm-3 verticalLineRight" role="tablist">
+          <br>
+          <!-- Nav tabs -->
+          <a href="#arpg" role="tab" data-toggle="tab">
+            <h3>
+              ARPG
+            </h3>
+          </a>
+          <br>
+          <a href="#buckshot" role="tab" data-toggle="tab">
+            <h3>
+              Buckshot
+            </h3>
+          </a>
+          <br>
+          <a href="#past" role="tab" data-toggle="tab">
+            <h3>
+              Past Projects
+            </h3>
+          </a>
+          <br>
 
+        </div>
 
         <div class="col-sm-9">
           <!-- Tab panes -->
           <div class="tab-content">
-            <div class="tab-pane active" id="replica">
-              <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                  <h4>Replica Labs and Rendor</h4>
-                  <p class="text-justify">
-                    I have devoted the last year of my life to creating a
-                    software-only solution to 3D scanning. If this seems like
-                    a simple task... it is not. Mainly because software is not
-                    the only thing one does when building a software company.
-                    I've:
-                    <br><br>
-                    constructed the company websites | set the pipeline for
-                    Rendor through Django database systems, various Android
-                    programs | constructed core algorithms to work our science |
-                    orchestrated a beta rollout for Rendor testing |
-                    kept interested users and investors updated through the
-                    company blog | recruited and trained team members from
-                    management to dev | pitched and demoed every which where.
-                    <br><br>
-                    There's more there, I guarantee it. I'm just exhausted
-                    looking at that list. This is not to say that I didn't have
-                    plenty of help; I credit the Replica team to all of the
-                    success that we've exerienced. It's just shocking to see how
-                    much actually goes into starting a company, even when one
-                    has such amazing support.
-                    <br><br>
-                    This sort of thinking has brought to life my new interest:
-                    management and company structure. I realize that it sounds
-                    like the dryest subject in time and space, but company
-                    culture in practice and theory is so much more important
-                    than one might initially expect, and its especially true
-                    when one finds themselves in a position to shape that, as
-                    I find myself now. Still a long way to go now, I think...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane" id="arpg">
+            <div class="tab-pane active" id="arpg">
               <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
                   <h4>ARPG</h4>
@@ -164,25 +156,29 @@ layout: bootstrap_default
                 </div>
               </div>
             </div>
-            <div class="tab-pane" id="simlab">
+            <div class="tab-pane" id="buckshot">
               <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
                   <h4>
-                    <a href="http://bminortx.github.io/SimLAB/"
+                    <a href="http://bminortx.github.io/Buckshot/"
                        target="_blank">
-                      SimLAB</a>
+                      Buckshot</a>
                   </h4>
-                  <p class="square-small text-justify">SimLAB was the precursor
-                    to SimBA, while I was trying my skills at both Bullet Physics
-                    and MATLAB. It was a wrapper of the Bullet Physics Engine
-                    using MATLAB, for faster iterations in research. It lingered
-                    in my directory, all alone, for quite some time; since I was
-                    proud of the work I did, I decided to put it up on GitHub and
-                    open it up to community development. Since then, I'm happy to
-                    say that it's come in handy for a good number of people. I would
-                    love to see it become a full-fledged scientific tool, but things
-                    are a bit hectic for me to work on it right now. Volunteers are
-                    always welcome...</p>
+                  <p class="square-small text-justify">Buckshot
+                    (formerly SimLAB) is a wrapper of the Bullet
+                    Physics Engine using MATLAB, for faster iterations
+                    in research. It lingered in my directory, all
+                    alone, for quite some time; since I was proud of
+                    the work I did, I decided to put it up on GitHub
+                    and open it up to community development. Since
+                    then, I'm happy to say that it's come in handy for
+                    a good number of people. I would love to see it
+                    become a full-fledged scientific tool, but things
+                    are a bit hectic for me to work on it right
+                    now. Volunteers are always welcome... if you're
+                    really inspired to help, see
+                    the <a href="https://github.com/bminortx/Buckshot/issues">GitHub
+                    issues page</a> and contribute!</p>
                 </div>
               </div>
             </div>
@@ -242,38 +238,6 @@ layout: bootstrap_default
             </div>
           </div>
         </div>
-
-        <!-- Headers -->
-        <div class="col-sm-3 verticalLineWhite" role="tablist">
-          <br>
-          <!-- Nav tabs -->
-          <a href="#replica" role="tab"
-             data-toggle="tab">
-            <h3>
-              Replica Labs and Rendor
-            </h3>
-          </a>
-          <br>
-          <a href="#arpg" role="tab" data-toggle="tab">
-            <h3>
-              ARPG
-            </h3>
-          </a>
-          <br>
-          <a href="#simlab" role="tab" data-toggle="tab">
-            <h3>
-              SimLAB
-            </h3>
-          </a>
-          <br>
-          <a href="#past" role="tab" data-toggle="tab">
-            <h3>
-              Past Projects
-            </h3>
-          </a>
-          <br>
-
-        </div>
       </div>
     </div>
   </div>
@@ -308,12 +272,6 @@ layout: bootstrap_default
           <a href="#teaching" role="tab" data-toggle="tab">
             <h3>
               Teaching, Leadership, and Accolades
-            </h3>
-          </a>
-          <br>
-          <a href="#tools" role="tab" data-toggle="tab">
-            <h3>
-              Tools of the Trade
             </h3>
           </a>
           <br>
@@ -507,38 +465,6 @@ layout: bootstrap_default
                     in everyday life, and seeks to make the subject
                     engaging for non-scientists. Kept up from June 2011
                     to February 2012.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Tools of the Trade -->
-
-            <div class="tab-pane" id="tools">
-              <div class="row voffset5">
-                <div class="col-sm-10 col-sm-offset-1">
-                  <p class="text-justify">
-                    I used to have a large chart here showing all of the
-                    programming languages that I was familiar with. I know
-                    now that showing such a chart means next to nothing when
-                    you're working with a full software stack. Developing
-                    <a href="http://www.replicalabs.com/rendor">Rendor</a> has
-                    completely changed the way I approach programming (which I
-                    elaborate on in the Code section below).
-                    <br><br>
-                    Needless to say, the only tools that are consistent in my
-                    life are the Acer laptop that I do all of my development on,
-                    the ergonomic devices that keep carpal tunnel away, and the
-                    <a href="http://www.homedit.com/ikea-standing-desk/">
-                      standing desk</a>
-                    that keeps me somewhat healthy while I spend
-                    successive days on some task or another. Beyond that... I
-                    can't claim anything.
-                    <br><br>
-                    That being said, I highly recommend the
-                    <a href="https://github.com/bminortx/emacs-config">Emacs
-                      Configuration</a> put together by Jack Morrison and
-                    modded by me. My life would be much harder without
-                    it.</p>
                 </div>
               </div>
             </div>

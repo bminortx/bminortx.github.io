@@ -1,4 +1,4 @@
-/* Links */
+/* Colors */
 a {
   /*teal */
   color: #3173b4; }
@@ -30,7 +30,7 @@ body {
   background: #fbf8ee;
   color: #07144b;
   padding: 10px 0 10px;
-  border-bottom: 3px solid #070719;
+  border-bottom: 5px solid #070719;
   border-top: 3px solid #070719; }
   .navbar-default .nav li a {
     color: #07144b;
@@ -50,7 +50,10 @@ body {
     color: #07144b; }
 
 .navbar-brand {
-  padding: 15px; }
+  padding-top: 15px; }
+
+.container-fluid {
+  padding: 0px; }
 
 /* Used in scrolling-nav.js */
 .top-nav-collapse {
@@ -122,27 +125,17 @@ body {
   background: #fbf8ee;
   position: relative; }
   .posts-section .image-header {
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     img-min-height: 300px;
     img-overflow: hidden; }
-  .posts-section .top-headline-header {
+  .posts-section .top-headline-header, .posts-section .top-headline {
     top: -10px;
     font-size: 25px;
     color: #fff;
     padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 30px;
     text-align: left; }
-  .posts-section .top-headline {
-    top: -10px;
-    font-size: 18px;
-    color: #fff;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 30px;
-    text-align: left; }
-  .posts-section .headline-header {
+  .posts-section .headline-header, .posts-section .headline {
     top: -10px;
     font-size: 25px;
     color: #07144b;
@@ -151,64 +144,28 @@ body {
     padding-left: 20px;
     padding-right: 30px;
     text-align: left; }
-  .posts-section .headline {
-    top: -10px;
+  .posts-section .top-headline {
     font-size: 18px;
-    color: #07144b;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 30px;
-    text-align: left; }
+    color: #fff;
+    padding-bottom: 5px; }
+  .posts-section .headline {
+    font-size: 18px;
+    padding-bottom: 5px; }
   .posts-section .top-headline-cat {
     font-size: 18px;
     color: #fff;
     text-align: right; }
-    .posts-section .top-headline-cat .robotics {
-      top: -10px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      padding-left: 20px;
-      padding-right: 30px; }
-    .posts-section .top-headline-cat .startup {
-      top: -10px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      padding-left: 20px;
-      padding-right: 30px; }
-    .posts-section .top-headline-cat .code {
-      top: -10px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      padding-left: 20px;
-      padding-right: 30px; }
-    .posts-section .top-headline-cat .misc {
+    .posts-section .top-headline-cat .robotics, .posts-section .top-headline-cat .startup, .posts-section .top-headline-cat .code, .posts-section .top-headline-cat .misc {
       top: -10px;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 20px;
       padding-right: 30px; }
   .posts-section .headline-cat {
-    font-size: 18px;
     color: #07144b;
     text-align: left; }
-    .posts-section .headline-cat .robotics-thin {
+    .posts-section .headline-cat .robotics-thin, .posts-section .headline-cat .startup-thin, .posts-section .headline-cat .code-thin, .posts-section .headline-cat .misc-thin {
       top: -10px;
-      font-size: 14px;
-      padding-top: 2px;
-      padding-bottom: 2px;
-      padding-left: 20px; }
-    .posts-section .headline-cat .startup-thin {
-      font-size: 14px;
-      padding-top: 2px;
-      padding-bottom: 2px;
-      padding-left: 20px; }
-    .posts-section .headline-cat .code-thin {
-      font-size: 14px;
-      padding-top: 2px;
-      padding-bottom: 2px;
-      padding-left: 20px; }
-    .posts-section .headline-cat .misc-thin {
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px;
@@ -223,17 +180,25 @@ body {
 /* Past Posts section */
 .past-posts-section {
   height: 100%;
-  padding-top: 30px;
+  padding-top: 20px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   background: #fbf8ee;
   position: relative; }
+  .past-posts-section .headline-cat {
+    color: #07144b;
+    text-align: left; }
+    .past-posts-section .headline-cat .robotics-thin, .past-posts-section .headline-cat .startup-thin, .past-posts-section .headline-cat .code-thin, .past-posts-section .headline-cat .misc-thin {
+      top: -10px;
+      font-size: 14px;
+      padding-top: 2px;
+      padding-bottom: 2px; }
   .past-posts-section h4 {
-    font-family: "Khula";
+    font-size: 16px;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 12px;
     text-align: left;
-    line-height: 130%; }
+    line-height: 100%; }
 
 /* CV Section of About page */
 .cv-section {

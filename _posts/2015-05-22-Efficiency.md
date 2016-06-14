@@ -20,7 +20,7 @@ This question seems obvious, but I've found two very different answers for mysel
 
 - - - - - - - - -
 
-###First Answer###
+## First Answer ##
 
 The engineer in me says, "Of course". Saving time is a good thing, because it gives you time for... other things that take up time. But more intelligent things. If you're spending a day on some stupid, repetitive task, it makes sense to automate that task, or find a better way of doing it, so that you never have to [waste your time again](https://xkcd.com/1445/). This is actually the premise of a lot of engineering: if you're doing the same thing over and over again, you're probably doing it wrong.
 
@@ -37,7 +37,7 @@ So, according to the engineer in me, this process has fulfilled my every dream. 
 
 - - - - - - - - -
 
-###Second Answer### 
+## Second Answer ##
 
 The other answer was a concept that took me much longer to grasp than the first. My 22-year-old self didn't realize that doing things better/faster is not an excuse to do more things; so, I did [all the things](http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html). This struggle is best demonstrated by, what else, one of my many tools for productivity. [Toggl](http://www.toggl.com) is a time tracker that I use during work days, allowing me to see where I spent most of my time (or didn't). Here's my work week from the 2nd - 8th of March 2015:
 
@@ -65,7 +65,7 @@ Eventually, I completely burned out. The whole overwork-and-crash thing is a tal
 
 - - - - - - - - -
 
-###Productivity is Still Great### 
+## Productivity is Still Great ##
 
 All of that being said, this year's experiments in productivity have absolutely been worth it, and I'm glad I built up the habits that I did. My problem was that I believed implementing these more productive habits would only require a mental shift: switch from this program to that, stick to a strict schedule. In reality, the shift that I needed was emotional. My natural mental state craves productivity, but it's much more of a stretch for me to maintain this mental state while also balancing my strongly-held beliefs in perseverance and completion. I don't have to sacrifice one for the other; I just have to redefine what success means for me. These new productive habits, paired with my own introspection, have allowed me to structure my life in a way that's now both good for my health and my work.
 

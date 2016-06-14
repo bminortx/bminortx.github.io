@@ -7,60 +7,62 @@ layout: bootstrap_default
 <!--  ----------------------------------------------- --->
 
 <section id="Posts" class="posts-section">
-  <div class="row">
-    {% for post in site.posts limit:1 %}
-    <div class="col-sm-12">
-      <div class="image-header" id="image-header">
-        <div id="headline-cat" class="top-headline-cat">
-          <!-- Color-code our categories -->
-          {% if post.category == "robotics" %}
-          <div class="robotics"><i class="fa fa-cogs"></i> {{ post.category }}
-            {{ post.date | date: '%B %d, %Y' }}
-          </div>
-          {% elsif post.category == "startup" %}
-          <div class="startup"><i class="fa fa-pied-piper"></i> {{ post.category }}
-            {{ post.date | date: '%B %d, %Y' }}
-          </div>
-          {% elsif post.category == "code" %}
-          <div class="code"><i class="fa fa-code"></i> {{ post.category }}
-            {{ post.date | date: '%B %d, %Y' }}
-          </div>
-          {% else %}
-          <div class="misc">
-          <i class="fa fa-quote-left"></i>
-          random thoughts
-          <i class="fa fa-quote-right"></i> |
-            {{ post.date | date: '%B %d, %Y' }}
-          </div>
-          {% endif %}
-        </div>
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <div class="row voffset8">
-          </div>
-          <div class="row voffset8">
-            <div id="headline-header" class="top-headline-header">
-              <b>Newest Post: </b>
-              {{ post.title }}<br>
+  <div class="container-fluid">
+    <div class="image-header" id="image-header">
+      <div class="row">
+        {% for post in site.posts limit:1 %}
+        <div class="col-sm-10 col-sm-offset-1">
+          <div id="headline-cat" class="top-headline-cat">
+            <!-- Color-code our categories -->
+            {% if post.category == "robotics" %}
+            <div class="robotics"><i class="fa fa-cogs"></i> {{ post.category }}
+              {{ post.date | date: '%B %d, %Y' }}
             </div>
+            {% elsif post.category == "startup" %}
+            <div class="startup"><i class="fa fa-pied-piper"></i> {{ post.category }}
+              {{ post.date | date: '%B %d, %Y' }}
+            </div>
+            {% elsif post.category == "code" %}
+            <div class="code"><i class="fa fa-code"></i> {{ post.category }}
+              {{ post.date | date: '%B %d, %Y' }}
+            </div>
+            {% else %}
+            <div class="misc">
+              <i class="fa fa-quote-left"></i>
+              random thoughts
+              <i class="fa fa-quote-right"></i> |
+              {{ post.date | date: '%B %d, %Y' }}
+            </div>
+            {% endif %}
           </div>
-          <div id="headline" class="top-headline">
-            <!-- Preview -->
-            {{ post.preview }}
-          </div>
-        </a>
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="row voffset8">
+            </div>
+            <div class="row voffset8">
+              <div id="headline-header" class="top-headline-header">
+                <b>Newest Post: </b>
+                {{ post.title }}<br>
+              </div>
+            </div>
+            <div id="headline" class="top-headline">
+              <!-- Preview -->
+              {{ post.preview }}
+            </div>
+          </a>
+        </div>
       </div>
+      <!-- Picture from the blog as background -->
+      <script>
+        document.getElementById("image-header").style.backgroundImage = "url({{post.image}})";
+        document.getElementById("image-header").style.backgroundSize = "cover";
+        document.getElementById("image-header").style.backgroundPosition = "center";
+        document.getElementById("image-header").style.borderBottom = "5px solid #070719";
+      </script>
+      {% endfor %}
     </div>
-    <!-- Picture from the blog as background -->
-    <script>
-      document.getElementById("image-header").style.backgroundImage = "url({{post.image}})";
-      document.getElementById("image-header").style.backgroundSize = "cover";
-      document.getElementById("image-header").style.backgroundPosition = "center";
-    </script>
-    {% endfor %}
   </div>
-
   <!-- Our blog posts -->
-  <div class="row voffset6">
+  <div class="row voffset5">
     {% for post in site.posts offset:1 limit:3 %}
     <div class="col-sm-4">
       <div class="image">
@@ -114,9 +116,29 @@ layout: bootstrap_default
             <h4><a href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
             </a></h4>
-          </td>
-          <td>
-            <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+            <div id="headline-cat" class="headline-cat">
+              <!-- Color-code our categories -->
+              {% if post.category == "robotics" %}
+              <div class="robotics-thin">{{ post.category }} <i class="fa fa-cogs"></i>
+                {{ post.date | date: '%B %d, %Y' }}
+              </div>
+              {% elsif post.category == "startup" %}
+              <div class="startup-thin">{{ post.category }} <i class="fa fa-pied-piper"></i>
+                {{ post.date | date: '%B %d, %Y' }}
+              </div>
+              {% elsif post.category == "code" %}
+              <div class="code-thin">{{ post.category }} <i class="fa fa-code"></i>
+                {{ post.date | date: '%B %d, %Y' }}
+              </div>
+              {% else %}
+              <div class="misc-thin">
+                <i class="fa fa-quote-left"></i>
+                random thoughts
+                <i class="fa fa-quote-right"></i> | 
+                {{ post.date | date: '%B %d, %Y' }}
+              </div>
+              {% endif %}
+            </div>
           </td>
           <td>
             <h4>{{ post.preview }}</h4>

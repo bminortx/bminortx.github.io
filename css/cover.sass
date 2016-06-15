@@ -2,6 +2,8 @@
 $color-background: #fbf8ee
 $color-background-font: #07144b
 $color-background-link: #3173b4
+$font-header: "Quicksand"
+$font-body: "Crimson Text"
 
 a
   /*teal
@@ -26,7 +28,7 @@ a
 /* BAM: Base structure
 body
   color: $color-background-font
-  font-family: "Quicksand"
+  font-family: $font-header
   text-align: center
   background-color: #fff
 
@@ -160,12 +162,14 @@ body
     text-align: left
   .top-headline
     @extend .top-headline-header
-    font-size: 18px
+    font-family: $font-body
+    font-size: 20px
     color: #fff
     padding-bottom: 5px
   .headline
     @extend .headline-header
-    font-size: 18px
+    font-family: $font-body
+    font-size: 16px
     padding-bottom: 5px
   .top-headline-cat
     font-size: 18px
@@ -199,7 +203,7 @@ body
     .misc-thin
       @extend .robotics-thin
   h4
-    font-family: "Khula"
+    font-family: $font-body
     font-weight: 300
     margin-top: 20px
     text-align: left
@@ -215,7 +219,7 @@ body
   position: relative
   .headline-cat
     color: $color-background-font
-    text-align: left
+    text-align: right
     .robotics-thin
       top: -10px
       font-size: 14px
@@ -228,6 +232,14 @@ body
     .misc-thin
       @extend .robotics-thin
   h4
+    font-family: $font-body
+    font-size: 16px
+    font-weight: 300
+    margin-top: 12px
+    text-align: right
+    line-height: 100%
+  h3
+    font-family: $font-body
     font-size: 16px
     font-weight: 300
     margin-top: 12px
@@ -255,7 +267,7 @@ body
     margin-top: 30px
     font-size: 25px
   p
-    font-family: "Khula"
+    font-family: $font-body
     font-weight: 300
     font-size: 16px
     text-align: left
@@ -276,7 +288,7 @@ body
     font-size: 40px
     padding-bottom: 20px
   p
-    font-family: "Khula"
+    font-family: $font-body
     margin: 0 0 10px
     margin-bottom: 20px
     font-size: 16px
@@ -310,7 +322,7 @@ body
     font-size: 25px
     text-align: left
   p
-    font-family: "Khula"
+    font-family: $font-body
     font-weight: 300
     font-size: 16px
 
@@ -322,7 +334,7 @@ body
   background: $color-background
 
 .single-post-section
-  font-family: "Khula"
+  font-family: $font-header
   font-size: 18px
   font-weight: 300
   color: #000000
@@ -332,37 +344,17 @@ body
   background: $color-background
 
 .single-post-section-left
-  font-family: "Khula"
-  font-size: 20px
-  font-weight: 300
-  color: #000000
+  @extend .single-post-section
+  font-size: 18px
   padding-top: 30px
-  padding-bottom: 10px
-  height: 100%
-  text-align: left
-  background: $color-background
 
 .single-post-section-right
-  font-family: "Khula"
-  font-size: 20px
-  font-weight: 300
-  color: #000000
-  padding-top: 30px
-  padding-bottom: 10px
-  height: 100%
+  @extend .single-post-section-left
   text-align: right
-  background: $color-background
 
 .single-post-section-center
-  font-family: "Khula"
-  font-size: 20px
-  font-weight: 300
-  color: #000000
-  padding-top: 30px
-  padding-bottom: 10px
-  height: 100%
+  @extend .single-post-section-left
   text-align: center
-  background: $color-background
 
 .post-heading
   padding-right: 60px

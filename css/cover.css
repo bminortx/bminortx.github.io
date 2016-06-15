@@ -145,11 +145,13 @@ body {
     padding-right: 30px;
     text-align: left; }
   .posts-section .top-headline {
-    font-size: 18px;
+    font-family: "Crimson Text";
+    font-size: 20px;
     color: #fff;
     padding-bottom: 5px; }
   .posts-section .headline {
-    font-size: 18px;
+    font-family: "Crimson Text";
+    font-size: 16px;
     padding-bottom: 5px; }
   .posts-section .top-headline-cat {
     font-size: 18px;
@@ -171,7 +173,7 @@ body {
       padding-bottom: 2px;
       padding-left: 20px; }
   .posts-section h4 {
-    font-family: "Khula";
+    font-family: "Crimson Text";
     font-weight: 300;
     margin-top: 20px;
     text-align: left;
@@ -187,13 +189,21 @@ body {
   position: relative; }
   .past-posts-section .headline-cat {
     color: #07144b;
-    text-align: left; }
+    text-align: right; }
     .past-posts-section .headline-cat .robotics-thin, .past-posts-section .headline-cat .startup-thin, .past-posts-section .headline-cat .code-thin, .past-posts-section .headline-cat .misc-thin {
       top: -10px;
       font-size: 14px;
       padding-top: 2px;
       padding-bottom: 2px; }
   .past-posts-section h4 {
+    font-family: "Crimson Text";
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 12px;
+    text-align: right;
+    line-height: 100%; }
+  .past-posts-section h3 {
+    font-family: "Crimson Text";
     font-size: 16px;
     font-weight: 300;
     margin-top: 12px;
@@ -221,7 +231,7 @@ body {
     margin-top: 30px;
     font-size: 25px; }
   .cv-section p {
-    font-family: "Khula";
+    font-family: "Crimson Text";
     font-weight: 300;
     font-size: 16px;
     text-align: left; }
@@ -241,7 +251,7 @@ body {
     font-size: 40px;
     padding-bottom: 20px; }
   .replica-section p {
-    font-family: "Khula";
+    font-family: "Crimson Text";
     margin: 0 0 10px;
     margin-bottom: 20px;
     font-size: 16px;
@@ -274,7 +284,7 @@ body {
     font-size: 25px;
     text-align: left; }
   .code-section p {
-    font-family: "Khula";
+    font-family: "Crimson Text";
     font-weight: 300;
     font-size: 16px; }
 
@@ -284,8 +294,8 @@ body {
   text-align: center;
   background: #fbf8ee; }
 
-.single-post-section {
-  font-family: "Khula";
+.single-post-section, .single-post-section-left, .single-post-section-right, .single-post-section-center {
+  font-family: "Quicksand";
   font-size: 18px;
   font-weight: 300;
   color: #000000;
@@ -294,38 +304,15 @@ body {
   text-align: left;
   background: #fbf8ee; }
 
-.single-post-section-left {
-  font-family: "Khula";
-  font-size: 20px;
-  font-weight: 300;
-  color: #000000;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  height: 100%;
-  text-align: left;
-  background: #fbf8ee; }
+.single-post-section-left, .single-post-section-right, .single-post-section-center {
+  font-size: 18px;
+  padding-top: 30px; }
 
 .single-post-section-right {
-  font-family: "Khula";
-  font-size: 20px;
-  font-weight: 300;
-  color: #000000;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  height: 100%;
-  text-align: right;
-  background: #fbf8ee; }
+  text-align: right; }
 
 .single-post-section-center {
-  font-family: "Khula";
-  font-size: 20px;
-  font-weight: 300;
-  color: #000000;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  height: 100%;
-  text-align: center;
-  background: #fbf8ee; }
+  text-align: center; }
 
 .post-heading {
   padding-right: 60px;

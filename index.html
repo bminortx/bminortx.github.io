@@ -106,46 +106,48 @@ layout: bootstrap_default
 
 <section class="past-posts-section">
   <div class="inner cover">
-    <div class="row">
-      <table class="table table-responsive">
-        {% for post in site.posts offset:4 %}
-        <tr>
-          <td>
-          </td>
-          <td>
-            <h4><a href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-            </a></h4>
-            <div id="headline-cat" class="headline-cat">
-              <!-- Color-code our categories -->
-              {% if post.category == "robotics" %}
-              <div class="robotics-thin">{{ post.category }} <i class="fa fa-cogs"></i>
-                {{ post.date | date: '%B %d, %Y' }}
+    <div class="container">
+      <div class="row">
+        <table class="table table-responsive">
+          {% for post in site.posts offset:4 %}
+          <tr>
+            <td>
+            </td>
+            <td>
+              <h4><a href="{{ post.url | prepend: site.baseurl }}">
+                  {{ post.title }}:  
+              </a></h4>
+              <div id="headline-cat" class="headline-cat">
+                <!-- Color-code our categories -->
+                {% if post.category == "robotics" %}
+                <div class="robotics-thin">{{ post.category }} <i class="fa fa-cogs"></i>
+                  {{ post.date | date: '%B %d, %Y' }}
+                </div>
+                {% elsif post.category == "startup" %}
+                <div class="startup-thin">{{ post.category }} <i class="fa fa-pied-piper"></i>
+                  {{ post.date | date: '%B %d, %Y' }}
+                </div>
+                {% elsif post.category == "code" %}
+                <div class="code-thin">{{ post.category }} <i class="fa fa-code"></i>
+                  {{ post.date | date: '%B %d, %Y' }}
+                </div>
+                {% else %}
+                <div class="misc-thin">
+                  <i class="fa fa-quote-left"></i>
+                  random thoughts
+                  <i class="fa fa-quote-right"></i> | 
+                  {{ post.date | date: '%B %d, %Y' }}
+                </div>
+                {% endif %}
               </div>
-              {% elsif post.category == "startup" %}
-              <div class="startup-thin">{{ post.category }} <i class="fa fa-pied-piper"></i>
-                {{ post.date | date: '%B %d, %Y' }}
-              </div>
-              {% elsif post.category == "code" %}
-              <div class="code-thin">{{ post.category }} <i class="fa fa-code"></i>
-                {{ post.date | date: '%B %d, %Y' }}
-              </div>
-              {% else %}
-              <div class="misc-thin">
-                <i class="fa fa-quote-left"></i>
-                random thoughts
-                <i class="fa fa-quote-right"></i> | 
-                {{ post.date | date: '%B %d, %Y' }}
-              </div>
-              {% endif %}
-            </div>
-          </td>
-          <td>
-            <h4>{{ post.preview }}</h4>
-          </td>
-        </tr>
-        {% endfor %}
-      </table>
+            </td>
+            <td>
+              <h3>{{ post.preview }}</h3>
+            </td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
     </div>
   </div>
 </section>

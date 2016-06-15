@@ -34,13 +34,13 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-5">
-            <div class="single-post-section-left">
+            <div class="single-post-section-right">
               {% if page.previous %}
               <a rel="{{ page.previous.title }}"
                  href="{{ page.previous.url }}">
                 &larr; {{ page.previous.title}} </a>
               {% else %}
-              &larr;  Older
+              &larr;  Older Posts
               {% endif %}
             </div>
           </div>
@@ -51,13 +51,13 @@
             </div>
           </div>
           <div class="col-sm-5">
-            <div class="single-post-section-right">
+            <div class="single-post-section-left">
               {% if page.next %}
               <a rel="{{ page.next.title }}"
                  href="{{ page.next.url }}">
                 {{ page.next.title}} &rarr; </a>
               {% else %}
-              Newer &rarr;
+              Newer Posts &rarr;
               {% endif %}
             </div>
           </div>
@@ -121,6 +121,7 @@
       document.getElementById("post-heading").style.backgroundImage = "url(/{{page.image}})";
       document.getElementById("post-heading").style.backgroundSize = "cover";
       document.getElementById("post-heading").style.backgroundPosition = "center";
+      document.getElementById("post-heading").style.borderBottom = "5px solid #070719";
     </script>
     <!-- ...end content -->
 

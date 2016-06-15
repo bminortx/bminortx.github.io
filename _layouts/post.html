@@ -22,44 +22,44 @@
     <!-- The content for the blog -->
     <div class="post-heading" id="post-heading">
       <div class="well">
-        <h1>
-          {{ page.title }}
-        </h1>
-        <h3>
-          {{ page.date | date: "%b %-d, %Y" }}
-        </h3>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4 col-sm-offset-1">
-              <div class="single-post-section-right">
-                {% if page.previous %}
-                <a rel="{{ page.previous.title }}"
-                   href="{{ page.previous.url }}">
-                  &larr; {{ page.previous.title}} </a>
-                {% else %}
-                &larr;  Older Posts
-                {% endif %}
+          <h1>
+            {{ page.title }}
+          </h1>
+          <h3>
+            {{ page.date | date: "%b %-d, %Y" }}
+          </h3>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-1">
+                <div class="single-post-section-right">
+                  {% if page.previous %}
+                  <a rel="{{ page.previous.title }}"
+                     href="{{ page.previous.url }}">
+                    &larr; {{ page.previous.title}} </a>
+                  {% else %}
+                  &larr;  Older Posts
+                  {% endif %}
+                </div>
               </div>
-            </div>
-            <div class="col-sm-2">
-              <div class="single-post-section-center">
-                <a href="{{url}}/index.html#Posts"
-                   class="page-scroll">| All Posts |</a>
+              <div class="col-sm-2">
+                <div class="single-post-section-center">
+                  <a href="{{url}}/index.html#Posts"
+                     class="page-scroll">| All Posts |</a>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="single-post-section-left">
-                {% if page.next %}
-                <a rel="{{ page.next.title }}"
-                   href="{{ page.next.url }}">
-                  {{ page.next.title}} &rarr; </a>
-                {% else %}
-                Newer Posts &rarr;
-                {% endif %}
+              <div class="col-sm-4">
+                <div class="single-post-section-left">
+                  {% if page.next %}
+                  <a rel="{{ page.next.title }}"
+                     href="{{ page.next.url }}">
+                    {{ page.next.title}} &rarr; </a>
+                  {% else %}
+                  Newer Posts &rarr;
+                  {% endif %}
+                </div>
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
     <div class="post-section-two">

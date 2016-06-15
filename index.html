@@ -35,20 +35,24 @@ layout: bootstrap_default
             </div>
             {% endif %}
           </div>
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            <div class="row voffset8">
-            </div>
-            <div class="row voffset8">
-              <div id="headline-header" class="top-headline-header">
-                <b>Newest Post: </b>
-                {{ post.title }}<br>
+          <div class="container">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <div class="row voffset8">
               </div>
-            </div>
-            <div id="headline" class="top-headline">
-              <!-- Preview -->
-              {{ post.preview }}
-            </div>
-          </a>
+              <div class="row voffset8">
+                <div class="col-sm-12">
+                  <div id="headline-header" class="top-headline-header">
+                    <b>Newest Post: </b>
+                    {{ post.title }}<br>
+                  </div>
+                </div>
+                <div id="headline" class="top-headline">
+                  <!-- Preview -->
+                  {{ post.preview }}
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <!-- Picture from the blog as background -->

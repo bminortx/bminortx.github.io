@@ -33,7 +33,7 @@
     <div class="post-section-two">
       <div class="container">
         <div class="row">
-          <div class="col-sm-5">
+          <div class="col-sm-4 col-sm-offset-1">
             <div class="single-post-section-right">
               {% if page.previous %}
               <a rel="{{ page.previous.title }}"
@@ -50,7 +50,7 @@
                  class="page-scroll">| All Posts |</a>
             </div>
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-4">
             <div class="single-post-section-left">
               {% if page.next %}
               <a rel="{{ page.next.title }}"
@@ -84,14 +84,14 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-5">
+          <div class="col-sm-4 col-sm-offset-1">
             <div class="single-post-section-left">
               {% if page.previous %}
               <a rel="{{ page.previous.title }}"
                  href="{{ page.previous.url }}">
                 &larr; {{ page.previous.title}} </a>
               {% else %}
-              &larr;  Older
+              &larr;  Older Posts
               {% endif %}
             </div>
           </div>
@@ -101,14 +101,14 @@
                  class="page-scroll">| All Posts |</a>
             </div>
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-4">
             <div class="single-post-section-right">
               {% if page.next %}
               <a rel="{{ page.next.title }}"
                  href="{{ page.next.url }}">
                 {{ page.next.title}} &rarr; </a>
               {% else %}
-              Newer &rarr;
+              Newer Posts &rarr;
               {% endif %}
             </div>
           </div>

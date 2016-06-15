@@ -305,13 +305,15 @@ body {
   background: #fbf8ee; }
 
 .single-post-section-left, .single-post-section-right, .single-post-section-center {
+  background-color: rgba(255, 255, 255, 0);
   font-family: "Quicksand";
-  text-align: center;
+  text-align: left;
   font-size: 16px;
-  padding-top: 30px; }
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .single-post-section-right {
-  text-align: center; }
+  text-align: right; }
 
 .single-post-section-center {
   text-align: center; }
@@ -326,7 +328,7 @@ body {
   .post-heading h3 {
     font-size: 30px; }
   .post-heading .well {
-    background-color: rgba(255, 255, 255, 0.6); }
+    background-color: rgba(255, 255, 255, 0.9); }
 
 /* Footnote tooltip styling */
 .ref {

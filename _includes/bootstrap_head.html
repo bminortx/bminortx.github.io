@@ -19,14 +19,23 @@
   <link rel="shortcut icon" type="image/x-icon"
         href="{{site.url}}/images/favicon.ico">
   <link rel="alternate" type="application/rss+xml" 
-        title="RSS Feed for Thinking Fast|Typing Slow" 
+        title="RSS Feed for TF&TS" 
         href="{{site.url}}" />
 
   <!-- Facebook metadata -->
-  <meta property="og:title" content="TF|TS - {{ page.title }}"/>
+  {% if page.url == null %}
+  <meta property="og:title" content="B. Minor Thinks Fast & Talks Slow"/>
+  <meta property="og:url" content="{{ site.url }}"/>
+  <meta property="og:image" content="{{ site.url }}/images/homepage.png"/>
+  <meta property="og:description" content="Or, Brandon Minor is on his computer most of the time."/>
+  {% else %}
+  <meta property="og:title" content="TF&TS: {{ page.title }}"/>
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   <meta property="og:image" content="{{ site.url }}/{{ page.image }}"/>
   <meta property="og:description" content="{{ page.preview }}"/>
+  {% endif %}
+
+  <meta property="og:type" content="blog"/>
 
   <!-- Google Analytics -->
   <script>

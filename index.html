@@ -18,22 +18,22 @@ layout: bootstrap_default
             <!-- Color-code our categories -->
             {% if post.category == "robotics" %}
             <div class="robotics"><i class="fa fa-cogs"></i> {{ post.category }}
-              {{ post.date | date: '%B %d, %Y' }}
+              | {{ post.date | date: '%B %d, %Y' }}
             </div>
             {% elsif post.category == "startup" %}
             <div class="startup"><i class="fa fa-pied-piper"></i> {{ post.category }}
-              {{ post.date | date: '%B %d, %Y' }}
+              | {{ post.date | date: '%B %d, %Y' }}
             </div>
             {% elsif post.category == "code" %}
-            <div class="code"><i class="fa fa-code"></i> {{ post.category }}
-              {{ post.date | date: '%B %d, %Y' }}
+            <div class="code"><i class="fa fa-code"></i> {{ post.category }} 
+              | {{ post.date | date: '%B %d, %Y' }}
             </div>
             {% else %}
             <div class="misc">
               <i class="fa fa-quote-left"></i>
               random thoughts
-              <i class="fa fa-quote-right"></i> |
-              {{ post.date | date: '%B %d, %Y' }}
+              <i class="fa fa-quote-right"></i>
+              | {{ post.date | date: '%B %d, %Y' }}
             </div>
             {% endif %}
           </div>

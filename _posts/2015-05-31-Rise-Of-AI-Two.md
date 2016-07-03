@@ -5,7 +5,7 @@ date:   2015-06-21 11:40:10
 category: "robotics"
 image: "images/rise_of_ai_two/alexnet.png"
 permalink: /robotics/2015/06/21/Rise-Of-AI-Two/
-preview: "Alternately titled 'It's not what you think.'"
+preview: "Alternatively titled 'It's not what you think.'"
 ---
 
 When I started my PhD, I had a big misconception about what the phrase 'state-of-the-art' meant. In my mind, a state-of-the-art vehicle was the Mach 5. A state-of-the-art facility was one with a lot of glass walls, researchers in white coats, and floating computers that gave sassy, yet sage, advice. _State-of-the-Art_ was synonymous with _The Future_.

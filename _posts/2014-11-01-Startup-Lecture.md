@@ -5,7 +5,7 @@ date:   2014-11-01 13:54:00
 image: "images/iceland.jpg"
 category: "startup"
 permalink: /2014/11/01/Startup-Lecture/
-preview: "My lecture on why (and how) I started a company, given at CU Boulder on Halloween 2014."
+preview: "In which I give a lecture on why (and how) I started a company."
 ---
 
 I currently TA for an Intro to Computer Science class at CU Boulder. I dreaded it at first, but I've grown to enjoy the job; it's nice to see students painfully struggle through the things that tormented me in undergrad (though I still offer a helping hand). This Halloween, instead of helping them with their code, I was offered to give a lecture on my experiences in the startup community.

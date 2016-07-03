@@ -4,7 +4,7 @@ title:  "Season of Migration to the Cloud"
 date:   2015-07-10-08:14:52
 category: ""
 image: "images/season_of_migration/storm.jpg"
-preview: "Software engineering is hard."
+preview: "In which software engineering is hard."
 ---
 
 I used to hate working with databases and servers, but [Django](https://www.djangoproject.com/) changed my attitude. Django claims to be "the web framework for perfectionists with deadlines", and it definitely makes good on that promise. Its perfectionist outlook became particularly imperative when the Replica tech team decided to move all of our media files from our AWS EC2 instance to an Amazon Simple Storage Service (S3). There were two reasons for this switch:

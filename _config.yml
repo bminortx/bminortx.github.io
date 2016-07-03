@@ -1,12 +1,14 @@
 # Site settings
-title: Brandon Minor
-name: Brandon Minor Thinks Fast & Types Slow
+title: B. Minor Thinks Fast & Types Slow
+name: Brandon Minor
 email: gallimatrix@gmail.com
-description: "or, Brandon Minor is on his computer most of the time."
+description: "In which I explain things within my areas of expertise, in addition to some that aren't."
 url: "http://bminortx.github.io"
 twitter_username: bminortx
 github_username:  bminortx
-gems: [jekyll-paginate]
+gems: 
+  - jekyll-paginate
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown

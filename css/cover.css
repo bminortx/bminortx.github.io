@@ -301,8 +301,9 @@ body {
 
 .single-post-section, .single-post-section-left, .single-post-section-right, .single-post-section-center {
   font-family: "Crimson Text";
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 19px;
+  line-height: 1.5;
+  font-weight: 100;
   color: #000000;
   padding-bottom: 10px;
   padding-top: 25px;

@@ -11,7 +11,11 @@
         rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Crimson+Text:100,400,400italic'
         rel='stylesheet' type='text/css'>
-  <title>B. Minor Thinks Fast & Types Slow</title>
+  {% if page.title == nil %}
+  <title>B. Minor TF&TS</title>
+  {% else %}
+  <title>{{ page.title }} - B. Minor TF&TS</title>
+  {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
   <!-- For Facebook commenting -->

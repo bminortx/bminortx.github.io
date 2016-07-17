@@ -28,6 +28,10 @@ layout: bootstrap_default
             <div class="code"><i class="fa fa-code"></i> {{ post.category }} 
               | {{ post.date | date: '%B %d, %Y' }}
             </div>
+            {% elsif post.category == "VR" %}
+            <div class="code"><i class="fa fa-eye"></i> {{ post.category }} 
+              | {{ post.date | date: '%B %d, %Y' }}
+            </div>
             {% else %}
             <div class="misc">
               <i class="fa fa-quote-left"></i>
@@ -87,6 +91,10 @@ layout: bootstrap_default
             </div>
             {% elsif post.category == "code" %}
             <div class="code-thin">{{ post.category }} <i class="fa fa-code"></i>
+              {{ post.date | date: '%B %d, %Y' }}
+            </div>
+            {% elsif post.category == "VR" %}
+            <div class="code-thin">{{ post.category }} <i class="fa fa-eye"></i>
               {{ post.date | date: '%B %d, %Y' }}
             </div>
             {% else %}

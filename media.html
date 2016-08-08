@@ -4,59 +4,66 @@ title:  "Media"
 ---
 
 <section class="past-posts-section">
-  <div class="row voffset3">
+      <h1>Books</h1>
+      <br> 
+      <!-- BOOKS -->
+      <h2>2016</h2>
+      <table class="table table-responsive">
+        <tr>
+          <td>
+            <b>Author</b>
+          </td>
+          <td>
+            <b>Title</b>
+          </td>
+          <td>
+            <b>Summary</b>
+          </td>
+        </tr>
+        {% for book in site.data.media.books %}
+        <tr>
+          <td>
+            {{ book.author }} 
+          </td>
+          <td>
+            <b>{{ book.title }}</b>
+          </td>
+          <td>
+            {{ book.summary }}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
 
-    <h2>2016</h2>
+      <!-- BOOKS -->
+      <h3>Research Publications</h3>
+      <table class="table table-responsive">
+        <tr>
+          <td>
+            <b>Author</b>
+          </td>
+          <td>
+            <b>Title</b>
+          </td>
+          <td>
+            <b>Summary</b>
+          </td>
+        </tr>
+        {% for paper in site.data.media.research_publications %}
+        <tr>
+          <td>
+            {{ book.author }} 
+          </td>
+          <td>
+            {{ book.title }}
+          </td>
+          <td>
+            {{ book.summary }}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
 
-    <br> 
-
-    <!-- BOOKS -->
-    <h3>Books</h3>
-    <table class="table table-responsive">
-      <tr>
-        <td>
-          <b>Author</b>
-        </td>
-        <td>
-          <b>Title</b>
-        </td>
-      </tr>
-      {% for book in site.data.media.books %}
-      <tr>
-        <td>
-          {{ book.author }} 
-        </td>
-        <td>
-          {{ book.title }}
-        </td>
-      </tr>
-      {% endfor %}
-    </table>
-
-    <!-- BOOKS -->
-    <h3>Research Publications</h3>
-    <table class="table table-responsive">
-      <tr>
-        <td>
-          <b>Author</b>
-        </td>
-        <td>
-          <b>Title</b>
-        </td>
-      </tr>
-      {% for paper in site.data.media.research_publications %}
-      <tr>
-        <td>
-          {{ book.author }} 
-        </td>
-        <td>
-          {{ book.title }}
-        </td>
-      </tr>
-      {% endfor %}
-    </table>
-
-  </div>
 </section>
 
 

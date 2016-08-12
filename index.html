@@ -6,12 +6,17 @@ layout: bootstrap_default
 <!-- Recent Posts -->
 <!--  ----------------------------------------------- --->
 
+  <!-- A counter for our loops (snippets made that complicated -->
+  {% assign offset_counter=0 %}
+  {% assign counter=0 %}
+
 <section id="Posts" class="posts-section">
   <div class="image-header" id="image-header">
     <div class="container">
       <div class="row">
         {% for post in site.posts %}
         {% if post.category == "snippet" %}
+        {% assign counter=counter | plus:1 %}
         {% continue %}
         {% else %}
         <div class="col-sm-10 col-sm-offset-1
@@ -73,24 +78,31 @@ layout: bootstrap_default
         document.getElementById("image-header").style.backgroundPosition = "center";
         document.getElementById("image-header").style.borderBottom = "5px solid #07144b";
       </script>
+      {% assign counter=counter | plus:1 %}
       {% break %}
       {% endif %}
       {% endfor %}
     </div>
   </div>
 
-  <!-- A counter for our loops (snippets made that complicated -->
-  {% assign counter=0 %}
+  {% assign offset_counter=counter %}
+  {% assign goodpost_counter=0 %}
 
   <!-- Our blog posts -->
   <div class="container">
     <div class="row voffset5">
-      {% for post in site.posts offset:1 %}
-      {% if counter == 3 %}
+      {% for post in site.posts offset:offset_counter %}
+      <!-- If we have three good posts, break -->
+      {% if goodpost_counter == 3 %}
       {% break %}
       {% endif %}
+
+      <!-- If we encounter a snippet, count it and move on -->
       {% if post.category == "snippet" %}
+      {% assign counter=counter | plus:1 %}
       {% continue %}
+
+      <!-- Else, display the post and incremnt our counters -->
       {% else %}
       <div class="col-sm-4">
         <div class="image">
@@ -133,18 +145,21 @@ layout: bootstrap_default
         </div>
       </div>
       {% assign counter=counter | plus:1 %}
+      {% assign goodpost_counter=goodpost_counter | plus:1 %}
       {% endif %}
       {% endfor %}
     </div>
   </div>
 </section>  
 
+{% assign offset_counter=counter %}
+
 <section class="past-posts-section">
   <div class="inner cover">
     <div class="container">
       <div class="row">
         <table class="table table-responsive">
-          {% for post in site.posts offset:4 %}
+          {% for post in site.posts offset:offset_counter %}
           {% if post.category == "snippet" %}
           {% continue %}
           {% else %}

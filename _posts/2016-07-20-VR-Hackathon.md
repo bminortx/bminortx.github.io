@@ -2,13 +2,13 @@
 layout: post
 title:  "VR Hackathon"
 date:   2016-08-08 9:39:00
-image: "images/kairos.jpg"
+image: "images/whitespace.png"
 category: "snippet"
 permalink: /snippets/VR-Hackathon
 preview: "Hacking for space rocks"
 ---
 
-A couple of the Occipital team got together and hacked on a fun little VR project we like to call "VR project". Actually, the name was one of the sticking points, but the mechanics were not. It was basically a golf game in space; shoot your satellite through the gravity wells of the surrounding planets to make it to the goal. For having limited experience with the whole thing, we collectively did a pretty good job in ~6 hours (though I got there late... classic). Check out the project here!
+A couple of peeps from the Occipital team got together and hacked on a fun little VR project we called "VR project". Actually, the name was one of the sticking points, but the mechanics were not. It was basically a golf game in space; shoot your satellite through the gravity wells of the surrounding planets to make it to the goal. For having limited experience with the whole thing, we collectively did a pretty good job in ~6 hours (though I got there late...). Check out the project below!
 
 <div class="video">
 <figure>
@@ -16,5 +16,3 @@ A couple of the Occipital team got together and hacked on a fun little VR projec
 </iframe>
 </figure>
 </div>
-
-

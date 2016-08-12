@@ -10,7 +10,10 @@ layout: bootstrap_default
   <div class="image-header" id="image-header">
     <div class="container">
       <div class="row">
-        {% for post in site.posts limit:1 %}
+        {% for post in site.posts %}
+        {% if post.category == "snippet" %}
+        {% continue %}
+        {% else %}
         <div class="col-sm-10 col-sm-offset-1
                     col-md-10 col-md-offset-1
                     col-lg-10 col-lg-offset-1">
@@ -70,13 +73,25 @@ layout: bootstrap_default
         document.getElementById("image-header").style.backgroundPosition = "center";
         document.getElementById("image-header").style.borderBottom = "5px solid #07144b";
       </script>
+      {% break %}
+      {% endif %}
       {% endfor %}
     </div>
   </div>
+
+  <!-- A counter for our loops (snippets made that complicated -->
+  {% assign counter=0 %}
+
   <!-- Our blog posts -->
   <div class="container">
     <div class="row voffset5">
-      {% for post in site.posts offset:1 limit:3 %}
+      {% for post in site.posts offset:1 %}
+      {% if counter == 3 %}
+      {% break %}
+      {% endif %}
+      {% if post.category == "snippet" %}
+      {% continue %}
+      {% else %}
       <div class="col-sm-4">
         <div class="image">
           <div id="headline-cat" class="headline-cat">
@@ -117,6 +132,8 @@ layout: bootstrap_default
           </a>
         </div>
       </div>
+      {% assign counter=counter | plus:1 %}
+      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -128,6 +145,9 @@ layout: bootstrap_default
       <div class="row">
         <table class="table table-responsive">
           {% for post in site.posts offset:4 %}
+          {% if post.category == "snippet" %}
+          {% continue %}
+          {% else %}
           <tr>
             <td>
             </td>
@@ -163,6 +183,7 @@ layout: bootstrap_default
               <h3>{{ post.preview }}</h3>
             </td>
           </tr>
+          {% endif %}
           {% endfor %}
         </table>
       </div>

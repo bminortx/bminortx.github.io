@@ -15,19 +15,19 @@ layout: bootstrap_default
       <hr>
 
       <!-- List all of our snippets, by date -->
+      {% for snippet in site.categories.snippets limit:10 %}
       <div class="row">
-        <!-- TODO: This logic is incorrect... -->
-        {% for post in site.posts limit:10 %}
-        {% if post.category == "snippet" %}
-        <h2>{{ post.title }}</h2>
-        <p class="meta">{{ post.preview }} - {{ post.date | date_to_string }}</p>
-        <div class="post">
-          {{ post.content }}
+        <div class="col-sm-8 col-sm-offset-2">
+          <a href="{{ snippet.url | prepend: site.baseurl }}"><h2>{{ snippet.title }}</h2></a>
+          <p class="meta">{{ snippet.preview }} - {{ snippet.date | date_to_string }}</p>
+          <div class="single-post-section-snippet">
+            {{ snippet.content }}
+          </div>
+          <hr>
         </div>
-        <hr>
-        {% endif %}
-        {% endfor %}
       </div>
+      {% endfor %}
+
       <!-- /Snippets -->
 
     </div>

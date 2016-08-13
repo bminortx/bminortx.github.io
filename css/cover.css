@@ -299,7 +299,7 @@ body {
   text-align: center;
   background: #fbf8ee; }
 
-.single-post-section, .single-post-section-left, .single-post-section-right, .single-post-section-center {
+.single-post-section, .single-post-section-left, .single-post-section-right, .single-post-section-center, .single-post-section-snippet {
   font-family: "Crimson Text";
   font-size: 18px;
   line-height: 1.5;
@@ -320,10 +320,15 @@ body {
   padding-bottom: 5px; }
 
 .single-post-section-right {
-  text-align: center; }
+  text-align: right; }
 
 .single-post-section-center {
   text-align: center; }
+
+.single-post-section-snippet {
+  padding-top: 10px;
+  font-size: 17px;
+  line-height: 1.5; }
 
 .post-heading {
   padding-right: 20px;

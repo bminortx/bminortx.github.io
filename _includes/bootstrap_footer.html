@@ -17,4 +17,20 @@
   <script src="/js/scrolling-nav.js"></script>
   <script src="/js/infinite-jekyll.js"></script>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+  </script>
+  <script>
+    jQuery.noConflict();
+    jQuery(function() {
+    jQuery(".refbody").hide();
+    jQuery(".refnum").click(function(event) {
+    jQuery(this.nextSibling).toggle();
+    event.stopPropagation();
+    });
+    jQuery("body").click(function(event) {
+    jQuery(".refbody").hide();
+    });
+    });
+  </script>
+
 </footer>

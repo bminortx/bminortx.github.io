@@ -12,12 +12,11 @@ Have you ever experienced [Impostor Syndrome](https://en.wikipedia.org/wiki/Impo
 
 I used to experience this, a bit, when I was in my own PhD program, and then when I was part of Replica Labs. In my case, sadly, this feeling wasn't just a product of my imagination. My Impostor Syndrome was confirmed by a veritable panel of experts, and it took everything I had to overcome the hole I had dug myself into. It was one of the most stressful, make-or-break moments of my life, and I had to fight to develop something that I never even knew was lacking: my memory. My Ignite Boulder talk, here below, tells that story.
 
-<div class="video">
-    <figure>
-        <iframe width="640" height="480" src="https://www.youtube.com/embed/a2S6nqfKWQQ" frameborder="0" allowfullscreen></iframe>
-    </figure>
+<div class="embed-responsive embed-responsive-16by9" >
+<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/a2S6nqfKWQQ"></iframe>
 </div>
 
+<br>
 I will admit, I had never been to an Ignite show before I was _in_ an Ignite show, but the premise was always curious to me: speakers have 5 minutes to tell the best story they can. It doesn't necessarily have to be about technology, or startups, or be inspirational in any way (though most are), but they should have a message or a moral of some sort.
 
 I didn't have anything clear in mind when I was thinking about my talk; I had talked about VR before, and my PhD experiences were somewhat interesting, but nothing about them was particularly... gripping, at least not to a large audience. Or, I could have talked about the time that I broke my face in a mountain biking accident, but what was the moral there? That I do stupid things sometimes?<span class="ref"><span class="refnum">[2]</span><span class="refbody">This happened. Intelligence comes in many forms. My form is just a little more beat up than most.</span></span>.

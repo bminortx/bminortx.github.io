@@ -24,6 +24,6 @@ I didn't have anything clear in mind when I was thinking about my talk; I had ta
 
 What I eventually settled on, the talk you see here, is not the classic tale of the hero, though I would love for that to be true. It's more like the parable of the Prodigal Son tale: coming back to what knowledge truly is after years of wandering through the intellectual wilderness. Or at least, that's how it felt for me, haha. I'm sure my telling doesn't get nearly that dramatic. I hope you enjoy it, though. I thank Ignote Boulder for giving me the chance to tell a small part of my own story.
 
+- - - - - 
 
-
-
+This is my site, so of course I'm going to promote my talk, but Ignite Boulder 31 had wonderful speakers all around. I would highly recommend looking through more of the talk from this year by either going to the [Ignite Boulder website](http://igniteboulder.com/) or maybe through the [YouTube page](https://www.youtube.com/channel/UCb3r8w2uN6byUYz19xMzyrw). They are all highly entertaining, and hey, you might learn something!

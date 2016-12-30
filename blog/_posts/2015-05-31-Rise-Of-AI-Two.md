@@ -24,11 +24,11 @@ However, research and the real world often tend to be two very different things.
 
 Imperative to this conversation is what powers this AI takeover: parallel processing through Graphics Processing Units, or GPUs<span class="ref"><span class="refnum">[1]</span><span class="refbody">Sorry if I dumb this down too much; GPUs are incredibly popular, but I realize that might just be with a niche group. All of robotics is a niche, to be perfectly honest.</span></span>. GPUs are parallel programming to the extreme; while CPUs - Central Processing Units - commonly have 4-16 cores, allowing for 4-16 simultaneous calculations, beefy GPUs can have [over 3000 cores](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x/specifications), allowing for unheard-of computation speed. This kind of capability has been especially useful in computer graphics, where each pixel in an image can be changed at the same time, but researchers have begun to design their science around this massively-parallelizeable structure. Calculations used to take so long on CPUs that entire branches of math were developed to compensate, usually sacrificing mathematical accuracy to cut down on computation time. Now, algorithms are designed with GPUs in mind, and boy has it been worth it. Mythbusters explain it best:
 
-<div class="video">
-    <figure>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/-P28LKWTzrI" frameborder="0" allowfullscreen></iframe>
-    </figure>
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/-P28LKWTzrI"></iframe>
 </div>
+<br>
 
 Done right, GPUs can whittle down calculations that took days into a single afternoon. GPUs have gone beyond 'graphics processing', and now allow researchers to perform real-time physics simulation, real-time control, real-time speech analysis. GPU programming has hit the mainstream, but more importantly, programmers have finally learned to harness that power effectively.
 

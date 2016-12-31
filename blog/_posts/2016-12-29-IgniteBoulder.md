@@ -25,4 +25,4 @@ What I eventually settled on, the talk you see here, is not the classic tale of 
 
 - - - - - 
 
-This is my site, so of course I'm going to promote my talk, but Ignite Boulder 31 had wonderful speakers all around. I would highly recommend looking through more of the talk from this year by either going to the [Ignite Boulder website](http://igniteboulder.com/) or maybe through the [YouTube page](https://www.youtube.com/channel/UCb3r8w2uN6byUYz19xMzyrw). They are all highly entertaining, and hey, you might learn something new!
+This is my site, so of course I'm going to promote my talk, but Ignite Boulder 31 had wonderful speakers all around. I would highly recommend looking through more of the talks from this year by either going to the [Ignite Boulder website](http://igniteboulder.com/) or maybe through the [YouTube page](https://www.youtube.com/channel/UCb3r8w2uN6byUYz19xMzyrw). They are all highly entertaining, and hey, you might learn something new!

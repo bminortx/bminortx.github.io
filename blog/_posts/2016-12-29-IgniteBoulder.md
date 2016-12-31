@@ -21,7 +21,7 @@ I will admit, I had never been to an Ignite show before I was _in_ an Ignite sho
 
 I didn't have anything clear in mind when I was thinking about my talk; I had [talked about](http://bminortx.github.io/empathy-through-vr) [VR before](http://bminortx.github.io/horsepocalypse), and my PhD experiences were somewhat interesting, but nothing about them was particularly... gripping, at least not to a large audience. I also could have talked about the time that I broke my face in a mountain biking accident, but what was the moral there? That I do stupid things sometimes?<span class="ref"><span class="refnum">[2]</span><span class="refbody">This happened. Intelligence comes in many forms. My form is just a little more beat up than most.</span></span>.
 
-What I eventually settled on, the talk you see here, is not the classic tale of the hero. It's more like the parable of the Prodigal Son: coming back to what knowledge truly is after years of shortcuts through my intellectual life... at least, that's how it felt for me. I'm sure my account doesn't get nearly that dramatic. I hope you enjoy it, though. I thank Ignote Boulder for giving me the chance to tell a small part of my own story.
+What I eventually settled on, the talk you see here, is not the classic tale of the hero. It's more like the parable of the Prodigal Son: coming back to what knowledge truly is after years of shortcuts through my intellectual life... at least, that's how it felt for me<span class="ref"><span class="refnum">[3]</span><span class="refbody">...it's a loose metaphor.</span></span>. I'm sure my account doesn't get nearly that dramatic. I hope you enjoy it, though. I thank Ignote Boulder for giving me the chance to tell a small part of my own story.
 
 - - - - - 
 

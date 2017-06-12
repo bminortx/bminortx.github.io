@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "I Can't Believe It's Not Burlwood!"
-date:   2017-04-01 14:46:00
+date:   2017-06-12 14:46:00
 image: "images/hydrographics/finishN64.jpg"
 category: "random"
-permalink: /2017/04/01/hydrographics/
+permalink: /2017/06/12/hydrographics/
 preview: "In which I redesign some old consoles in an attempt to make them classy."
 ---
 

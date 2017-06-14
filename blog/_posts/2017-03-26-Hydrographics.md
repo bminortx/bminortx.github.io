@@ -13,14 +13,14 @@ A couple of months ago, through the twists and turns of the internet, I was led 
 ---
 
 <div class="embed-responsive embed-responsive-16by9" >
-<iframe class="embed-responsive-item"  
+<iframe class="embed-responsive-item"
 src="https://www.youtube.com/embed/rmSV2l6JFt0">
 </iframe>
 </div>
 
 ---
 
-Normally, I love trying new things, but only if they serve some sort of purpose in my life. It's ususally not hard to find a purpose, granted; even mundane things have a point. As soon as I saw this video, though, I decided that it needed to happen, for no better reason than... well, it looked freakin' cool.
+Normally, I love trying new things, but only if they serve some sort of purpose in my life. It's ususally not hard to find a purpose, granted; even the most mundane things have a point. As soon as I saw this video, though, I decided that it needed to happen, for no better reason than... well, it looked freakin' cool.
 
 I've since learned that hydrographics are _the_ way to paint industrial and intricate patterns. With a clean part, activated hydrographics will adhere instantly and create a seamless design of the maker's choosing. One can use layers of paint applied to the surface of the water, or pre-made patterns that come in thin rolls of film, which are then cut and sized according to the surface area of the part. Thus, to measure correctly, my first task was choosing what I was going to paint.
 

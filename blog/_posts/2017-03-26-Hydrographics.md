@@ -36,10 +36,10 @@ Hydrographics are used a lot for camouflage parts (Read: guns, things that go on
 
 
 <div class="row" style="text-align: center; padding-top: 50px; padding-bottom: 50px">
-<div class="col-xs-12 col-sm-12 col-md-4col-lg-4">
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 <img src="/images/hydrographics/marble.png" title="marble" class="img-thumbnail">
 </div>
-<div class="col-xs-12 col-sm-12 col-md-4col-lg-4"> 
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"> 
 <img src="/images/hydrographics/burlwood.png" title="burlwood" class="img-thumbnail">
 </div>
 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">

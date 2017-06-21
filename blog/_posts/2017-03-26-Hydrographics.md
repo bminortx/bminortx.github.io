@@ -47,11 +47,6 @@ Hydrographics are used a lot for camouflage parts (Read: guns, things that go on
 </div>
 </div>
 
-<!-- Example of using the plugins -->
-<!-- {% _threeImages /images/hydrographics/marble.png | marble | -->
-<!-- /images/hydrographics/burlwood.png | burlwood | -->
-<!-- /images/hydrographics/camo.png | splatter %} -->
-
 
 Marble was for my NES; Burlwood for the N64; Splatter for the Gamecube. I thought they all fit, in their own way. I had disassembled the NES before (as witnessed by my previous paint job), but I hadn't tried to take apart the N64 or Gamecube prior to this. It proved harder than I anticipated; both the N64 and Gamecube have specially designed screws that you can't unscrew without a [Nintento bit](https://www.amazon.com/s/?ie=UTF8&keywords=security+bit+n64&tag=googhydr-20&index=aps&hvadid=153654209207&hvpos=1t1&hvnetw=g&hvrand=8449694122684483223&hvpone=&hvptwo=&hvqmt=b&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9060040&hvtargid=kwd-34680610175&ref=pd_sl_9cemn1qmgt_b). I thought I had one of these from when I cleaned the game cartrdges, but... a man can only track so many pieces of hardware, you know?  Luckily for me, the _controllers_ don't suffer from this construction, so I decided to work on those instead.
 
